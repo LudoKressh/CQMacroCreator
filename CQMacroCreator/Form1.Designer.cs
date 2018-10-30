@@ -439,87 +439,191 @@
             this.label176 = new System.Windows.Forms.Label();
             this.elfCount = new System.Windows.Forms.NumericUpDown();
             this.Quests = new System.Windows.Forms.TabPage();
+            this.label334 = new System.Windows.Forms.Label();
+            this.button160q = new System.Windows.Forms.Button();
+            this.button159q = new System.Windows.Forms.Button();
+            this.button158q = new System.Windows.Forms.Button();
+            this.button157q = new System.Windows.Forms.Button();
+            this.button156q = new System.Windows.Forms.Button();
+            this.checkBox160q3 = new System.Windows.Forms.CheckBox();
+            this.checkBox160q2 = new System.Windows.Forms.CheckBox();
+            this.checkBox160q1 = new System.Windows.Forms.CheckBox();
+            this.checkBox159q3 = new System.Windows.Forms.CheckBox();
+            this.checkBox159q2 = new System.Windows.Forms.CheckBox();
+            this.checkBox159q1 = new System.Windows.Forms.CheckBox();
+            this.checkBox158q3 = new System.Windows.Forms.CheckBox();
+            this.checkBox158q2 = new System.Windows.Forms.CheckBox();
+            this.checkBox158q1 = new System.Windows.Forms.CheckBox();
+            this.checkBox157q3 = new System.Windows.Forms.CheckBox();
+            this.checkBox157q2 = new System.Windows.Forms.CheckBox();
+            this.checkBox157q1 = new System.Windows.Forms.CheckBox();
+            this.checkBox156q3 = new System.Windows.Forms.CheckBox();
+            this.checkBox156q2 = new System.Windows.Forms.CheckBox();
+            this.label335 = new System.Windows.Forms.Label();
+            this.checkBox156q1 = new System.Windows.Forms.CheckBox();
+            this.label336 = new System.Windows.Forms.Label();
+            this.label337 = new System.Windows.Forms.Label();
+            this.label338 = new System.Windows.Forms.Label();
+            this.label339 = new System.Windows.Forms.Label();
+            this.label340 = new System.Windows.Forms.Label();
+            this.button155q = new System.Windows.Forms.Button();
+            this.button154q = new System.Windows.Forms.Button();
+            this.button153q = new System.Windows.Forms.Button();
+            this.button152q = new System.Windows.Forms.Button();
+            this.button151q = new System.Windows.Forms.Button();
+            this.checkBox155q3 = new System.Windows.Forms.CheckBox();
+            this.label341 = new System.Windows.Forms.Label();
+            this.checkBox155q2 = new System.Windows.Forms.CheckBox();
+            this.label342 = new System.Windows.Forms.Label();
+            this.checkBox155q1 = new System.Windows.Forms.CheckBox();
+            this.label343 = new System.Windows.Forms.Label();
+            this.checkBox154q3 = new System.Windows.Forms.CheckBox();
+            this.label344 = new System.Windows.Forms.Label();
+            this.checkBox154q2 = new System.Windows.Forms.CheckBox();
+            this.checkBox151q1 = new System.Windows.Forms.CheckBox();
+            this.checkBox154q1 = new System.Windows.Forms.CheckBox();
+            this.label345 = new System.Windows.Forms.Label();
+            this.checkBox153q3 = new System.Windows.Forms.CheckBox();
+            this.checkBox151q2 = new System.Windows.Forms.CheckBox();
+            this.checkBox153q2 = new System.Windows.Forms.CheckBox();
+            this.checkBox151q3 = new System.Windows.Forms.CheckBox();
+            this.checkBox153q1 = new System.Windows.Forms.CheckBox();
+            this.checkBox152q1 = new System.Windows.Forms.CheckBox();
+            this.checkBox152q3 = new System.Windows.Forms.CheckBox();
+            this.checkBox152q2 = new System.Windows.Forms.CheckBox();
+            this.label322 = new System.Windows.Forms.Label();
             this.label266 = new System.Windows.Forms.Label();
             this.button93 = new System.Windows.Forms.Button();
+            this.button150q = new System.Windows.Forms.Button();
             this.button111 = new System.Windows.Forms.Button();
             this.button112 = new System.Windows.Forms.Button();
+            this.button149q = new System.Windows.Forms.Button();
             this.button113 = new System.Windows.Forms.Button();
             this.button114 = new System.Windows.Forms.Button();
+            this.button148q = new System.Windows.Forms.Button();
+            this.button147q = new System.Windows.Forms.Button();
             this.checkBox301 = new System.Windows.Forms.CheckBox();
             this.checkBox302 = new System.Windows.Forms.CheckBox();
+            this.button146q = new System.Windows.Forms.Button();
             this.checkBox303 = new System.Windows.Forms.CheckBox();
             this.checkBox304 = new System.Windows.Forms.CheckBox();
+            this.checkBox150q3 = new System.Windows.Forms.CheckBox();
             this.checkBox305 = new System.Windows.Forms.CheckBox();
             this.checkBox306 = new System.Windows.Forms.CheckBox();
+            this.checkBox150q2 = new System.Windows.Forms.CheckBox();
             this.checkBox307 = new System.Windows.Forms.CheckBox();
             this.checkBox308 = new System.Windows.Forms.CheckBox();
+            this.checkBox150q1 = new System.Windows.Forms.CheckBox();
             this.checkBox309 = new System.Windows.Forms.CheckBox();
             this.checkBox310 = new System.Windows.Forms.CheckBox();
+            this.checkBox149q3 = new System.Windows.Forms.CheckBox();
             this.checkBox311 = new System.Windows.Forms.CheckBox();
             this.checkBox312 = new System.Windows.Forms.CheckBox();
+            this.checkBox149q2 = new System.Windows.Forms.CheckBox();
             this.checkBox313 = new System.Windows.Forms.CheckBox();
             this.checkBox314 = new System.Windows.Forms.CheckBox();
+            this.checkBox149q1 = new System.Windows.Forms.CheckBox();
             this.label267 = new System.Windows.Forms.Label();
             this.checkBox315 = new System.Windows.Forms.CheckBox();
+            this.checkBox148q3 = new System.Windows.Forms.CheckBox();
             this.label268 = new System.Windows.Forms.Label();
             this.label269 = new System.Windows.Forms.Label();
+            this.checkBox148q2 = new System.Windows.Forms.CheckBox();
             this.label270 = new System.Windows.Forms.Label();
             this.label271 = new System.Windows.Forms.Label();
+            this.checkBox148q1 = new System.Windows.Forms.CheckBox();
             this.label272 = new System.Windows.Forms.Label();
             this.label273 = new System.Windows.Forms.Label();
+            this.checkBox147q3 = new System.Windows.Forms.CheckBox();
             this.button115 = new System.Windows.Forms.Button();
             this.button116 = new System.Windows.Forms.Button();
+            this.checkBox147q2 = new System.Windows.Forms.CheckBox();
             this.button117 = new System.Windows.Forms.Button();
             this.button118 = new System.Windows.Forms.Button();
+            this.checkBox147q1 = new System.Windows.Forms.CheckBox();
             this.button119 = new System.Windows.Forms.Button();
             this.checkBox316 = new System.Windows.Forms.CheckBox();
+            this.checkBox146q3 = new System.Windows.Forms.CheckBox();
             this.checkBox317 = new System.Windows.Forms.CheckBox();
             this.checkBox318 = new System.Windows.Forms.CheckBox();
+            this.checkBox146q2 = new System.Windows.Forms.CheckBox();
             this.checkBox319 = new System.Windows.Forms.CheckBox();
             this.checkBox320 = new System.Windows.Forms.CheckBox();
+            this.label323 = new System.Windows.Forms.Label();
             this.checkBox321 = new System.Windows.Forms.CheckBox();
             this.checkBox322 = new System.Windows.Forms.CheckBox();
+            this.checkBox146q1 = new System.Windows.Forms.CheckBox();
             this.checkBox323 = new System.Windows.Forms.CheckBox();
             this.checkBox324 = new System.Windows.Forms.CheckBox();
+            this.label324 = new System.Windows.Forms.Label();
             this.checkBox325 = new System.Windows.Forms.CheckBox();
             this.checkBox326 = new System.Windows.Forms.CheckBox();
+            this.label325 = new System.Windows.Forms.Label();
             this.checkBox327 = new System.Windows.Forms.CheckBox();
             this.checkBox328 = new System.Windows.Forms.CheckBox();
+            this.label326 = new System.Windows.Forms.Label();
             this.checkBox329 = new System.Windows.Forms.CheckBox();
             this.label274 = new System.Windows.Forms.Label();
+            this.label327 = new System.Windows.Forms.Label();
             this.checkBox330 = new System.Windows.Forms.CheckBox();
             this.label275 = new System.Windows.Forms.Label();
+            this.label328 = new System.Windows.Forms.Label();
             this.label276 = new System.Windows.Forms.Label();
             this.label277 = new System.Windows.Forms.Label();
+            this.button145q = new System.Windows.Forms.Button();
             this.label278 = new System.Windows.Forms.Label();
             this.button120 = new System.Windows.Forms.Button();
+            this.button144q = new System.Windows.Forms.Button();
             this.button121 = new System.Windows.Forms.Button();
             this.button122 = new System.Windows.Forms.Button();
+            this.button143q = new System.Windows.Forms.Button();
             this.button123 = new System.Windows.Forms.Button();
             this.button124 = new System.Windows.Forms.Button();
+            this.button142q = new System.Windows.Forms.Button();
             this.checkBox331 = new System.Windows.Forms.CheckBox();
             this.checkBox332 = new System.Windows.Forms.CheckBox();
+            this.button141q = new System.Windows.Forms.Button();
             this.checkBox333 = new System.Windows.Forms.CheckBox();
             this.checkBox334 = new System.Windows.Forms.CheckBox();
+            this.checkBox145q3 = new System.Windows.Forms.CheckBox();
             this.checkBox335 = new System.Windows.Forms.CheckBox();
+            this.label333 = new System.Windows.Forms.Label();
             this.checkBox336 = new System.Windows.Forms.CheckBox();
+            this.checkBox145q2 = new System.Windows.Forms.CheckBox();
             this.checkBox337 = new System.Windows.Forms.CheckBox();
+            this.label332 = new System.Windows.Forms.Label();
             this.checkBox338 = new System.Windows.Forms.CheckBox();
+            this.checkBox145q1 = new System.Windows.Forms.CheckBox();
             this.checkBox339 = new System.Windows.Forms.CheckBox();
+            this.label331 = new System.Windows.Forms.Label();
             this.checkBox340 = new System.Windows.Forms.CheckBox();
+            this.checkBox144q3 = new System.Windows.Forms.CheckBox();
             this.checkBox341 = new System.Windows.Forms.CheckBox();
+            this.label330 = new System.Windows.Forms.Label();
             this.checkBox342 = new System.Windows.Forms.CheckBox();
+            this.checkBox144q2 = new System.Windows.Forms.CheckBox();
             this.checkBox343 = new System.Windows.Forms.CheckBox();
+            this.checkBox141q1 = new System.Windows.Forms.CheckBox();
             this.checkBox344 = new System.Windows.Forms.CheckBox();
+            this.checkBox144q1 = new System.Windows.Forms.CheckBox();
             this.label279 = new System.Windows.Forms.Label();
+            this.label329 = new System.Windows.Forms.Label();
             this.checkBox345 = new System.Windows.Forms.CheckBox();
+            this.checkBox143q3 = new System.Windows.Forms.CheckBox();
             this.label280 = new System.Windows.Forms.Label();
+            this.checkBox141q2 = new System.Windows.Forms.CheckBox();
             this.label281 = new System.Windows.Forms.Label();
+            this.checkBox143q2 = new System.Windows.Forms.CheckBox();
             this.label282 = new System.Windows.Forms.Label();
+            this.checkBox141q3 = new System.Windows.Forms.CheckBox();
             this.label283 = new System.Windows.Forms.Label();
+            this.checkBox143q1 = new System.Windows.Forms.CheckBox();
             this.label284 = new System.Windows.Forms.Label();
+            this.checkBox142q1 = new System.Windows.Forms.CheckBox();
             this.button125 = new System.Windows.Forms.Button();
+            this.checkBox142q3 = new System.Windows.Forms.CheckBox();
             this.button126 = new System.Windows.Forms.Button();
+            this.checkBox142q2 = new System.Windows.Forms.CheckBox();
             this.button127 = new System.Windows.Forms.Button();
             this.button128 = new System.Windows.Forms.Button();
             this.button129 = new System.Windows.Forms.Button();
@@ -3132,9 +3236,9 @@
             this.label57.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label57.Location = new System.Drawing.Point(772, 33);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(43, 13);
+            this.label57.Size = new System.Drawing.Size(34, 13);
             this.label57.TabIndex = 159;
-            this.label57.Text = "v3.0.8a";
+            this.label57.Text = "v3.1a";
             // 
             // GurthBox
             // 
@@ -4231,6 +4335,7 @@
             this.CliodhnaBox.TabStop = false;
             this.CliodhnaBox.Text = "E";
             this.CliodhnaBox.UseVisualStyleBackColor = true;
+            this.CliodhnaBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
             // 
             // label317
             // 
@@ -4284,6 +4389,7 @@
             this.SanqueenBox.TabStop = false;
             this.SanqueenBox.Text = "E";
             this.SanqueenBox.UseVisualStyleBackColor = true;
+            this.SanqueenBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
             // 
             // BillyCount
             // 
@@ -4307,6 +4413,7 @@
             this.BillyBox.TabStop = false;
             this.BillyBox.Text = "E";
             this.BillyBox.UseVisualStyleBackColor = true;
+            this.BillyBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
             // 
             // label321
             // 
@@ -4327,6 +4434,7 @@
             this.AHattoriBox.TabStop = false;
             this.AHattoriBox.Text = "E";
             this.AHattoriBox.UseVisualStyleBackColor = true;
+            this.AHattoriBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
             // 
             // label318
             // 
@@ -4359,6 +4467,7 @@
             this.AHirateBox.TabStop = false;
             this.AHirateBox.Text = "E";
             this.AHirateBox.UseVisualStyleBackColor = true;
+            this.AHirateBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
             // 
             // label319
             // 
@@ -4391,6 +4500,7 @@
             this.ATakedaBox.TabStop = false;
             this.ATakedaBox.Text = "E";
             this.ATakedaBox.UseVisualStyleBackColor = true;
+            this.ATakedaBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
             // 
             // label315
             // 
@@ -4423,6 +4533,7 @@
             this.AHosokawaBox.TabStop = false;
             this.AHosokawaBox.Text = "E";
             this.AHosokawaBox.UseVisualStyleBackColor = true;
+            this.AHosokawaBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
             // 
             // label316
             // 
@@ -6244,87 +6355,191 @@
             // Quests
             // 
             this.Quests.AutoScroll = true;
+            this.Quests.Controls.Add(this.label334);
+            this.Quests.Controls.Add(this.button160q);
+            this.Quests.Controls.Add(this.button159q);
+            this.Quests.Controls.Add(this.button158q);
+            this.Quests.Controls.Add(this.button157q);
+            this.Quests.Controls.Add(this.button156q);
+            this.Quests.Controls.Add(this.checkBox160q3);
+            this.Quests.Controls.Add(this.checkBox160q2);
+            this.Quests.Controls.Add(this.checkBox160q1);
+            this.Quests.Controls.Add(this.checkBox159q3);
+            this.Quests.Controls.Add(this.checkBox159q2);
+            this.Quests.Controls.Add(this.checkBox159q1);
+            this.Quests.Controls.Add(this.checkBox158q3);
+            this.Quests.Controls.Add(this.checkBox158q2);
+            this.Quests.Controls.Add(this.checkBox158q1);
+            this.Quests.Controls.Add(this.checkBox157q3);
+            this.Quests.Controls.Add(this.checkBox157q2);
+            this.Quests.Controls.Add(this.checkBox157q1);
+            this.Quests.Controls.Add(this.checkBox156q3);
+            this.Quests.Controls.Add(this.checkBox156q2);
+            this.Quests.Controls.Add(this.label335);
+            this.Quests.Controls.Add(this.checkBox156q1);
+            this.Quests.Controls.Add(this.label336);
+            this.Quests.Controls.Add(this.label337);
+            this.Quests.Controls.Add(this.label338);
+            this.Quests.Controls.Add(this.label339);
+            this.Quests.Controls.Add(this.label340);
+            this.Quests.Controls.Add(this.button155q);
+            this.Quests.Controls.Add(this.button154q);
+            this.Quests.Controls.Add(this.button153q);
+            this.Quests.Controls.Add(this.button152q);
+            this.Quests.Controls.Add(this.button151q);
+            this.Quests.Controls.Add(this.checkBox155q3);
+            this.Quests.Controls.Add(this.label341);
+            this.Quests.Controls.Add(this.checkBox155q2);
+            this.Quests.Controls.Add(this.label342);
+            this.Quests.Controls.Add(this.checkBox155q1);
+            this.Quests.Controls.Add(this.label343);
+            this.Quests.Controls.Add(this.checkBox154q3);
+            this.Quests.Controls.Add(this.label344);
+            this.Quests.Controls.Add(this.checkBox154q2);
+            this.Quests.Controls.Add(this.checkBox151q1);
+            this.Quests.Controls.Add(this.checkBox154q1);
+            this.Quests.Controls.Add(this.label345);
+            this.Quests.Controls.Add(this.checkBox153q3);
+            this.Quests.Controls.Add(this.checkBox151q2);
+            this.Quests.Controls.Add(this.checkBox153q2);
+            this.Quests.Controls.Add(this.checkBox151q3);
+            this.Quests.Controls.Add(this.checkBox153q1);
+            this.Quests.Controls.Add(this.checkBox152q1);
+            this.Quests.Controls.Add(this.checkBox152q3);
+            this.Quests.Controls.Add(this.checkBox152q2);
+            this.Quests.Controls.Add(this.label322);
             this.Quests.Controls.Add(this.label266);
             this.Quests.Controls.Add(this.button93);
+            this.Quests.Controls.Add(this.button150q);
             this.Quests.Controls.Add(this.button111);
             this.Quests.Controls.Add(this.button112);
+            this.Quests.Controls.Add(this.button149q);
             this.Quests.Controls.Add(this.button113);
             this.Quests.Controls.Add(this.button114);
+            this.Quests.Controls.Add(this.button148q);
+            this.Quests.Controls.Add(this.button147q);
             this.Quests.Controls.Add(this.checkBox301);
             this.Quests.Controls.Add(this.checkBox302);
+            this.Quests.Controls.Add(this.button146q);
             this.Quests.Controls.Add(this.checkBox303);
             this.Quests.Controls.Add(this.checkBox304);
+            this.Quests.Controls.Add(this.checkBox150q3);
             this.Quests.Controls.Add(this.checkBox305);
             this.Quests.Controls.Add(this.checkBox306);
+            this.Quests.Controls.Add(this.checkBox150q2);
             this.Quests.Controls.Add(this.checkBox307);
             this.Quests.Controls.Add(this.checkBox308);
+            this.Quests.Controls.Add(this.checkBox150q1);
             this.Quests.Controls.Add(this.checkBox309);
             this.Quests.Controls.Add(this.checkBox310);
+            this.Quests.Controls.Add(this.checkBox149q3);
             this.Quests.Controls.Add(this.checkBox311);
             this.Quests.Controls.Add(this.checkBox312);
+            this.Quests.Controls.Add(this.checkBox149q2);
             this.Quests.Controls.Add(this.checkBox313);
             this.Quests.Controls.Add(this.checkBox314);
+            this.Quests.Controls.Add(this.checkBox149q1);
             this.Quests.Controls.Add(this.label267);
             this.Quests.Controls.Add(this.checkBox315);
+            this.Quests.Controls.Add(this.checkBox148q3);
             this.Quests.Controls.Add(this.label268);
             this.Quests.Controls.Add(this.label269);
+            this.Quests.Controls.Add(this.checkBox148q2);
             this.Quests.Controls.Add(this.label270);
             this.Quests.Controls.Add(this.label271);
+            this.Quests.Controls.Add(this.checkBox148q1);
             this.Quests.Controls.Add(this.label272);
             this.Quests.Controls.Add(this.label273);
+            this.Quests.Controls.Add(this.checkBox147q3);
             this.Quests.Controls.Add(this.button115);
             this.Quests.Controls.Add(this.button116);
+            this.Quests.Controls.Add(this.checkBox147q2);
             this.Quests.Controls.Add(this.button117);
             this.Quests.Controls.Add(this.button118);
+            this.Quests.Controls.Add(this.checkBox147q1);
             this.Quests.Controls.Add(this.button119);
             this.Quests.Controls.Add(this.checkBox316);
+            this.Quests.Controls.Add(this.checkBox146q3);
             this.Quests.Controls.Add(this.checkBox317);
             this.Quests.Controls.Add(this.checkBox318);
+            this.Quests.Controls.Add(this.checkBox146q2);
             this.Quests.Controls.Add(this.checkBox319);
             this.Quests.Controls.Add(this.checkBox320);
+            this.Quests.Controls.Add(this.label323);
             this.Quests.Controls.Add(this.checkBox321);
             this.Quests.Controls.Add(this.checkBox322);
+            this.Quests.Controls.Add(this.checkBox146q1);
             this.Quests.Controls.Add(this.checkBox323);
             this.Quests.Controls.Add(this.checkBox324);
+            this.Quests.Controls.Add(this.label324);
             this.Quests.Controls.Add(this.checkBox325);
             this.Quests.Controls.Add(this.checkBox326);
+            this.Quests.Controls.Add(this.label325);
             this.Quests.Controls.Add(this.checkBox327);
             this.Quests.Controls.Add(this.checkBox328);
+            this.Quests.Controls.Add(this.label326);
             this.Quests.Controls.Add(this.checkBox329);
             this.Quests.Controls.Add(this.label274);
+            this.Quests.Controls.Add(this.label327);
             this.Quests.Controls.Add(this.checkBox330);
             this.Quests.Controls.Add(this.label275);
+            this.Quests.Controls.Add(this.label328);
             this.Quests.Controls.Add(this.label276);
             this.Quests.Controls.Add(this.label277);
+            this.Quests.Controls.Add(this.button145q);
             this.Quests.Controls.Add(this.label278);
             this.Quests.Controls.Add(this.button120);
+            this.Quests.Controls.Add(this.button144q);
             this.Quests.Controls.Add(this.button121);
             this.Quests.Controls.Add(this.button122);
+            this.Quests.Controls.Add(this.button143q);
             this.Quests.Controls.Add(this.button123);
             this.Quests.Controls.Add(this.button124);
+            this.Quests.Controls.Add(this.button142q);
             this.Quests.Controls.Add(this.checkBox331);
             this.Quests.Controls.Add(this.checkBox332);
+            this.Quests.Controls.Add(this.button141q);
             this.Quests.Controls.Add(this.checkBox333);
             this.Quests.Controls.Add(this.checkBox334);
+            this.Quests.Controls.Add(this.checkBox145q3);
             this.Quests.Controls.Add(this.checkBox335);
+            this.Quests.Controls.Add(this.label333);
             this.Quests.Controls.Add(this.checkBox336);
+            this.Quests.Controls.Add(this.checkBox145q2);
             this.Quests.Controls.Add(this.checkBox337);
+            this.Quests.Controls.Add(this.label332);
             this.Quests.Controls.Add(this.checkBox338);
+            this.Quests.Controls.Add(this.checkBox145q1);
             this.Quests.Controls.Add(this.checkBox339);
+            this.Quests.Controls.Add(this.label331);
             this.Quests.Controls.Add(this.checkBox340);
+            this.Quests.Controls.Add(this.checkBox144q3);
             this.Quests.Controls.Add(this.checkBox341);
+            this.Quests.Controls.Add(this.label330);
             this.Quests.Controls.Add(this.checkBox342);
+            this.Quests.Controls.Add(this.checkBox144q2);
             this.Quests.Controls.Add(this.checkBox343);
+            this.Quests.Controls.Add(this.checkBox141q1);
             this.Quests.Controls.Add(this.checkBox344);
+            this.Quests.Controls.Add(this.checkBox144q1);
             this.Quests.Controls.Add(this.label279);
+            this.Quests.Controls.Add(this.label329);
             this.Quests.Controls.Add(this.checkBox345);
+            this.Quests.Controls.Add(this.checkBox143q3);
             this.Quests.Controls.Add(this.label280);
+            this.Quests.Controls.Add(this.checkBox141q2);
             this.Quests.Controls.Add(this.label281);
+            this.Quests.Controls.Add(this.checkBox143q2);
             this.Quests.Controls.Add(this.label282);
+            this.Quests.Controls.Add(this.checkBox141q3);
             this.Quests.Controls.Add(this.label283);
+            this.Quests.Controls.Add(this.checkBox143q1);
             this.Quests.Controls.Add(this.label284);
+            this.Quests.Controls.Add(this.checkBox142q1);
             this.Quests.Controls.Add(this.button125);
+            this.Quests.Controls.Add(this.checkBox142q3);
             this.Quests.Controls.Add(this.button126);
+            this.Quests.Controls.Add(this.checkBox142q2);
             this.Quests.Controls.Add(this.button127);
             this.Quests.Controls.Add(this.button128);
             this.Quests.Controls.Add(this.button129);
@@ -6979,6 +7194,530 @@
             this.Quests.Text = "Quests";
             this.Quests.UseVisualStyleBackColor = true;
             // 
+            // label334
+            // 
+            this.label334.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label334.Location = new System.Drawing.Point(9, 1899);
+            this.label334.Name = "label334";
+            this.label334.Size = new System.Drawing.Size(470, 2);
+            this.label334.TabIndex = 848;
+            // 
+            // button160q
+            // 
+            this.button160q.Location = new System.Drawing.Point(414, 1939);
+            this.button160q.Name = "button160q";
+            this.button160q.Size = new System.Drawing.Size(51, 19);
+            this.button160q.TabIndex = 847;
+            this.button160q.Tag = "9";
+            this.button160q.Text = "Add";
+            this.button160q.UseVisualStyleBackColor = true;
+            this.button160q.Click += new System.EventHandler(this.questButtonClick);
+            // 
+            // button159q
+            // 
+            this.button159q.Location = new System.Drawing.Point(316, 1939);
+            this.button159q.Name = "button159q";
+            this.button159q.Size = new System.Drawing.Size(51, 19);
+            this.button159q.TabIndex = 846;
+            this.button159q.Tag = "8";
+            this.button159q.Text = "Add";
+            this.button159q.UseVisualStyleBackColor = true;
+            this.button159q.Click += new System.EventHandler(this.questButtonClick);
+            // 
+            // button158q
+            // 
+            this.button158q.Location = new System.Drawing.Point(218, 1939);
+            this.button158q.Name = "button158q";
+            this.button158q.Size = new System.Drawing.Size(51, 19);
+            this.button158q.TabIndex = 845;
+            this.button158q.Tag = "7";
+            this.button158q.Text = "Add";
+            this.button158q.UseVisualStyleBackColor = true;
+            this.button158q.Click += new System.EventHandler(this.questButtonClick);
+            // 
+            // button157q
+            // 
+            this.button157q.Location = new System.Drawing.Point(120, 1939);
+            this.button157q.Name = "button157q";
+            this.button157q.Size = new System.Drawing.Size(51, 19);
+            this.button157q.TabIndex = 844;
+            this.button157q.Tag = "6";
+            this.button157q.Text = "Add";
+            this.button157q.UseVisualStyleBackColor = true;
+            this.button157q.Click += new System.EventHandler(this.questButtonClick);
+            // 
+            // button156q
+            // 
+            this.button156q.Location = new System.Drawing.Point(22, 1939);
+            this.button156q.Name = "button156q";
+            this.button156q.Size = new System.Drawing.Size(51, 19);
+            this.button156q.TabIndex = 843;
+            this.button156q.Tag = "5";
+            this.button156q.Text = "Add";
+            this.button156q.UseVisualStyleBackColor = true;
+            this.button156q.Click += new System.EventHandler(this.questButtonClick);
+            // 
+            // checkBox160q3
+            // 
+            this.checkBox160q3.AutoSize = true;
+            this.checkBox160q3.Location = new System.Drawing.Point(451, 1920);
+            this.checkBox160q3.Name = "checkBox160q3";
+            this.checkBox160q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox160q3.TabIndex = 842;
+            this.checkBox160q3.Tag = "9-2";
+            this.checkBox160q3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox160q2
+            // 
+            this.checkBox160q2.AutoSize = true;
+            this.checkBox160q2.Location = new System.Drawing.Point(433, 1920);
+            this.checkBox160q2.Name = "checkBox160q2";
+            this.checkBox160q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox160q2.TabIndex = 841;
+            this.checkBox160q2.Tag = "9-1";
+            this.checkBox160q2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox160q1
+            // 
+            this.checkBox160q1.AutoSize = true;
+            this.checkBox160q1.Location = new System.Drawing.Point(415, 1920);
+            this.checkBox160q1.Name = "checkBox160q1";
+            this.checkBox160q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox160q1.TabIndex = 840;
+            this.checkBox160q1.Tag = "9-0";
+            this.checkBox160q1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox159q3
+            // 
+            this.checkBox159q3.AutoSize = true;
+            this.checkBox159q3.Location = new System.Drawing.Point(353, 1920);
+            this.checkBox159q3.Name = "checkBox159q3";
+            this.checkBox159q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox159q3.TabIndex = 839;
+            this.checkBox159q3.Tag = "8-2";
+            this.checkBox159q3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox159q2
+            // 
+            this.checkBox159q2.AutoSize = true;
+            this.checkBox159q2.Location = new System.Drawing.Point(335, 1920);
+            this.checkBox159q2.Name = "checkBox159q2";
+            this.checkBox159q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox159q2.TabIndex = 838;
+            this.checkBox159q2.Tag = "8-1";
+            this.checkBox159q2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox159q1
+            // 
+            this.checkBox159q1.AutoSize = true;
+            this.checkBox159q1.Location = new System.Drawing.Point(317, 1920);
+            this.checkBox159q1.Name = "checkBox159q1";
+            this.checkBox159q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox159q1.TabIndex = 837;
+            this.checkBox159q1.Tag = "8-0";
+            this.checkBox159q1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox158q3
+            // 
+            this.checkBox158q3.AutoSize = true;
+            this.checkBox158q3.Location = new System.Drawing.Point(255, 1920);
+            this.checkBox158q3.Name = "checkBox158q3";
+            this.checkBox158q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox158q3.TabIndex = 836;
+            this.checkBox158q3.Tag = "7-2";
+            this.checkBox158q3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox158q2
+            // 
+            this.checkBox158q2.AutoSize = true;
+            this.checkBox158q2.Location = new System.Drawing.Point(237, 1920);
+            this.checkBox158q2.Name = "checkBox158q2";
+            this.checkBox158q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox158q2.TabIndex = 835;
+            this.checkBox158q2.Tag = "7-1";
+            this.checkBox158q2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox158q1
+            // 
+            this.checkBox158q1.AutoSize = true;
+            this.checkBox158q1.Location = new System.Drawing.Point(219, 1920);
+            this.checkBox158q1.Name = "checkBox158q1";
+            this.checkBox158q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox158q1.TabIndex = 834;
+            this.checkBox158q1.Tag = "7-0";
+            this.checkBox158q1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox157q3
+            // 
+            this.checkBox157q3.AutoSize = true;
+            this.checkBox157q3.Location = new System.Drawing.Point(157, 1920);
+            this.checkBox157q3.Name = "checkBox157q3";
+            this.checkBox157q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox157q3.TabIndex = 833;
+            this.checkBox157q3.Tag = "6-2";
+            this.checkBox157q3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox157q2
+            // 
+            this.checkBox157q2.AutoSize = true;
+            this.checkBox157q2.Location = new System.Drawing.Point(139, 1920);
+            this.checkBox157q2.Name = "checkBox157q2";
+            this.checkBox157q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox157q2.TabIndex = 832;
+            this.checkBox157q2.Tag = "6-1";
+            this.checkBox157q2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox157q1
+            // 
+            this.checkBox157q1.AutoSize = true;
+            this.checkBox157q1.Location = new System.Drawing.Point(121, 1920);
+            this.checkBox157q1.Name = "checkBox157q1";
+            this.checkBox157q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox157q1.TabIndex = 831;
+            this.checkBox157q1.Tag = "6-0";
+            this.checkBox157q1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox156q3
+            // 
+            this.checkBox156q3.AutoSize = true;
+            this.checkBox156q3.Location = new System.Drawing.Point(59, 1920);
+            this.checkBox156q3.Name = "checkBox156q3";
+            this.checkBox156q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox156q3.TabIndex = 830;
+            this.checkBox156q3.Tag = "5-2";
+            this.checkBox156q3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox156q2
+            // 
+            this.checkBox156q2.AutoSize = true;
+            this.checkBox156q2.Location = new System.Drawing.Point(41, 1920);
+            this.checkBox156q2.Name = "checkBox156q2";
+            this.checkBox156q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox156q2.TabIndex = 829;
+            this.checkBox156q2.Tag = "5-1";
+            this.checkBox156q2.UseVisualStyleBackColor = true;
+            // 
+            // label335
+            // 
+            this.label335.AutoSize = true;
+            this.label335.Location = new System.Drawing.Point(413, 1901);
+            this.label335.Name = "label335";
+            this.label335.Size = new System.Drawing.Size(53, 13);
+            this.label335.TabIndex = 828;
+            this.label335.Text = "Quest160";
+            // 
+            // checkBox156q1
+            // 
+            this.checkBox156q1.AutoSize = true;
+            this.checkBox156q1.Location = new System.Drawing.Point(23, 1920);
+            this.checkBox156q1.Name = "checkBox156q1";
+            this.checkBox156q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox156q1.TabIndex = 827;
+            this.checkBox156q1.Tag = "5-0";
+            this.checkBox156q1.UseVisualStyleBackColor = true;
+            // 
+            // label336
+            // 
+            this.label336.AutoSize = true;
+            this.label336.Location = new System.Drawing.Point(315, 1901);
+            this.label336.Name = "label336";
+            this.label336.Size = new System.Drawing.Size(53, 13);
+            this.label336.TabIndex = 826;
+            this.label336.Text = "Quest159";
+            // 
+            // label337
+            // 
+            this.label337.AutoSize = true;
+            this.label337.Location = new System.Drawing.Point(217, 1901);
+            this.label337.Name = "label337";
+            this.label337.Size = new System.Drawing.Size(53, 13);
+            this.label337.TabIndex = 825;
+            this.label337.Text = "Quest158";
+            // 
+            // label338
+            // 
+            this.label338.AutoSize = true;
+            this.label338.Location = new System.Drawing.Point(119, 1901);
+            this.label338.Name = "label338";
+            this.label338.Size = new System.Drawing.Size(53, 13);
+            this.label338.TabIndex = 824;
+            this.label338.Text = "Quest157";
+            // 
+            // label339
+            // 
+            this.label339.AutoSize = true;
+            this.label339.Location = new System.Drawing.Point(21, 1901);
+            this.label339.Name = "label339";
+            this.label339.Size = new System.Drawing.Size(53, 13);
+            this.label339.TabIndex = 823;
+            this.label339.Text = "Quest156";
+            // 
+            // label340
+            // 
+            this.label340.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label340.Location = new System.Drawing.Point(9, 1838);
+            this.label340.Name = "label340";
+            this.label340.Size = new System.Drawing.Size(470, 2);
+            this.label340.TabIndex = 822;
+            // 
+            // button155q
+            // 
+            this.button155q.Location = new System.Drawing.Point(414, 1878);
+            this.button155q.Name = "button155q";
+            this.button155q.Size = new System.Drawing.Size(51, 19);
+            this.button155q.TabIndex = 821;
+            this.button155q.Tag = "9";
+            this.button155q.Text = "Add";
+            this.button155q.UseVisualStyleBackColor = true;
+            this.button155q.Click += new System.EventHandler(this.questButtonClick);
+            // 
+            // button154q
+            // 
+            this.button154q.Location = new System.Drawing.Point(316, 1878);
+            this.button154q.Name = "button154q";
+            this.button154q.Size = new System.Drawing.Size(51, 19);
+            this.button154q.TabIndex = 820;
+            this.button154q.Tag = "8";
+            this.button154q.Text = "Add";
+            this.button154q.UseVisualStyleBackColor = true;
+            this.button154q.Click += new System.EventHandler(this.questButtonClick);
+            // 
+            // button153q
+            // 
+            this.button153q.Location = new System.Drawing.Point(218, 1878);
+            this.button153q.Name = "button153q";
+            this.button153q.Size = new System.Drawing.Size(51, 19);
+            this.button153q.TabIndex = 819;
+            this.button153q.Tag = "7";
+            this.button153q.Text = "Add";
+            this.button153q.UseVisualStyleBackColor = true;
+            this.button153q.Click += new System.EventHandler(this.questButtonClick);
+            // 
+            // button152q
+            // 
+            this.button152q.Location = new System.Drawing.Point(120, 1878);
+            this.button152q.Name = "button152q";
+            this.button152q.Size = new System.Drawing.Size(51, 19);
+            this.button152q.TabIndex = 818;
+            this.button152q.Tag = "6";
+            this.button152q.Text = "Add";
+            this.button152q.UseVisualStyleBackColor = true;
+            this.button152q.Click += new System.EventHandler(this.questButtonClick);
+            // 
+            // button151q
+            // 
+            this.button151q.Location = new System.Drawing.Point(22, 1878);
+            this.button151q.Name = "button151q";
+            this.button151q.Size = new System.Drawing.Size(51, 19);
+            this.button151q.TabIndex = 817;
+            this.button151q.Tag = "5";
+            this.button151q.Text = "Add";
+            this.button151q.UseVisualStyleBackColor = true;
+            this.button151q.Click += new System.EventHandler(this.questButtonClick);
+            // 
+            // checkBox155q3
+            // 
+            this.checkBox155q3.AutoSize = true;
+            this.checkBox155q3.Location = new System.Drawing.Point(451, 1859);
+            this.checkBox155q3.Name = "checkBox155q3";
+            this.checkBox155q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox155q3.TabIndex = 816;
+            this.checkBox155q3.Tag = "9-2";
+            this.checkBox155q3.UseVisualStyleBackColor = true;
+            // 
+            // label341
+            // 
+            this.label341.AutoSize = true;
+            this.label341.Location = new System.Drawing.Point(21, 1840);
+            this.label341.Name = "label341";
+            this.label341.Size = new System.Drawing.Size(53, 13);
+            this.label341.TabIndex = 797;
+            this.label341.Text = "Quest151";
+            // 
+            // checkBox155q2
+            // 
+            this.checkBox155q2.AutoSize = true;
+            this.checkBox155q2.Location = new System.Drawing.Point(433, 1859);
+            this.checkBox155q2.Name = "checkBox155q2";
+            this.checkBox155q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox155q2.TabIndex = 815;
+            this.checkBox155q2.Tag = "9-1";
+            this.checkBox155q2.UseVisualStyleBackColor = true;
+            // 
+            // label342
+            // 
+            this.label342.AutoSize = true;
+            this.label342.Location = new System.Drawing.Point(119, 1840);
+            this.label342.Name = "label342";
+            this.label342.Size = new System.Drawing.Size(53, 13);
+            this.label342.TabIndex = 798;
+            this.label342.Text = "Quest152";
+            // 
+            // checkBox155q1
+            // 
+            this.checkBox155q1.AutoSize = true;
+            this.checkBox155q1.Location = new System.Drawing.Point(415, 1859);
+            this.checkBox155q1.Name = "checkBox155q1";
+            this.checkBox155q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox155q1.TabIndex = 814;
+            this.checkBox155q1.Tag = "9-0";
+            this.checkBox155q1.UseVisualStyleBackColor = true;
+            // 
+            // label343
+            // 
+            this.label343.AutoSize = true;
+            this.label343.Location = new System.Drawing.Point(217, 1840);
+            this.label343.Name = "label343";
+            this.label343.Size = new System.Drawing.Size(53, 13);
+            this.label343.TabIndex = 799;
+            this.label343.Text = "Quest153";
+            // 
+            // checkBox154q3
+            // 
+            this.checkBox154q3.AutoSize = true;
+            this.checkBox154q3.Location = new System.Drawing.Point(353, 1859);
+            this.checkBox154q3.Name = "checkBox154q3";
+            this.checkBox154q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox154q3.TabIndex = 813;
+            this.checkBox154q3.Tag = "8-2";
+            this.checkBox154q3.UseVisualStyleBackColor = true;
+            // 
+            // label344
+            // 
+            this.label344.AutoSize = true;
+            this.label344.Location = new System.Drawing.Point(315, 1840);
+            this.label344.Name = "label344";
+            this.label344.Size = new System.Drawing.Size(53, 13);
+            this.label344.TabIndex = 800;
+            this.label344.Text = "Quest154";
+            // 
+            // checkBox154q2
+            // 
+            this.checkBox154q2.AutoSize = true;
+            this.checkBox154q2.Location = new System.Drawing.Point(335, 1859);
+            this.checkBox154q2.Name = "checkBox154q2";
+            this.checkBox154q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox154q2.TabIndex = 812;
+            this.checkBox154q2.Tag = "8-1";
+            this.checkBox154q2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox151q1
+            // 
+            this.checkBox151q1.AutoSize = true;
+            this.checkBox151q1.Location = new System.Drawing.Point(23, 1859);
+            this.checkBox151q1.Name = "checkBox151q1";
+            this.checkBox151q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox151q1.TabIndex = 801;
+            this.checkBox151q1.Tag = "5-0";
+            this.checkBox151q1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox154q1
+            // 
+            this.checkBox154q1.AutoSize = true;
+            this.checkBox154q1.Location = new System.Drawing.Point(317, 1859);
+            this.checkBox154q1.Name = "checkBox154q1";
+            this.checkBox154q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox154q1.TabIndex = 811;
+            this.checkBox154q1.Tag = "8-0";
+            this.checkBox154q1.UseVisualStyleBackColor = true;
+            // 
+            // label345
+            // 
+            this.label345.AutoSize = true;
+            this.label345.Location = new System.Drawing.Point(413, 1840);
+            this.label345.Name = "label345";
+            this.label345.Size = new System.Drawing.Size(53, 13);
+            this.label345.TabIndex = 802;
+            this.label345.Text = "Quest155";
+            // 
+            // checkBox153q3
+            // 
+            this.checkBox153q3.AutoSize = true;
+            this.checkBox153q3.Location = new System.Drawing.Point(255, 1859);
+            this.checkBox153q3.Name = "checkBox153q3";
+            this.checkBox153q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox153q3.TabIndex = 810;
+            this.checkBox153q3.Tag = "7-2";
+            this.checkBox153q3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox151q2
+            // 
+            this.checkBox151q2.AutoSize = true;
+            this.checkBox151q2.Location = new System.Drawing.Point(41, 1859);
+            this.checkBox151q2.Name = "checkBox151q2";
+            this.checkBox151q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox151q2.TabIndex = 803;
+            this.checkBox151q2.Tag = "5-1";
+            this.checkBox151q2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox153q2
+            // 
+            this.checkBox153q2.AutoSize = true;
+            this.checkBox153q2.Location = new System.Drawing.Point(237, 1859);
+            this.checkBox153q2.Name = "checkBox153q2";
+            this.checkBox153q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox153q2.TabIndex = 809;
+            this.checkBox153q2.Tag = "7-1";
+            this.checkBox153q2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox151q3
+            // 
+            this.checkBox151q3.AutoSize = true;
+            this.checkBox151q3.Location = new System.Drawing.Point(59, 1859);
+            this.checkBox151q3.Name = "checkBox151q3";
+            this.checkBox151q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox151q3.TabIndex = 804;
+            this.checkBox151q3.Tag = "5-2";
+            this.checkBox151q3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox153q1
+            // 
+            this.checkBox153q1.AutoSize = true;
+            this.checkBox153q1.Location = new System.Drawing.Point(219, 1859);
+            this.checkBox153q1.Name = "checkBox153q1";
+            this.checkBox153q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox153q1.TabIndex = 808;
+            this.checkBox153q1.Tag = "7-0";
+            this.checkBox153q1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox152q1
+            // 
+            this.checkBox152q1.AutoSize = true;
+            this.checkBox152q1.Location = new System.Drawing.Point(121, 1859);
+            this.checkBox152q1.Name = "checkBox152q1";
+            this.checkBox152q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox152q1.TabIndex = 805;
+            this.checkBox152q1.Tag = "6-0";
+            this.checkBox152q1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox152q3
+            // 
+            this.checkBox152q3.AutoSize = true;
+            this.checkBox152q3.Location = new System.Drawing.Point(157, 1859);
+            this.checkBox152q3.Name = "checkBox152q3";
+            this.checkBox152q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox152q3.TabIndex = 807;
+            this.checkBox152q3.Tag = "6-2";
+            this.checkBox152q3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox152q2
+            // 
+            this.checkBox152q2.AutoSize = true;
+            this.checkBox152q2.Location = new System.Drawing.Point(139, 1859);
+            this.checkBox152q2.Name = "checkBox152q2";
+            this.checkBox152q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox152q2.TabIndex = 806;
+            this.checkBox152q2.Tag = "6-1";
+            this.checkBox152q2.UseVisualStyleBackColor = true;
+            // 
+            // label322
+            // 
+            this.label322.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label322.Location = new System.Drawing.Point(9, 1777);
+            this.label322.Name = "label322";
+            this.label322.Size = new System.Drawing.Size(470, 2);
+            this.label322.TabIndex = 795;
+            // 
             // label266
             // 
             this.label266.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -6997,6 +7736,17 @@
             this.button93.Text = "Add";
             this.button93.UseVisualStyleBackColor = true;
             this.button93.Click += new System.EventHandler(this.questButtonClick);
+            // 
+            // button150q
+            // 
+            this.button150q.Location = new System.Drawing.Point(414, 1817);
+            this.button150q.Name = "button150q";
+            this.button150q.Size = new System.Drawing.Size(51, 19);
+            this.button150q.TabIndex = 794;
+            this.button150q.Tag = "9";
+            this.button150q.Text = "Add";
+            this.button150q.UseVisualStyleBackColor = true;
+            this.button150q.Click += new System.EventHandler(this.questButtonClick);
             // 
             // button111
             // 
@@ -7020,6 +7770,17 @@
             this.button112.UseVisualStyleBackColor = true;
             this.button112.Click += new System.EventHandler(this.questButtonClick);
             // 
+            // button149q
+            // 
+            this.button149q.Location = new System.Drawing.Point(316, 1817);
+            this.button149q.Name = "button149q";
+            this.button149q.Size = new System.Drawing.Size(51, 19);
+            this.button149q.TabIndex = 793;
+            this.button149q.Tag = "8";
+            this.button149q.Text = "Add";
+            this.button149q.UseVisualStyleBackColor = true;
+            this.button149q.Click += new System.EventHandler(this.questButtonClick);
+            // 
             // button113
             // 
             this.button113.Location = new System.Drawing.Point(120, 1693);
@@ -7042,6 +7803,28 @@
             this.button114.UseVisualStyleBackColor = true;
             this.button114.Click += new System.EventHandler(this.questButtonClick);
             // 
+            // button148q
+            // 
+            this.button148q.Location = new System.Drawing.Point(218, 1817);
+            this.button148q.Name = "button148q";
+            this.button148q.Size = new System.Drawing.Size(51, 19);
+            this.button148q.TabIndex = 792;
+            this.button148q.Tag = "7";
+            this.button148q.Text = "Add";
+            this.button148q.UseVisualStyleBackColor = true;
+            this.button148q.Click += new System.EventHandler(this.questButtonClick);
+            // 
+            // button147q
+            // 
+            this.button147q.Location = new System.Drawing.Point(120, 1817);
+            this.button147q.Name = "button147q";
+            this.button147q.Size = new System.Drawing.Size(51, 19);
+            this.button147q.TabIndex = 791;
+            this.button147q.Tag = "6";
+            this.button147q.Text = "Add";
+            this.button147q.UseVisualStyleBackColor = true;
+            this.button147q.Click += new System.EventHandler(this.questButtonClick);
+            // 
             // checkBox301
             // 
             this.checkBox301.AutoSize = true;
@@ -7061,6 +7844,17 @@
             this.checkBox302.TabIndex = 736;
             this.checkBox302.Tag = "9-1";
             this.checkBox302.UseVisualStyleBackColor = true;
+            // 
+            // button146q
+            // 
+            this.button146q.Location = new System.Drawing.Point(22, 1817);
+            this.button146q.Name = "button146q";
+            this.button146q.Size = new System.Drawing.Size(51, 19);
+            this.button146q.TabIndex = 790;
+            this.button146q.Tag = "5";
+            this.button146q.Text = "Add";
+            this.button146q.UseVisualStyleBackColor = true;
+            this.button146q.Click += new System.EventHandler(this.questButtonClick);
             // 
             // checkBox303
             // 
@@ -7082,6 +7876,16 @@
             this.checkBox304.Tag = "8-2";
             this.checkBox304.UseVisualStyleBackColor = true;
             // 
+            // checkBox150q3
+            // 
+            this.checkBox150q3.AutoSize = true;
+            this.checkBox150q3.Location = new System.Drawing.Point(451, 1798);
+            this.checkBox150q3.Name = "checkBox150q3";
+            this.checkBox150q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox150q3.TabIndex = 789;
+            this.checkBox150q3.Tag = "9-2";
+            this.checkBox150q3.UseVisualStyleBackColor = true;
+            // 
             // checkBox305
             // 
             this.checkBox305.AutoSize = true;
@@ -7101,6 +7905,16 @@
             this.checkBox306.TabIndex = 732;
             this.checkBox306.Tag = "8-0";
             this.checkBox306.UseVisualStyleBackColor = true;
+            // 
+            // checkBox150q2
+            // 
+            this.checkBox150q2.AutoSize = true;
+            this.checkBox150q2.Location = new System.Drawing.Point(433, 1798);
+            this.checkBox150q2.Name = "checkBox150q2";
+            this.checkBox150q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox150q2.TabIndex = 788;
+            this.checkBox150q2.Tag = "9-1";
+            this.checkBox150q2.UseVisualStyleBackColor = true;
             // 
             // checkBox307
             // 
@@ -7122,6 +7936,16 @@
             this.checkBox308.Tag = "7-1";
             this.checkBox308.UseVisualStyleBackColor = true;
             // 
+            // checkBox150q1
+            // 
+            this.checkBox150q1.AutoSize = true;
+            this.checkBox150q1.Location = new System.Drawing.Point(415, 1798);
+            this.checkBox150q1.Name = "checkBox150q1";
+            this.checkBox150q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox150q1.TabIndex = 787;
+            this.checkBox150q1.Tag = "9-0";
+            this.checkBox150q1.UseVisualStyleBackColor = true;
+            // 
             // checkBox309
             // 
             this.checkBox309.AutoSize = true;
@@ -7141,6 +7965,16 @@
             this.checkBox310.TabIndex = 728;
             this.checkBox310.Tag = "6-2";
             this.checkBox310.UseVisualStyleBackColor = true;
+            // 
+            // checkBox149q3
+            // 
+            this.checkBox149q3.AutoSize = true;
+            this.checkBox149q3.Location = new System.Drawing.Point(353, 1798);
+            this.checkBox149q3.Name = "checkBox149q3";
+            this.checkBox149q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox149q3.TabIndex = 786;
+            this.checkBox149q3.Tag = "8-2";
+            this.checkBox149q3.UseVisualStyleBackColor = true;
             // 
             // checkBox311
             // 
@@ -7162,6 +7996,16 @@
             this.checkBox312.Tag = "6-0";
             this.checkBox312.UseVisualStyleBackColor = true;
             // 
+            // checkBox149q2
+            // 
+            this.checkBox149q2.AutoSize = true;
+            this.checkBox149q2.Location = new System.Drawing.Point(335, 1798);
+            this.checkBox149q2.Name = "checkBox149q2";
+            this.checkBox149q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox149q2.TabIndex = 785;
+            this.checkBox149q2.Tag = "8-1";
+            this.checkBox149q2.UseVisualStyleBackColor = true;
+            // 
             // checkBox313
             // 
             this.checkBox313.AutoSize = true;
@@ -7182,6 +8026,16 @@
             this.checkBox314.Tag = "5-1";
             this.checkBox314.UseVisualStyleBackColor = true;
             // 
+            // checkBox149q1
+            // 
+            this.checkBox149q1.AutoSize = true;
+            this.checkBox149q1.Location = new System.Drawing.Point(317, 1798);
+            this.checkBox149q1.Name = "checkBox149q1";
+            this.checkBox149q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox149q1.TabIndex = 784;
+            this.checkBox149q1.Tag = "8-0";
+            this.checkBox149q1.UseVisualStyleBackColor = true;
+            // 
             // label267
             // 
             this.label267.AutoSize = true;
@@ -7201,6 +8055,16 @@
             this.checkBox315.Tag = "5-0";
             this.checkBox315.UseVisualStyleBackColor = true;
             // 
+            // checkBox148q3
+            // 
+            this.checkBox148q3.AutoSize = true;
+            this.checkBox148q3.Location = new System.Drawing.Point(255, 1798);
+            this.checkBox148q3.Name = "checkBox148q3";
+            this.checkBox148q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox148q3.TabIndex = 783;
+            this.checkBox148q3.Tag = "7-2";
+            this.checkBox148q3.UseVisualStyleBackColor = true;
+            // 
             // label268
             // 
             this.label268.AutoSize = true;
@@ -7218,6 +8082,16 @@
             this.label269.Size = new System.Drawing.Size(53, 13);
             this.label269.TabIndex = 720;
             this.label269.Text = "Quest138";
+            // 
+            // checkBox148q2
+            // 
+            this.checkBox148q2.AutoSize = true;
+            this.checkBox148q2.Location = new System.Drawing.Point(237, 1798);
+            this.checkBox148q2.Name = "checkBox148q2";
+            this.checkBox148q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox148q2.TabIndex = 782;
+            this.checkBox148q2.Tag = "7-1";
+            this.checkBox148q2.UseVisualStyleBackColor = true;
             // 
             // label270
             // 
@@ -7237,6 +8111,16 @@
             this.label271.TabIndex = 718;
             this.label271.Text = "Quest136";
             // 
+            // checkBox148q1
+            // 
+            this.checkBox148q1.AutoSize = true;
+            this.checkBox148q1.Location = new System.Drawing.Point(219, 1798);
+            this.checkBox148q1.Name = "checkBox148q1";
+            this.checkBox148q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox148q1.TabIndex = 781;
+            this.checkBox148q1.Tag = "7-0";
+            this.checkBox148q1.UseVisualStyleBackColor = true;
+            // 
             // label272
             // 
             this.label272.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -7252,6 +8136,16 @@
             this.label273.Name = "label273";
             this.label273.Size = new System.Drawing.Size(470, 2);
             this.label273.TabIndex = 716;
+            // 
+            // checkBox147q3
+            // 
+            this.checkBox147q3.AutoSize = true;
+            this.checkBox147q3.Location = new System.Drawing.Point(157, 1798);
+            this.checkBox147q3.Name = "checkBox147q3";
+            this.checkBox147q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox147q3.TabIndex = 780;
+            this.checkBox147q3.Tag = "6-2";
+            this.checkBox147q3.UseVisualStyleBackColor = true;
             // 
             // button115
             // 
@@ -7275,6 +8169,16 @@
             this.button116.UseVisualStyleBackColor = true;
             this.button116.Click += new System.EventHandler(this.questButtonClick);
             // 
+            // checkBox147q2
+            // 
+            this.checkBox147q2.AutoSize = true;
+            this.checkBox147q2.Location = new System.Drawing.Point(139, 1798);
+            this.checkBox147q2.Name = "checkBox147q2";
+            this.checkBox147q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox147q2.TabIndex = 779;
+            this.checkBox147q2.Tag = "6-1";
+            this.checkBox147q2.UseVisualStyleBackColor = true;
+            // 
             // button117
             // 
             this.button117.Location = new System.Drawing.Point(218, 1632);
@@ -7297,6 +8201,16 @@
             this.button118.UseVisualStyleBackColor = true;
             this.button118.Click += new System.EventHandler(this.questButtonClick);
             // 
+            // checkBox147q1
+            // 
+            this.checkBox147q1.AutoSize = true;
+            this.checkBox147q1.Location = new System.Drawing.Point(121, 1798);
+            this.checkBox147q1.Name = "checkBox147q1";
+            this.checkBox147q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox147q1.TabIndex = 778;
+            this.checkBox147q1.Tag = "6-0";
+            this.checkBox147q1.UseVisualStyleBackColor = true;
+            // 
             // button119
             // 
             this.button119.Location = new System.Drawing.Point(22, 1632);
@@ -7318,6 +8232,16 @@
             this.checkBox316.Tag = "9-2";
             this.checkBox316.UseVisualStyleBackColor = true;
             // 
+            // checkBox146q3
+            // 
+            this.checkBox146q3.AutoSize = true;
+            this.checkBox146q3.Location = new System.Drawing.Point(59, 1798);
+            this.checkBox146q3.Name = "checkBox146q3";
+            this.checkBox146q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox146q3.TabIndex = 777;
+            this.checkBox146q3.Tag = "5-2";
+            this.checkBox146q3.UseVisualStyleBackColor = true;
+            // 
             // checkBox317
             // 
             this.checkBox317.AutoSize = true;
@@ -7337,6 +8261,16 @@
             this.checkBox318.TabIndex = 708;
             this.checkBox318.Tag = "9-0";
             this.checkBox318.UseVisualStyleBackColor = true;
+            // 
+            // checkBox146q2
+            // 
+            this.checkBox146q2.AutoSize = true;
+            this.checkBox146q2.Location = new System.Drawing.Point(41, 1798);
+            this.checkBox146q2.Name = "checkBox146q2";
+            this.checkBox146q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox146q2.TabIndex = 776;
+            this.checkBox146q2.Tag = "5-1";
+            this.checkBox146q2.UseVisualStyleBackColor = true;
             // 
             // checkBox319
             // 
@@ -7358,6 +8292,15 @@
             this.checkBox320.Tag = "8-1";
             this.checkBox320.UseVisualStyleBackColor = true;
             // 
+            // label323
+            // 
+            this.label323.AutoSize = true;
+            this.label323.Location = new System.Drawing.Point(413, 1779);
+            this.label323.Name = "label323";
+            this.label323.Size = new System.Drawing.Size(53, 13);
+            this.label323.TabIndex = 775;
+            this.label323.Text = "Quest150";
+            // 
             // checkBox321
             // 
             this.checkBox321.AutoSize = true;
@@ -7377,6 +8320,16 @@
             this.checkBox322.TabIndex = 704;
             this.checkBox322.Tag = "7-2";
             this.checkBox322.UseVisualStyleBackColor = true;
+            // 
+            // checkBox146q1
+            // 
+            this.checkBox146q1.AutoSize = true;
+            this.checkBox146q1.Location = new System.Drawing.Point(23, 1798);
+            this.checkBox146q1.Name = "checkBox146q1";
+            this.checkBox146q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox146q1.TabIndex = 774;
+            this.checkBox146q1.Tag = "5-0";
+            this.checkBox146q1.UseVisualStyleBackColor = true;
             // 
             // checkBox323
             // 
@@ -7398,6 +8351,15 @@
             this.checkBox324.Tag = "7-0";
             this.checkBox324.UseVisualStyleBackColor = true;
             // 
+            // label324
+            // 
+            this.label324.AutoSize = true;
+            this.label324.Location = new System.Drawing.Point(315, 1779);
+            this.label324.Name = "label324";
+            this.label324.Size = new System.Drawing.Size(53, 13);
+            this.label324.TabIndex = 773;
+            this.label324.Text = "Quest149";
+            // 
             // checkBox325
             // 
             this.checkBox325.AutoSize = true;
@@ -7417,6 +8379,15 @@
             this.checkBox326.TabIndex = 700;
             this.checkBox326.Tag = "6-1";
             this.checkBox326.UseVisualStyleBackColor = true;
+            // 
+            // label325
+            // 
+            this.label325.AutoSize = true;
+            this.label325.Location = new System.Drawing.Point(217, 1779);
+            this.label325.Name = "label325";
+            this.label325.Size = new System.Drawing.Size(53, 13);
+            this.label325.TabIndex = 772;
+            this.label325.Text = "Quest148";
             // 
             // checkBox327
             // 
@@ -7438,6 +8409,15 @@
             this.checkBox328.Tag = "5-2";
             this.checkBox328.UseVisualStyleBackColor = true;
             // 
+            // label326
+            // 
+            this.label326.AutoSize = true;
+            this.label326.Location = new System.Drawing.Point(119, 1779);
+            this.label326.Name = "label326";
+            this.label326.Size = new System.Drawing.Size(53, 13);
+            this.label326.TabIndex = 771;
+            this.label326.Text = "Quest147";
+            // 
             // checkBox329
             // 
             this.checkBox329.AutoSize = true;
@@ -7456,6 +8436,15 @@
             this.label274.Size = new System.Drawing.Size(53, 13);
             this.label274.TabIndex = 696;
             this.label274.Text = "Quest135";
+            // 
+            // label327
+            // 
+            this.label327.AutoSize = true;
+            this.label327.Location = new System.Drawing.Point(21, 1779);
+            this.label327.Name = "label327";
+            this.label327.Size = new System.Drawing.Size(53, 13);
+            this.label327.TabIndex = 770;
+            this.label327.Text = "Quest146";
             // 
             // checkBox330
             // 
@@ -7476,6 +8465,14 @@
             this.label275.TabIndex = 694;
             this.label275.Text = "Quest134";
             // 
+            // label328
+            // 
+            this.label328.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label328.Location = new System.Drawing.Point(9, 1716);
+            this.label328.Name = "label328";
+            this.label328.Size = new System.Drawing.Size(470, 2);
+            this.label328.TabIndex = 769;
+            // 
             // label276
             // 
             this.label276.AutoSize = true;
@@ -7493,6 +8490,17 @@
             this.label277.Size = new System.Drawing.Size(53, 13);
             this.label277.TabIndex = 692;
             this.label277.Text = "Quest132";
+            // 
+            // button145q
+            // 
+            this.button145q.Location = new System.Drawing.Point(414, 1756);
+            this.button145q.Name = "button145q";
+            this.button145q.Size = new System.Drawing.Size(51, 19);
+            this.button145q.TabIndex = 768;
+            this.button145q.Tag = "9";
+            this.button145q.Text = "Add";
+            this.button145q.UseVisualStyleBackColor = true;
+            this.button145q.Click += new System.EventHandler(this.questButtonClick);
             // 
             // label278
             // 
@@ -7513,6 +8521,17 @@
             this.button120.Text = "Add";
             this.button120.UseVisualStyleBackColor = true;
             this.button120.Click += new System.EventHandler(this.questButtonClick);
+            // 
+            // button144q
+            // 
+            this.button144q.Location = new System.Drawing.Point(316, 1756);
+            this.button144q.Name = "button144q";
+            this.button144q.Size = new System.Drawing.Size(51, 19);
+            this.button144q.TabIndex = 767;
+            this.button144q.Tag = "8";
+            this.button144q.Text = "Add";
+            this.button144q.UseVisualStyleBackColor = true;
+            this.button144q.Click += new System.EventHandler(this.questButtonClick);
             // 
             // button121
             // 
@@ -7536,6 +8555,17 @@
             this.button122.UseVisualStyleBackColor = true;
             this.button122.Click += new System.EventHandler(this.questButtonClick);
             // 
+            // button143q
+            // 
+            this.button143q.Location = new System.Drawing.Point(218, 1756);
+            this.button143q.Name = "button143q";
+            this.button143q.Size = new System.Drawing.Size(51, 19);
+            this.button143q.TabIndex = 766;
+            this.button143q.Tag = "7";
+            this.button143q.Text = "Add";
+            this.button143q.UseVisualStyleBackColor = true;
+            this.button143q.Click += new System.EventHandler(this.questButtonClick);
+            // 
             // button123
             // 
             this.button123.Location = new System.Drawing.Point(120, 1571);
@@ -7558,6 +8588,17 @@
             this.button124.UseVisualStyleBackColor = true;
             this.button124.Click += new System.EventHandler(this.questButtonClick);
             // 
+            // button142q
+            // 
+            this.button142q.Location = new System.Drawing.Point(120, 1756);
+            this.button142q.Name = "button142q";
+            this.button142q.Size = new System.Drawing.Size(51, 19);
+            this.button142q.TabIndex = 765;
+            this.button142q.Tag = "6";
+            this.button142q.Text = "Add";
+            this.button142q.UseVisualStyleBackColor = true;
+            this.button142q.Click += new System.EventHandler(this.questButtonClick);
+            // 
             // checkBox331
             // 
             this.checkBox331.AutoSize = true;
@@ -7577,6 +8618,17 @@
             this.checkBox332.TabIndex = 684;
             this.checkBox332.Tag = "9-1";
             this.checkBox332.UseVisualStyleBackColor = true;
+            // 
+            // button141q
+            // 
+            this.button141q.Location = new System.Drawing.Point(22, 1756);
+            this.button141q.Name = "button141q";
+            this.button141q.Size = new System.Drawing.Size(51, 19);
+            this.button141q.TabIndex = 764;
+            this.button141q.Tag = "5";
+            this.button141q.Text = "Add";
+            this.button141q.UseVisualStyleBackColor = true;
+            this.button141q.Click += new System.EventHandler(this.questButtonClick);
             // 
             // checkBox333
             // 
@@ -7598,6 +8650,16 @@
             this.checkBox334.Tag = "8-2";
             this.checkBox334.UseVisualStyleBackColor = true;
             // 
+            // checkBox145q3
+            // 
+            this.checkBox145q3.AutoSize = true;
+            this.checkBox145q3.Location = new System.Drawing.Point(451, 1737);
+            this.checkBox145q3.Name = "checkBox145q3";
+            this.checkBox145q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox145q3.TabIndex = 763;
+            this.checkBox145q3.Tag = "9-2";
+            this.checkBox145q3.UseVisualStyleBackColor = true;
+            // 
             // checkBox335
             // 
             this.checkBox335.AutoSize = true;
@@ -7607,6 +8669,15 @@
             this.checkBox335.TabIndex = 681;
             this.checkBox335.Tag = "8-1";
             this.checkBox335.UseVisualStyleBackColor = true;
+            // 
+            // label333
+            // 
+            this.label333.AutoSize = true;
+            this.label333.Location = new System.Drawing.Point(21, 1718);
+            this.label333.Name = "label333";
+            this.label333.Size = new System.Drawing.Size(53, 13);
+            this.label333.TabIndex = 744;
+            this.label333.Text = "Quest141";
             // 
             // checkBox336
             // 
@@ -7618,6 +8689,16 @@
             this.checkBox336.Tag = "8-0";
             this.checkBox336.UseVisualStyleBackColor = true;
             // 
+            // checkBox145q2
+            // 
+            this.checkBox145q2.AutoSize = true;
+            this.checkBox145q2.Location = new System.Drawing.Point(433, 1737);
+            this.checkBox145q2.Name = "checkBox145q2";
+            this.checkBox145q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox145q2.TabIndex = 762;
+            this.checkBox145q2.Tag = "9-1";
+            this.checkBox145q2.UseVisualStyleBackColor = true;
+            // 
             // checkBox337
             // 
             this.checkBox337.AutoSize = true;
@@ -7627,6 +8708,15 @@
             this.checkBox337.TabIndex = 679;
             this.checkBox337.Tag = "7-2";
             this.checkBox337.UseVisualStyleBackColor = true;
+            // 
+            // label332
+            // 
+            this.label332.AutoSize = true;
+            this.label332.Location = new System.Drawing.Point(119, 1718);
+            this.label332.Name = "label332";
+            this.label332.Size = new System.Drawing.Size(53, 13);
+            this.label332.TabIndex = 745;
+            this.label332.Text = "Quest142";
             // 
             // checkBox338
             // 
@@ -7638,6 +8728,16 @@
             this.checkBox338.Tag = "7-1";
             this.checkBox338.UseVisualStyleBackColor = true;
             // 
+            // checkBox145q1
+            // 
+            this.checkBox145q1.AutoSize = true;
+            this.checkBox145q1.Location = new System.Drawing.Point(415, 1737);
+            this.checkBox145q1.Name = "checkBox145q1";
+            this.checkBox145q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox145q1.TabIndex = 761;
+            this.checkBox145q1.Tag = "9-0";
+            this.checkBox145q1.UseVisualStyleBackColor = true;
+            // 
             // checkBox339
             // 
             this.checkBox339.AutoSize = true;
@@ -7647,6 +8747,15 @@
             this.checkBox339.TabIndex = 677;
             this.checkBox339.Tag = "7-0";
             this.checkBox339.UseVisualStyleBackColor = true;
+            // 
+            // label331
+            // 
+            this.label331.AutoSize = true;
+            this.label331.Location = new System.Drawing.Point(217, 1718);
+            this.label331.Name = "label331";
+            this.label331.Size = new System.Drawing.Size(53, 13);
+            this.label331.TabIndex = 746;
+            this.label331.Text = "Quest143";
             // 
             // checkBox340
             // 
@@ -7658,6 +8767,16 @@
             this.checkBox340.Tag = "6-2";
             this.checkBox340.UseVisualStyleBackColor = true;
             // 
+            // checkBox144q3
+            // 
+            this.checkBox144q3.AutoSize = true;
+            this.checkBox144q3.Location = new System.Drawing.Point(353, 1737);
+            this.checkBox144q3.Name = "checkBox144q3";
+            this.checkBox144q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox144q3.TabIndex = 760;
+            this.checkBox144q3.Tag = "8-2";
+            this.checkBox144q3.UseVisualStyleBackColor = true;
+            // 
             // checkBox341
             // 
             this.checkBox341.AutoSize = true;
@@ -7667,6 +8786,15 @@
             this.checkBox341.TabIndex = 675;
             this.checkBox341.Tag = "6-1";
             this.checkBox341.UseVisualStyleBackColor = true;
+            // 
+            // label330
+            // 
+            this.label330.AutoSize = true;
+            this.label330.Location = new System.Drawing.Point(315, 1718);
+            this.label330.Name = "label330";
+            this.label330.Size = new System.Drawing.Size(53, 13);
+            this.label330.TabIndex = 747;
+            this.label330.Text = "Quest144";
             // 
             // checkBox342
             // 
@@ -7678,6 +8806,16 @@
             this.checkBox342.Tag = "6-0";
             this.checkBox342.UseVisualStyleBackColor = true;
             // 
+            // checkBox144q2
+            // 
+            this.checkBox144q2.AutoSize = true;
+            this.checkBox144q2.Location = new System.Drawing.Point(335, 1737);
+            this.checkBox144q2.Name = "checkBox144q2";
+            this.checkBox144q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox144q2.TabIndex = 759;
+            this.checkBox144q2.Tag = "8-1";
+            this.checkBox144q2.UseVisualStyleBackColor = true;
+            // 
             // checkBox343
             // 
             this.checkBox343.AutoSize = true;
@@ -7687,6 +8825,16 @@
             this.checkBox343.TabIndex = 673;
             this.checkBox343.Tag = "5-2";
             this.checkBox343.UseVisualStyleBackColor = true;
+            // 
+            // checkBox141q1
+            // 
+            this.checkBox141q1.AutoSize = true;
+            this.checkBox141q1.Location = new System.Drawing.Point(23, 1737);
+            this.checkBox141q1.Name = "checkBox141q1";
+            this.checkBox141q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox141q1.TabIndex = 748;
+            this.checkBox141q1.Tag = "5-0";
+            this.checkBox141q1.UseVisualStyleBackColor = true;
             // 
             // checkBox344
             // 
@@ -7698,6 +8846,16 @@
             this.checkBox344.Tag = "5-1";
             this.checkBox344.UseVisualStyleBackColor = true;
             // 
+            // checkBox144q1
+            // 
+            this.checkBox144q1.AutoSize = true;
+            this.checkBox144q1.Location = new System.Drawing.Point(317, 1737);
+            this.checkBox144q1.Name = "checkBox144q1";
+            this.checkBox144q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox144q1.TabIndex = 758;
+            this.checkBox144q1.Tag = "8-0";
+            this.checkBox144q1.UseVisualStyleBackColor = true;
+            // 
             // label279
             // 
             this.label279.AutoSize = true;
@@ -7706,6 +8864,15 @@
             this.label279.Size = new System.Drawing.Size(53, 13);
             this.label279.TabIndex = 671;
             this.label279.Text = "Quest130";
+            // 
+            // label329
+            // 
+            this.label329.AutoSize = true;
+            this.label329.Location = new System.Drawing.Point(413, 1718);
+            this.label329.Name = "label329";
+            this.label329.Size = new System.Drawing.Size(53, 13);
+            this.label329.TabIndex = 749;
+            this.label329.Text = "Quest145";
             // 
             // checkBox345
             // 
@@ -7717,6 +8884,16 @@
             this.checkBox345.Tag = "5-0";
             this.checkBox345.UseVisualStyleBackColor = true;
             // 
+            // checkBox143q3
+            // 
+            this.checkBox143q3.AutoSize = true;
+            this.checkBox143q3.Location = new System.Drawing.Point(255, 1737);
+            this.checkBox143q3.Name = "checkBox143q3";
+            this.checkBox143q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox143q3.TabIndex = 757;
+            this.checkBox143q3.Tag = "7-2";
+            this.checkBox143q3.UseVisualStyleBackColor = true;
+            // 
             // label280
             // 
             this.label280.AutoSize = true;
@@ -7725,6 +8902,16 @@
             this.label280.Size = new System.Drawing.Size(53, 13);
             this.label280.TabIndex = 669;
             this.label280.Text = "Quest129";
+            // 
+            // checkBox141q2
+            // 
+            this.checkBox141q2.AutoSize = true;
+            this.checkBox141q2.Location = new System.Drawing.Point(41, 1737);
+            this.checkBox141q2.Name = "checkBox141q2";
+            this.checkBox141q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox141q2.TabIndex = 750;
+            this.checkBox141q2.Tag = "5-1";
+            this.checkBox141q2.UseVisualStyleBackColor = true;
             // 
             // label281
             // 
@@ -7735,6 +8922,16 @@
             this.label281.TabIndex = 668;
             this.label281.Text = "Quest128";
             // 
+            // checkBox143q2
+            // 
+            this.checkBox143q2.AutoSize = true;
+            this.checkBox143q2.Location = new System.Drawing.Point(237, 1737);
+            this.checkBox143q2.Name = "checkBox143q2";
+            this.checkBox143q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox143q2.TabIndex = 756;
+            this.checkBox143q2.Tag = "7-1";
+            this.checkBox143q2.UseVisualStyleBackColor = true;
+            // 
             // label282
             // 
             this.label282.AutoSize = true;
@@ -7743,6 +8940,16 @@
             this.label282.Size = new System.Drawing.Size(53, 13);
             this.label282.TabIndex = 667;
             this.label282.Text = "Quest127";
+            // 
+            // checkBox141q3
+            // 
+            this.checkBox141q3.AutoSize = true;
+            this.checkBox141q3.Location = new System.Drawing.Point(59, 1737);
+            this.checkBox141q3.Name = "checkBox141q3";
+            this.checkBox141q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox141q3.TabIndex = 751;
+            this.checkBox141q3.Tag = "5-2";
+            this.checkBox141q3.UseVisualStyleBackColor = true;
             // 
             // label283
             // 
@@ -7753,6 +8960,16 @@
             this.label283.TabIndex = 666;
             this.label283.Text = "Quest126";
             // 
+            // checkBox143q1
+            // 
+            this.checkBox143q1.AutoSize = true;
+            this.checkBox143q1.Location = new System.Drawing.Point(219, 1737);
+            this.checkBox143q1.Name = "checkBox143q1";
+            this.checkBox143q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox143q1.TabIndex = 755;
+            this.checkBox143q1.Tag = "7-0";
+            this.checkBox143q1.UseVisualStyleBackColor = true;
+            // 
             // label284
             // 
             this.label284.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -7760,6 +8977,16 @@
             this.label284.Name = "label284";
             this.label284.Size = new System.Drawing.Size(470, 2);
             this.label284.TabIndex = 665;
+            // 
+            // checkBox142q1
+            // 
+            this.checkBox142q1.AutoSize = true;
+            this.checkBox142q1.Location = new System.Drawing.Point(121, 1737);
+            this.checkBox142q1.Name = "checkBox142q1";
+            this.checkBox142q1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox142q1.TabIndex = 752;
+            this.checkBox142q1.Tag = "6-0";
+            this.checkBox142q1.UseVisualStyleBackColor = true;
             // 
             // button125
             // 
@@ -7772,6 +8999,16 @@
             this.button125.UseVisualStyleBackColor = true;
             this.button125.Click += new System.EventHandler(this.questButtonClick);
             // 
+            // checkBox142q3
+            // 
+            this.checkBox142q3.AutoSize = true;
+            this.checkBox142q3.Location = new System.Drawing.Point(157, 1737);
+            this.checkBox142q3.Name = "checkBox142q3";
+            this.checkBox142q3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox142q3.TabIndex = 754;
+            this.checkBox142q3.Tag = "6-2";
+            this.checkBox142q3.UseVisualStyleBackColor = true;
+            // 
             // button126
             // 
             this.button126.Location = new System.Drawing.Point(316, 1510);
@@ -7782,6 +9019,16 @@
             this.button126.Text = "Add";
             this.button126.UseVisualStyleBackColor = true;
             this.button126.Click += new System.EventHandler(this.questButtonClick);
+            // 
+            // checkBox142q2
+            // 
+            this.checkBox142q2.AutoSize = true;
+            this.checkBox142q2.Location = new System.Drawing.Point(139, 1737);
+            this.checkBox142q2.Name = "checkBox142q2";
+            this.checkBox142q2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox142q2.TabIndex = 753;
+            this.checkBox142q2.Tag = "6-1";
+            this.checkBox142q2.UseVisualStyleBackColor = true;
             // 
             // button127
             // 
@@ -16450,6 +17697,110 @@
         private System.Windows.Forms.CheckBox AHosokawaBox;
         private System.Windows.Forms.Label label316;
         private System.Windows.Forms.NumericUpDown AHosokawaCount;
+        private System.Windows.Forms.Label label334;
+        private System.Windows.Forms.Button button160q;
+        private System.Windows.Forms.Button button159q;
+        private System.Windows.Forms.Button button158q;
+        private System.Windows.Forms.Button button157q;
+        private System.Windows.Forms.Button button156q;
+        private System.Windows.Forms.CheckBox checkBox160q3;
+        private System.Windows.Forms.CheckBox checkBox160q2;
+        private System.Windows.Forms.CheckBox checkBox160q1;
+        private System.Windows.Forms.CheckBox checkBox159q3;
+        private System.Windows.Forms.CheckBox checkBox159q2;
+        private System.Windows.Forms.CheckBox checkBox159q1;
+        private System.Windows.Forms.CheckBox checkBox158q3;
+        private System.Windows.Forms.CheckBox checkBox158q2;
+        private System.Windows.Forms.CheckBox checkBox158q1;
+        private System.Windows.Forms.CheckBox checkBox157q3;
+        private System.Windows.Forms.CheckBox checkBox157q2;
+        private System.Windows.Forms.CheckBox checkBox157q1;
+        private System.Windows.Forms.CheckBox checkBox156q3;
+        private System.Windows.Forms.CheckBox checkBox156q2;
+        private System.Windows.Forms.Label label335;
+        private System.Windows.Forms.CheckBox checkBox156q1;
+        private System.Windows.Forms.Label label336;
+        private System.Windows.Forms.Label label337;
+        private System.Windows.Forms.Label label338;
+        private System.Windows.Forms.Label label339;
+        private System.Windows.Forms.Label label340;
+        private System.Windows.Forms.Button button155q;
+        private System.Windows.Forms.Button button154q;
+        private System.Windows.Forms.Button button153q;
+        private System.Windows.Forms.Button button152q;
+        private System.Windows.Forms.Button button151q;
+        private System.Windows.Forms.CheckBox checkBox155q3;
+        private System.Windows.Forms.Label label341;
+        private System.Windows.Forms.CheckBox checkBox155q2;
+        private System.Windows.Forms.Label label342;
+        private System.Windows.Forms.CheckBox checkBox155q1;
+        private System.Windows.Forms.Label label343;
+        private System.Windows.Forms.CheckBox checkBox154q3;
+        private System.Windows.Forms.Label label344;
+        private System.Windows.Forms.CheckBox checkBox154q2;
+        private System.Windows.Forms.CheckBox checkBox151q1;
+        private System.Windows.Forms.CheckBox checkBox154q1;
+        private System.Windows.Forms.Label label345;
+        private System.Windows.Forms.CheckBox checkBox153q3;
+        private System.Windows.Forms.CheckBox checkBox151q2;
+        private System.Windows.Forms.CheckBox checkBox153q2;
+        private System.Windows.Forms.CheckBox checkBox151q3;
+        private System.Windows.Forms.CheckBox checkBox153q1;
+        private System.Windows.Forms.CheckBox checkBox152q1;
+        private System.Windows.Forms.CheckBox checkBox152q3;
+        private System.Windows.Forms.CheckBox checkBox152q2;
+        private System.Windows.Forms.Label label322;
+        private System.Windows.Forms.Button button150q;
+        private System.Windows.Forms.Button button149q;
+        private System.Windows.Forms.Button button148q;
+        private System.Windows.Forms.Button button147q;
+        private System.Windows.Forms.Button button146q;
+        private System.Windows.Forms.CheckBox checkBox150q3;
+        private System.Windows.Forms.CheckBox checkBox150q2;
+        private System.Windows.Forms.CheckBox checkBox150q1;
+        private System.Windows.Forms.CheckBox checkBox149q3;
+        private System.Windows.Forms.CheckBox checkBox149q2;
+        private System.Windows.Forms.CheckBox checkBox149q1;
+        private System.Windows.Forms.CheckBox checkBox148q3;
+        private System.Windows.Forms.CheckBox checkBox148q2;
+        private System.Windows.Forms.CheckBox checkBox148q1;
+        private System.Windows.Forms.CheckBox checkBox147q3;
+        private System.Windows.Forms.CheckBox checkBox147q2;
+        private System.Windows.Forms.CheckBox checkBox147q1;
+        private System.Windows.Forms.CheckBox checkBox146q3;
+        private System.Windows.Forms.CheckBox checkBox146q2;
+        private System.Windows.Forms.Label label323;
+        private System.Windows.Forms.CheckBox checkBox146q1;
+        private System.Windows.Forms.Label label324;
+        private System.Windows.Forms.Label label325;
+        private System.Windows.Forms.Label label326;
+        private System.Windows.Forms.Label label327;
+        private System.Windows.Forms.Label label328;
+        private System.Windows.Forms.Button button145q;
+        private System.Windows.Forms.Button button144q;
+        private System.Windows.Forms.Button button143q;
+        private System.Windows.Forms.Button button142q;
+        private System.Windows.Forms.Button button141q;
+        private System.Windows.Forms.CheckBox checkBox145q3;
+        private System.Windows.Forms.Label label333;
+        private System.Windows.Forms.CheckBox checkBox145q2;
+        private System.Windows.Forms.Label label332;
+        private System.Windows.Forms.CheckBox checkBox145q1;
+        private System.Windows.Forms.Label label331;
+        private System.Windows.Forms.CheckBox checkBox144q3;
+        private System.Windows.Forms.Label label330;
+        private System.Windows.Forms.CheckBox checkBox144q2;
+        private System.Windows.Forms.CheckBox checkBox141q1;
+        private System.Windows.Forms.CheckBox checkBox144q1;
+        private System.Windows.Forms.Label label329;
+        private System.Windows.Forms.CheckBox checkBox143q3;
+        private System.Windows.Forms.CheckBox checkBox141q2;
+        private System.Windows.Forms.CheckBox checkBox143q2;
+        private System.Windows.Forms.CheckBox checkBox141q3;
+        private System.Windows.Forms.CheckBox checkBox143q1;
+        private System.Windows.Forms.CheckBox checkBox142q1;
+        private System.Windows.Forms.CheckBox checkBox142q3;
+        private System.Windows.Forms.CheckBox checkBox142q2;
     }
 }
 

@@ -441,6 +441,30 @@ namespace CQMacroCreator
                 checkBox306, checkBox305, checkBox304,
                 checkBox303, checkBox302, checkBox301,
 
+                checkBox141q1, checkBox141q2, checkBox141q3,
+                checkBox142q1, checkBox142q2, checkBox142q3,
+                checkBox143q1, checkBox143q2, checkBox143q3,
+                checkBox144q1, checkBox144q2, checkBox144q3,
+                checkBox145q1, checkBox145q2, checkBox145q3,
+
+                checkBox146q1, checkBox146q2, checkBox146q3,
+                checkBox147q1, checkBox147q2, checkBox147q3,
+                checkBox148q1, checkBox148q2, checkBox148q3,
+                checkBox149q1, checkBox149q2, checkBox149q3,
+                checkBox150q1, checkBox150q2, checkBox150q3,
+
+                checkBox151q1, checkBox151q2, checkBox151q3,
+                checkBox152q1, checkBox152q2, checkBox152q3,
+                checkBox153q1, checkBox153q2, checkBox153q3,
+                checkBox154q1, checkBox154q2, checkBox154q3,
+                checkBox155q1, checkBox155q2, checkBox155q3,
+
+                checkBox156q1, checkBox156q2, checkBox156q3,
+                checkBox157q1, checkBox157q2, checkBox157q3,
+                checkBox158q1, checkBox158q2, checkBox158q3,
+                checkBox159q1, checkBox159q2, checkBox159q3,
+                checkBox160q1, checkBox160q2, checkBox160q3,
+
             };
             questButtons = new List<Button>() {
                 button11, button12, button13, button14, button15,
@@ -471,6 +495,10 @@ namespace CQMacroCreator
                 button124, button123, button122, button121, button120,
                 button119, button118, button117, button116, button115,
                 button114, button113, button112, button111, button93,
+                button141q, button142q, button143q, button144q, button145q,
+                button146q, button147q, button148q, button149q, button150q,
+                button151q, button152q, button153q, button154q, button155q,
+                button156q, button157q, button158q, button159q, button160q,
             };
 
             init();
@@ -1537,7 +1565,7 @@ namespace CQMacroCreator
                     }
                     if (quests)
                     {
-                        int questMax = Math.Min(PFStuff.questList.Count(), 140);
+                        int questMax = Math.Min(PFStuff.questList.Count(), 160);
                         for (int i = 0; i < questMax; i++)
                         {
                             setQuestBoxesFromServer(i, PFStuff.questList[i]);
