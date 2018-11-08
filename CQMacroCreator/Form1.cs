@@ -102,9 +102,10 @@ namespace CQMacroCreator
                                 "moak", "hosokawa", "takeda", "hirate", "hattori", "adagda", "bylar", "boor", "bavah", "leprechaun", "sparks", "leaf", "flynn", "abavah",
                                 "drhawking", "masterlee", "kumusan", "liucheng", "hidoka", "kryton", "dicemaster", "luxuriusmaximus", "pokerface", "taint", "putrid", "defile", "neil",
                                 "mahatma", "jade", "edana", "dybbuk", "ashygu", "athert", "alordkirk", "aneptunius","ahosokawa","atakeda","ahirate","ahattori","doyenne","billy","sanqueen","cliodhna",
+                                "guy","adefile",
                                 };
 
-        static string[] servernames = {"cliodhna","sanqueen","billy","doyenne","ahattori","ahirate","atakeda","ahosokawa","aneptunius", "alordkirk", "athert", "ashygu", "dybbuk", "edana", "jade", "mahatma",
+        static string[] servernames = {"adefile","guy","cliodhna","sanqueen","billy","doyenne","ahattori","ahirate","atakeda","ahosokawa","aneptunius", "alordkirk", "athert", "ashygu", "dybbuk", "edana", "jade", "mahatma",
                                "neil", "defile", "putrid", "taint", "pokerface", "luxuriusmaximus", "dicemaster", "kryton", "hidoka", "liucheng", "kumusan", "masterlee", "drhawking",
                                "abavah" ,"flynn", "leaf", "sparks", "leprechaun", "bavah", "boor", "bylar", "adagda", "hattori", "hirate", "takeda", "hosokawa", "moak", "arigr", "dorth",
                                "rua", "arshen", "aatzar", "apontus",  "bubbles",  "dagda",  "ganah", "toth",  "sexysanta", "santaclaus", "reindeer", "christmaself", "lordofchaos", "ageror",
@@ -182,7 +183,8 @@ namespace CQMacroCreator
                                                AShyguCount, AThertCount, AKirkCount, ANepCount,
                                                AHosokawaCount, ATakedaCount, AHirateCount, AHattoriCount,
                                                null,
-                                               BillyCount, SanqueenCount, CliodhnaCount
+                                               BillyCount, SanqueenCount, CliodhnaCount,
+                                               GuyCount,ADefileCount
             };
 
             heroCountsServerOrder = new List<NumericUpDown>() {
@@ -226,7 +228,8 @@ namespace CQMacroCreator
                                                AShyguCount, AThertCount, AKirkCount, ANepCount,
                                                AHosokawaCount, ATakedaCount, AHirateCount, AHattoriCount,
                                                null,
-                                               BillyCount, SanqueenCount, CliodhnaCount
+                                               BillyCount, SanqueenCount, CliodhnaCount,
+                                               GuyCount,ADefileCount
 
             };
             heroBoxes = new List<CheckBox>() { JamesBox,
@@ -268,7 +271,8 @@ namespace CQMacroCreator
                                                AShyguBox, AThertBox, AKirkBox, ANepBox,
                                                AHosokawaBox, ATakedaBox, AHirateBox, AHattoriBox,
                                                null,
-                                               BillyBox, SanqueenBox, CliodhnaBox
+                                               BillyBox, SanqueenBox, CliodhnaBox,
+                                               GuyBox,ADefileBox
 
             };
 
@@ -742,11 +746,12 @@ namespace CQMacroCreator
             new Hero(25,26,1,0,0), new Hero(28,60,2,0,0), new Hero(70,70,6,0,0),
             new Hero(25,25,1,0,0), new Hero(48,50,2,0,0), new Hero(52,48,6,0,0),
             new Hero(150,15,6,0,0),
-            new Hero(78,26,6,0,0), new Hero(76,30,6,0,0), new Hero(72,36,6,0,0), new Hero(88,22,6,0,0),
-            new Hero(85,135,12,0,0), new Hero(180,70,12,0,0), new Hero(80,160,12,0,0), new Hero(75,175,12,0,0),
-            new Hero(106,124,12,0,0), new Hero(82,164,12,0,0), new Hero(96,144,12,0,0), new Hero(114,126,12,0,0),
+            new Hero(78,26,6,0,0), new Hero(76,30,6,0,0), new Hero(72,36,6,0,0), new Hero(88,22,6,0,0), //Djinn
+            new Hero(85,135,12,0,0), new Hero(180,70,12,0,0), new Hero(80,160,12,0,0), new Hero(75,175,12,0,0), //aQuest
+            new Hero(106,124,12,0,0), new Hero(82,164,12,0,0), new Hero(96,144,12,0,0), new Hero(114,126,12,0,0), //aSamurai
             null,
-            new Hero(30,40,1,0,0), new Hero(88,22,2,0,0), new Hero(150,60,6,0,0),
+            new Hero(30,40,1,0,0), new Hero(88,22,2,0,0), new Hero(150,60,6,0,0), //2nd Halloween
+            new Hero(340,64,12,0,0), new Hero(126,114,12,0,0), //Guy, aDefile
         });
 
         private void button1_Click(object sender, EventArgs e)

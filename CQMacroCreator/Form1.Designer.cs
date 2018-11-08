@@ -1323,6 +1323,12 @@
             this.timeLimit = new System.Windows.Forms.NumericUpDown();
             this.label314 = new System.Windows.Forms.Label();
             this.clearLineupButton = new System.Windows.Forms.Button();
+            this.ADefileBox = new System.Windows.Forms.CheckBox();
+            this.label346 = new System.Windows.Forms.Label();
+            this.ADefileCount = new System.Windows.Forms.NumericUpDown();
+            this.GuyBox = new System.Windows.Forms.CheckBox();
+            this.label347 = new System.Windows.Forms.Label();
+            this.GuyCount = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.JamesCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HunterCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.JetCount)).BeginInit();
@@ -1463,6 +1469,8 @@
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.timeLimit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ADefileCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GuyCount)).BeginInit();
             this.SuspendLayout();
             // 
             // JamesCount
@@ -3238,7 +3246,7 @@
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(34, 13);
             this.label57.TabIndex = 159;
-            this.label57.Text = "v3.1d";
+            this.label57.Text = "v3.2a";
             // 
             // GurthBox
             // 
@@ -3934,6 +3942,12 @@
             // Heroes
             // 
             this.Heroes.AutoScroll = true;
+            this.Heroes.Controls.Add(this.GuyBox);
+            this.Heroes.Controls.Add(this.label347);
+            this.Heroes.Controls.Add(this.GuyCount);
+            this.Heroes.Controls.Add(this.ADefileBox);
+            this.Heroes.Controls.Add(this.label346);
+            this.Heroes.Controls.Add(this.ADefileCount);
             this.Heroes.Controls.Add(this.CliodhnaBox);
             this.Heroes.Controls.Add(this.label317);
             this.Heroes.Controls.Add(this.CliodhnaCount);
@@ -5054,7 +5068,7 @@
             // LeeBox
             // 
             this.LeeBox.AutoSize = true;
-            this.LeeBox.Location = new System.Drawing.Point(121, 964);
+            this.LeeBox.Location = new System.Drawing.Point(281, 964);
             this.LeeBox.Name = "LeeBox";
             this.LeeBox.Size = new System.Drawing.Size(33, 17);
             this.LeeBox.TabIndex = 339;
@@ -5066,7 +5080,7 @@
             // label246
             // 
             this.label246.AutoSize = true;
-            this.label246.Location = new System.Drawing.Point(2, 966);
+            this.label246.Location = new System.Drawing.Point(162, 966);
             this.label246.Name = "label246";
             this.label246.Size = new System.Drawing.Size(60, 13);
             this.label246.TabIndex = 338;
@@ -5074,7 +5088,7 @@
             // 
             // LeeCount
             // 
-            this.LeeCount.Location = new System.Drawing.Point(65, 962);
+            this.LeeCount.Location = new System.Drawing.Point(225, 962);
             this.LeeCount.Maximum = new decimal(new int[] {
             99,
             0,
@@ -16491,6 +16505,72 @@
             this.clearLineupButton.UseVisualStyleBackColor = true;
             this.clearLineupButton.Click += new System.EventHandler(this.clearLineupButton_click);
             // 
+            // ADefileBox
+            // 
+            this.ADefileBox.AutoSize = true;
+            this.ADefileBox.Location = new System.Drawing.Point(121, 964);
+            this.ADefileBox.Name = "ADefileBox";
+            this.ADefileBox.Size = new System.Drawing.Size(33, 17);
+            this.ADefileBox.TabIndex = 409;
+            this.ADefileBox.TabStop = false;
+            this.ADefileBox.Text = "E";
+            this.ADefileBox.UseVisualStyleBackColor = true;
+            this.ADefileBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label346
+            // 
+            this.label346.AutoSize = true;
+            this.label346.Location = new System.Drawing.Point(4, 966);
+            this.label346.Name = "label346";
+            this.label346.Size = new System.Drawing.Size(58, 13);
+            this.label346.TabIndex = 408;
+            this.label346.Text = "Asc. Defile";
+            // 
+            // ADefileCount
+            // 
+            this.ADefileCount.Location = new System.Drawing.Point(65, 962);
+            this.ADefileCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.ADefileCount.Name = "ADefileCount";
+            this.ADefileCount.Size = new System.Drawing.Size(50, 20);
+            this.ADefileCount.TabIndex = 407;
+            // 
+            // GuyBox
+            // 
+            this.GuyBox.AutoSize = true;
+            this.GuyBox.Location = new System.Drawing.Point(441, 964);
+            this.GuyBox.Name = "GuyBox";
+            this.GuyBox.Size = new System.Drawing.Size(33, 17);
+            this.GuyBox.TabIndex = 412;
+            this.GuyBox.TabStop = false;
+            this.GuyBox.Text = "E";
+            this.GuyBox.UseVisualStyleBackColor = true;
+            this.GuyBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label347
+            // 
+            this.label347.AutoSize = true;
+            this.label347.Location = new System.Drawing.Point(356, 966);
+            this.label347.Name = "label347";
+            this.label347.Size = new System.Drawing.Size(26, 13);
+            this.label347.TabIndex = 411;
+            this.label347.Text = "Guy";
+            // 
+            // GuyCount
+            // 
+            this.GuyCount.Location = new System.Drawing.Point(385, 962);
+            this.GuyCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.GuyCount.Name = "GuyCount";
+            this.GuyCount.Size = new System.Drawing.Size(50, 20);
+            this.GuyCount.TabIndex = 410;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -16680,6 +16760,8 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.timeLimit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ADefileCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GuyCount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -17981,6 +18063,12 @@
         private System.Windows.Forms.CheckBox checkBox142q1;
         private System.Windows.Forms.CheckBox checkBox142q3;
         private System.Windows.Forms.CheckBox checkBox142q2;
+        private System.Windows.Forms.CheckBox GuyBox;
+        private System.Windows.Forms.Label label347;
+        private System.Windows.Forms.NumericUpDown GuyCount;
+        private System.Windows.Forms.CheckBox ADefileBox;
+        private System.Windows.Forms.Label label346;
+        private System.Windows.Forms.NumericUpDown ADefileCount;
     }
 }
 
