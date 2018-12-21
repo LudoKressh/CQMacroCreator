@@ -11,6 +11,8 @@ Original repo: https://github.com/Diceycle/C-Hero-Calc
 Just place CQMacroCreator.exe in the same folder as CosmosQuest.exe and run it.
 ![screenshot](https://i.imgur.com/MuTsyGA.png)
 # What's new
+v4.0b - Added Promotions
+
 v.3.0.1c - Added Kryton("aboss" works too), added option to get Dungeon lineup from server and solve them. 
 
 v.3.0.1 - Season 6 heroes added.
