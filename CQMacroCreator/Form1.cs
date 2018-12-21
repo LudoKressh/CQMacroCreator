@@ -27,6 +27,7 @@ namespace CQMacroCreator
         static DateTime previousDQTime;
         static string calcOut;
         List<NumericUpDown> heroCounts;
+        List<NumericUpDown> heroPromos;
         List<NumericUpDown> heroCountsServerOrder;
         List<CheckBox> questBoxes;
         List<Button> questButtons;
@@ -190,6 +191,8 @@ namespace CQMacroCreator
 
             };
 
+
+
             heroCountsServerOrder = new List<NumericUpDown>() {
                                                LadyCount, TinyCount, NebraCount,
                                                ValorCount, RokkaCount, PyroCount, BewatCount,
@@ -237,6 +240,53 @@ namespace CQMacroCreator
                                                FrostyCount, FirCount, ElfmechCount, KedariCount
 
             };
+
+            heroPromos = new List<NumericUpDown>() {jamesPromo,
+                                               hunterPromo, shamanPromo, alphaPromo,
+                                               carlPromo, nimuePromo, athosPromo,
+                                               jetPromo, geronPromo, reiPromo,
+                                               ailenPromo, faefyrPromo, auriPromo,
+                                               kairyPromo, taurusPromo, tronixPromo,
+                                               aquortisPromo, aerisPromo, geumPromo,
+                                               rudeanPromo, auralPromo, gerorPromo,
+                                               oureaPromo, erebusPromo, pontusPromo,
+                                               oymosPromo, xarthPromo, atzarPromo,
+                                               ladyPromo, tinyPromo, nebraPromo,
+                                               veildurPromo, brynPromo, grothPromo,
+                                               zethPromo, kothPromo, gurthPromo,
+                                               spykePromo, aoyukiPromo, gaiaPromo,
+                                               valorPromo, rokkaPromo, pyroPromo, bewatPromo,
+                                               nictePromo, druidPromo, ignitorPromo, undinePromo,
+                                               chromaPromo, petryPromo, zaytusPromo,
+                                               werewolfPromo, jackPromo, dullahanPromo,
+                                               odelithPromo, shyguPromo, thertPromo, kirkPromo, neptuniusPromo,
+                                               sigrunPromo, koldisPromo, alvitrPromo,
+                                               hamaPromo, hallinskidiPromo, rigrPromo,
+                                               aalphaPromo, aathosPromo, areiPromo, aauriPromo, atronixPromo, ageumPromo, agerorPromo,
+                                               null,
+                                               elfPromo, deerPromo, santaPromo, maryPromo,
+                                               tothPromo, ganahPromo, dagdaPromo, bubblesPromo, apontusPromo, aatzarPromo,
+                                               arshenPromo, ruaPromo, dorthPromo,
+                                               arigrPromo, null,
+                                               hosokawaPromo, takedaPromo, hiratePromo, hattoriPromo,
+                                               adagdaPromo, bylarPromo, boorPromo, bavahPromo, leprPromo,
+                                               sparksPromo, leafPromo, flynnPromo,
+                                               abavahPromo, hawkingPromo, leePromo, kumuPromo, chengPromo, hidokaPromo,
+                                               null,
+                                               dicemasterPromo, luxPromo, pokerPromo,
+                                               taintPromo, putridPromo, defilePromo,
+                                               neilPromo,
+                                               mahatmaPromo, jadePromo, edanaPromo, dybbukPromo,
+                                               ashyguPromo, athertPromo, akirkPromo, anepPromo,
+                                               ahosokawaPromo, atakedaPromo, ahiratePromo, ahattoriPromo,
+                                               null,
+                                               billyPromo, sanqueenPromo, cliodhnaPromo,
+                                               guyPromo,adefilePromo,
+                                               rosePromo, beatricePromo, charlesPromo, magnusPromo,
+                                               frostyPromo, firPromo, elfmechPromo, kedariPromo
+
+            };
+
             heroBoxes = new List<CheckBox>() { JamesBox,
                                                HunterBox, ShamanBox, AlphaBox,
                                                CarlBox, NimueBox, AthosBox,
@@ -1063,7 +1113,7 @@ namespace CQMacroCreator
                 {
                     if (heroBoxes[i].Checked && heroCounts[i].Value > 0)
                     {
-                        l.Add(names[i] + ":" + heroCounts[i].Value);
+                        l.Add(names[i] + ":" + heroCounts[i].Value + "." + heroPromos[i].Value);
                     }
                 }
 
