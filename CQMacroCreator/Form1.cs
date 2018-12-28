@@ -104,10 +104,10 @@ namespace CQMacroCreator
                                 "moak", "hosokawa", "takeda", "hirate", "hattori", "adagda", "bylar", "boor", "bavah", "leprechaun", "sparks", "leaf", "flynn", "abavah",
                                 "drhawking", "masterlee", "kumusan", "liucheng", "hidoka", "kryton", "dicemaster", "luxuriusmaximus", "pokerface", "taint", "putrid", "defile", "neil",
                                 "mahatma", "jade", "edana", "dybbuk", "ashygu", "athert", "alordkirk", "aneptunius","ahosokawa","atakeda","ahirate","ahattori","doyenne","billy","sanqueen","cliodhna",
-                                "guy","adefile","raiderrose","buccanerbeatrice","corsaircharles","maraudermagnus","frosty","fir","5-12-6","kedari"
+                                "guy","adefile","raiderrose","buccanerbeatrice","corsaircharles","maraudermagnus","frosty","fir","5-12-6","kedari","raze","ruin","seethe","aseethe"
                                 };
 
-        static string[] servernames = {"kedari","5-12-6","fir","frosty","maraudermagnus","corsaircharles","buccanerbeatrice","raiderrose","adefile","guy","cliodhna","sanqueen","billy","doyenne","ahattori","ahirate","atakeda","ahosokawa","aneptunius", "alordkirk", "athert", "ashygu", "dybbuk", "edana", "jade", "mahatma",
+        static string[] servernames = {"aseethe","seethe","ruin","raze","kedari","5-12-6","fir","frosty","maraudermagnus","corsaircharles","buccanerbeatrice","raiderrose","adefile","guy","cliodhna","sanqueen","billy","doyenne","ahattori","ahirate","atakeda","ahosokawa","aneptunius", "alordkirk", "athert", "ashygu", "dybbuk", "edana", "jade", "mahatma",
                                "neil", "defile", "putrid", "taint", "pokerface", "luxuriusmaximus", "dicemaster", "kryton", "hidoka", "liucheng", "kumusan", "masterlee", "drhawking",
                                "abavah" ,"flynn", "leaf", "sparks", "leprechaun", "bavah", "boor", "bylar", "adagda", "hattori", "hirate", "takeda", "hosokawa", "moak", "arigr", "dorth",
                                "rua", "arshen", "aatzar", "apontus",  "bubbles",  "dagda",  "ganah", "toth",  "sexysanta", "santaclaus", "reindeer", "christmaself", "lordofchaos", "ageror",
@@ -188,7 +188,8 @@ namespace CQMacroCreator
                                                BillyCount, SanqueenCount, CliodhnaCount,
                                                GuyCount,ADefileCount,
                                                RoseCount, BeatriceCount, CharlesCount, MagnusCount,
-                                               FrostyCount, FirCount, ElfmechCount, KedariCount
+                                               FrostyCount, FirCount, ElfmechCount, KedariCount,
+                                               RazeCount, RuinCount, SeetheCount, ASeetheCount
 
             };
 
@@ -238,7 +239,8 @@ namespace CQMacroCreator
                                                BillyCount, SanqueenCount, CliodhnaCount,
                                                GuyCount,ADefileCount,
                                                RoseCount, BeatriceCount, CharlesCount, MagnusCount,
-                                               FrostyCount, FirCount, ElfmechCount, KedariCount
+                                               FrostyCount, FirCount, ElfmechCount, KedariCount,
+                                               RazeCount, RuinCount, SeetheCount, ASeetheCount
 
             };
 
@@ -284,7 +286,8 @@ namespace CQMacroCreator
                                                billyPromo, sanqueenPromo, cliodhnaPromo,
                                                guyPromo,adefilePromo,
                                                rosePromo, beatricePromo, charlesPromo, magnusPromo,
-                                               frostyPromo, firPromo, elfmechPromo, kedariPromo
+                                               frostyPromo, firPromo, elfmechPromo, kedariPromo,
+                                               razePromo, ruinPromo, seethePromo, aseethePromo
 
             };
 
@@ -332,7 +335,8 @@ namespace CQMacroCreator
                                                billyPromo, sanqueenPromo, cliodhnaPromo,
                                                guyPromo,adefilePromo,
                                                rosePromo, beatricePromo, charlesPromo, magnusPromo,
-                                               frostyPromo, firPromo, elfmechPromo, kedariPromo
+                                               frostyPromo, firPromo, elfmechPromo, kedariPromo,
+                                               razePromo, ruinPromo, seethePromo, aseethePromo
 
             };
 
@@ -378,7 +382,8 @@ namespace CQMacroCreator
                                                BillyBox, SanqueenBox, CliodhnaBox,
                                                GuyBox,ADefileBox,
                                                RoseBox, BeatriceBox, CharlesBox, MagnusBox,
-                                               FrostyBox, FirBox, ElfmechBox, KedariBox
+                                               FrostyBox, FirBox, ElfmechBox, KedariBox,
+                                               RazeBox, RuinBox, SeetheBox, ASeetheBox
 
             };
 
@@ -860,6 +865,7 @@ namespace CQMacroCreator
             new Hero(340,64,12,0,0), new Hero(126,114,12,0,0), //Guy, aDefile
             new Hero(186,62,12,0,0), new Hero(96,30,6,0,0), new Hero(100,32,6,0,0), new Hero(105,34,6,0,0),//S6 Pirates
             new Hero(46,52,2,0,0), new Hero(50,18,1,0,0), new Hero(78,34,2,0,0), new Hero(170,18,6,0,0),//2nd Christmas
+            new Hero(18,26,1,0,0), new Hero(44,48,2,0,0), new Hero(48,54,6,0,0), new Hero(117,131,12,0,0),//Destructor chest heroes
         });
 
         private void button1_Click(object sender, EventArgs e)
@@ -1334,7 +1340,7 @@ namespace CQMacroCreator
             int maxedCommons = 0;
             int maxedRares = 0;
             int maxedLegs = 0;
-            int[] chestRaresID = new int[] { 2, 5, 8, 11, 14, 17, 20, 23, 26, 63, 78, 94, 111 };
+            int[] chestRaresID = new int[] { 2, 5, 8, 11, 14, 17, 20, 23, 26, 63, 78, 94, 111, 141 };
             foreach (int i in chestRaresID)
             {
                 PGrare += (99 - Math.Max(1, (int)heroCounts[i].Value)) * 3;
