@@ -879,6 +879,10 @@ namespace CQMacroCreator
                 {
                     setBoxes(s);
                 }
+                if ((s = sr.ReadLine()) != null)
+                {
+                    ReadPromos(s);
+                }
                 sr.Close();
             }
         }
@@ -893,6 +897,23 @@ namespace CQMacroCreator
                 {
                     if (heroCounts[i] != null)
                         heroCounts[i].Value = levels[i];
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Wrong input file", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void ReadPromos(string s)
+        {
+            try
+            {
+                int[] promos = s.Split(',').Select(n => Convert.ToInt32(n)).ToArray();
+                for (int i = 0; i < promos.Length; i++)
+                {
+                    if (heroPromos[i] != null)
+                        heroPromos[i].Value = promos[i];
                 }
             }
             catch (Exception e)
@@ -931,6 +952,7 @@ namespace CQMacroCreator
                 }
                 string s = string.Join(",", levels.ToArray());
                 sw.WriteLine(s);
+
                 List<int> bools = new List<int>();
                 foreach (CheckBox cb in heroBoxes)
                 {
@@ -940,6 +962,21 @@ namespace CQMacroCreator
                         bools.Add(0);
                 }
                 s = string.Join(",", bools.ToArray());
+                sw.WriteLine(s);
+
+                List<int> promos = new List<int>();
+                foreach (NumericUpDown n in heroPromos)
+                {
+                    if (n != null)
+                    {
+                        promos.Add((int)n.Value);
+                    }
+                    else
+                    {
+                        promos.Add(0);
+                    }
+                }
+                s = string.Join(",", promos.ToArray());
                 sw.Write(s);
 
                 sw.Close();

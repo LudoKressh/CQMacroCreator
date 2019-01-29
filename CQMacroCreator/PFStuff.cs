@@ -160,13 +160,16 @@ namespace CQMacroCreator
                         string el = json["data"]["city"]["daily"]["setup"].ToString();
                         string elvl = json["data"]["city"]["daily"]["hero"].ToString();
                         string levels = json["data"]["city"]["hero"].ToString();
+                        string promos = json["data"]["city"]["promo"].ToString();
                         DQlvl = json["data"]["city"]["daily"]["lvl"].ToString();
                         int[] heroLevels = getArray(levels);
                         int[] enemyLineup = getArray(el);
                         int[] enemyLevels = getArray(elvl);
+                        int[] heroPromos = getArray(promos);
                         getResult.Add(heroLevels);
                         getResult.Add(enemyLineup);
                         getResult.Add(enemyLevels);
+                        getResult.Add(heroPromos);
 
                         DQResult = true;
                         return;

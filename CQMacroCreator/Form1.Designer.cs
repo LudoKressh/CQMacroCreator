@@ -254,6 +254,22 @@
             this.CSHC = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Heroes = new System.Windows.Forms.TabPage();
+            this.aseethePromo = new System.Windows.Forms.NumericUpDown();
+            this.ASeetheBox = new System.Windows.Forms.CheckBox();
+            this.label360 = new System.Windows.Forms.Label();
+            this.ASeetheCount = new System.Windows.Forms.NumericUpDown();
+            this.seethePromo = new System.Windows.Forms.NumericUpDown();
+            this.ruinPromo = new System.Windows.Forms.NumericUpDown();
+            this.razePromo = new System.Windows.Forms.NumericUpDown();
+            this.SeetheBox = new System.Windows.Forms.CheckBox();
+            this.label357 = new System.Windows.Forms.Label();
+            this.SeetheCount = new System.Windows.Forms.NumericUpDown();
+            this.RuinBox = new System.Windows.Forms.CheckBox();
+            this.label358 = new System.Windows.Forms.Label();
+            this.RuinCount = new System.Windows.Forms.NumericUpDown();
+            this.RazeBox = new System.Windows.Forms.CheckBox();
+            this.label359 = new System.Windows.Forms.Label();
+            this.RazeCount = new System.Windows.Forms.NumericUpDown();
             this.guyPromo = new System.Windows.Forms.NumericUpDown();
             this.abavahPromo = new System.Windows.Forms.NumericUpDown();
             this.aatzarPromo = new System.Windows.Forms.NumericUpDown();
@@ -1490,22 +1506,6 @@
             this.label314 = new System.Windows.Forms.Label();
             this.clearLineupButton = new System.Windows.Forms.Button();
             this.label356 = new System.Windows.Forms.Label();
-            this.seethePromo = new System.Windows.Forms.NumericUpDown();
-            this.ruinPromo = new System.Windows.Forms.NumericUpDown();
-            this.razePromo = new System.Windows.Forms.NumericUpDown();
-            this.SeetheBox = new System.Windows.Forms.CheckBox();
-            this.label357 = new System.Windows.Forms.Label();
-            this.SeetheCount = new System.Windows.Forms.NumericUpDown();
-            this.RuinBox = new System.Windows.Forms.CheckBox();
-            this.label358 = new System.Windows.Forms.Label();
-            this.RuinCount = new System.Windows.Forms.NumericUpDown();
-            this.RazeBox = new System.Windows.Forms.CheckBox();
-            this.label359 = new System.Windows.Forms.Label();
-            this.RazeCount = new System.Windows.Forms.NumericUpDown();
-            this.aseethePromo = new System.Windows.Forms.NumericUpDown();
-            this.ASeetheBox = new System.Windows.Forms.CheckBox();
-            this.label360 = new System.Windows.Forms.Label();
-            this.ASeetheCount = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.JamesCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HunterCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.JetCount)).BeginInit();
@@ -1575,6 +1575,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.HamaCount)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.Heroes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.aseethePromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ASeetheCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.seethePromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ruinPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.razePromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SeetheCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RuinCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RazeCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guyPromo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.abavahPromo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.aatzarPromo)).BeginInit();
@@ -1792,14 +1800,6 @@
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.timeLimit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.seethePromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ruinPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.razePromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SeetheCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.RuinCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.RazeCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.aseethePromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ASeetheCount)).BeginInit();
             this.SuspendLayout();
             // 
             // JamesCount
@@ -3576,7 +3576,7 @@
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(34, 13);
             this.label57.TabIndex = 159;
-            this.label57.Text = "v4.1a";
+            this.label57.Text = "v4.1b";
             // 
             // GurthBox
             // 
@@ -4847,6 +4847,186 @@
             this.Heroes.TabIndex = 0;
             this.Heroes.Text = "Heroes";
             this.Heroes.UseVisualStyleBackColor = true;
+            // 
+            // aseethePromo
+            // 
+            this.aseethePromo.Location = new System.Drawing.Point(277, 1072);
+            this.aseethePromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.aseethePromo.Name = "aseethePromo";
+            this.aseethePromo.Size = new System.Drawing.Size(26, 20);
+            this.aseethePromo.TabIndex = 589;
+            // 
+            // ASeetheBox
+            // 
+            this.ASeetheBox.AutoSize = true;
+            this.ASeetheBox.Location = new System.Drawing.Point(307, 1074);
+            this.ASeetheBox.Name = "ASeetheBox";
+            this.ASeetheBox.Size = new System.Drawing.Size(33, 17);
+            this.ASeetheBox.TabIndex = 588;
+            this.ASeetheBox.TabStop = false;
+            this.ASeetheBox.Text = "E";
+            this.ASeetheBox.UseVisualStyleBackColor = true;
+            this.ASeetheBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label360
+            // 
+            this.label360.AutoSize = true;
+            this.label360.Location = new System.Drawing.Point(174, 1076);
+            this.label360.Name = "label360";
+            this.label360.Size = new System.Drawing.Size(65, 13);
+            this.label360.TabIndex = 587;
+            this.label360.Text = "Asc. Seethe";
+            // 
+            // ASeetheCount
+            // 
+            this.ASeetheCount.Location = new System.Drawing.Point(242, 1072);
+            this.ASeetheCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.ASeetheCount.Name = "ASeetheCount";
+            this.ASeetheCount.Size = new System.Drawing.Size(33, 20);
+            this.ASeetheCount.TabIndex = 586;
+            // 
+            // seethePromo
+            // 
+            this.seethePromo.Location = new System.Drawing.Point(454, 295);
+            this.seethePromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.seethePromo.Name = "seethePromo";
+            this.seethePromo.Size = new System.Drawing.Size(26, 20);
+            this.seethePromo.TabIndex = 585;
+            // 
+            // ruinPromo
+            // 
+            this.ruinPromo.Location = new System.Drawing.Point(277, 296);
+            this.ruinPromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.ruinPromo.Name = "ruinPromo";
+            this.ruinPromo.Size = new System.Drawing.Size(26, 20);
+            this.ruinPromo.TabIndex = 584;
+            // 
+            // razePromo
+            // 
+            this.razePromo.Location = new System.Drawing.Point(100, 296);
+            this.razePromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.razePromo.Name = "razePromo";
+            this.razePromo.Size = new System.Drawing.Size(26, 20);
+            this.razePromo.TabIndex = 583;
+            // 
+            // SeetheBox
+            // 
+            this.SeetheBox.AutoSize = true;
+            this.SeetheBox.Location = new System.Drawing.Point(484, 297);
+            this.SeetheBox.Name = "SeetheBox";
+            this.SeetheBox.Size = new System.Drawing.Size(33, 17);
+            this.SeetheBox.TabIndex = 582;
+            this.SeetheBox.TabStop = false;
+            this.SeetheBox.Text = "E";
+            this.SeetheBox.UseVisualStyleBackColor = true;
+            this.SeetheBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label357
+            // 
+            this.label357.AutoSize = true;
+            this.label357.Location = new System.Drawing.Point(377, 299);
+            this.label357.Name = "label357";
+            this.label357.Size = new System.Drawing.Size(41, 13);
+            this.label357.TabIndex = 581;
+            this.label357.Text = "Seethe";
+            // 
+            // SeetheCount
+            // 
+            this.SeetheCount.Location = new System.Drawing.Point(419, 295);
+            this.SeetheCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.SeetheCount.Name = "SeetheCount";
+            this.SeetheCount.Size = new System.Drawing.Size(33, 20);
+            this.SeetheCount.TabIndex = 576;
+            // 
+            // RuinBox
+            // 
+            this.RuinBox.AutoSize = true;
+            this.RuinBox.Location = new System.Drawing.Point(307, 299);
+            this.RuinBox.Name = "RuinBox";
+            this.RuinBox.Size = new System.Drawing.Size(33, 17);
+            this.RuinBox.TabIndex = 580;
+            this.RuinBox.TabStop = false;
+            this.RuinBox.Text = "E";
+            this.RuinBox.UseVisualStyleBackColor = true;
+            this.RuinBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label358
+            // 
+            this.label358.AutoSize = true;
+            this.label358.Location = new System.Drawing.Point(211, 300);
+            this.label358.Name = "label358";
+            this.label358.Size = new System.Drawing.Size(29, 13);
+            this.label358.TabIndex = 579;
+            this.label358.Text = "Ruin";
+            // 
+            // RuinCount
+            // 
+            this.RuinCount.Location = new System.Drawing.Point(242, 296);
+            this.RuinCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.RuinCount.Name = "RuinCount";
+            this.RuinCount.Size = new System.Drawing.Size(33, 20);
+            this.RuinCount.TabIndex = 575;
+            // 
+            // RazeBox
+            // 
+            this.RazeBox.AutoSize = true;
+            this.RazeBox.Location = new System.Drawing.Point(130, 298);
+            this.RazeBox.Name = "RazeBox";
+            this.RazeBox.Size = new System.Drawing.Size(33, 17);
+            this.RazeBox.TabIndex = 578;
+            this.RazeBox.TabStop = false;
+            this.RazeBox.Text = "E";
+            this.RazeBox.UseVisualStyleBackColor = true;
+            this.RazeBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label359
+            // 
+            this.label359.AutoSize = true;
+            this.label359.Location = new System.Drawing.Point(30, 301);
+            this.label359.Name = "label359";
+            this.label359.Size = new System.Drawing.Size(32, 13);
+            this.label359.TabIndex = 577;
+            this.label359.Text = "Raze";
+            // 
+            // RazeCount
+            // 
+            this.RazeCount.Location = new System.Drawing.Point(65, 296);
+            this.RazeCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.RazeCount.Name = "RazeCount";
+            this.RazeCount.Size = new System.Drawing.Size(33, 20);
+            this.RazeCount.TabIndex = 574;
             // 
             // guyPromo
             // 
@@ -18985,186 +19165,6 @@
             this.label356.TabIndex = 387;
             this.label356.Text = "updates by alya and mons";
             // 
-            // seethePromo
-            // 
-            this.seethePromo.Location = new System.Drawing.Point(454, 295);
-            this.seethePromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.seethePromo.Name = "seethePromo";
-            this.seethePromo.Size = new System.Drawing.Size(26, 20);
-            this.seethePromo.TabIndex = 585;
-            // 
-            // ruinPromo
-            // 
-            this.ruinPromo.Location = new System.Drawing.Point(277, 296);
-            this.ruinPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.ruinPromo.Name = "ruinPromo";
-            this.ruinPromo.Size = new System.Drawing.Size(26, 20);
-            this.ruinPromo.TabIndex = 584;
-            // 
-            // razePromo
-            // 
-            this.razePromo.Location = new System.Drawing.Point(100, 296);
-            this.razePromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.razePromo.Name = "razePromo";
-            this.razePromo.Size = new System.Drawing.Size(26, 20);
-            this.razePromo.TabIndex = 583;
-            // 
-            // SeetheBox
-            // 
-            this.SeetheBox.AutoSize = true;
-            this.SeetheBox.Location = new System.Drawing.Point(484, 297);
-            this.SeetheBox.Name = "SeetheBox";
-            this.SeetheBox.Size = new System.Drawing.Size(33, 17);
-            this.SeetheBox.TabIndex = 582;
-            this.SeetheBox.TabStop = false;
-            this.SeetheBox.Text = "E";
-            this.SeetheBox.UseVisualStyleBackColor = true;
-            this.SeetheBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label357
-            // 
-            this.label357.AutoSize = true;
-            this.label357.Location = new System.Drawing.Point(377, 299);
-            this.label357.Name = "label357";
-            this.label357.Size = new System.Drawing.Size(41, 13);
-            this.label357.TabIndex = 581;
-            this.label357.Text = "Seethe";
-            // 
-            // SeetheCount
-            // 
-            this.SeetheCount.Location = new System.Drawing.Point(419, 295);
-            this.SeetheCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.SeetheCount.Name = "SeetheCount";
-            this.SeetheCount.Size = new System.Drawing.Size(33, 20);
-            this.SeetheCount.TabIndex = 576;
-            // 
-            // RuinBox
-            // 
-            this.RuinBox.AutoSize = true;
-            this.RuinBox.Location = new System.Drawing.Point(307, 299);
-            this.RuinBox.Name = "RuinBox";
-            this.RuinBox.Size = new System.Drawing.Size(33, 17);
-            this.RuinBox.TabIndex = 580;
-            this.RuinBox.TabStop = false;
-            this.RuinBox.Text = "E";
-            this.RuinBox.UseVisualStyleBackColor = true;
-            this.RuinBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label358
-            // 
-            this.label358.AutoSize = true;
-            this.label358.Location = new System.Drawing.Point(211, 300);
-            this.label358.Name = "label358";
-            this.label358.Size = new System.Drawing.Size(29, 13);
-            this.label358.TabIndex = 579;
-            this.label358.Text = "Ruin";
-            // 
-            // RuinCount
-            // 
-            this.RuinCount.Location = new System.Drawing.Point(242, 296);
-            this.RuinCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.RuinCount.Name = "RuinCount";
-            this.RuinCount.Size = new System.Drawing.Size(33, 20);
-            this.RuinCount.TabIndex = 575;
-            // 
-            // RazeBox
-            // 
-            this.RazeBox.AutoSize = true;
-            this.RazeBox.Location = new System.Drawing.Point(130, 298);
-            this.RazeBox.Name = "RazeBox";
-            this.RazeBox.Size = new System.Drawing.Size(33, 17);
-            this.RazeBox.TabIndex = 578;
-            this.RazeBox.TabStop = false;
-            this.RazeBox.Text = "E";
-            this.RazeBox.UseVisualStyleBackColor = true;
-            this.RazeBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label359
-            // 
-            this.label359.AutoSize = true;
-            this.label359.Location = new System.Drawing.Point(30, 301);
-            this.label359.Name = "label359";
-            this.label359.Size = new System.Drawing.Size(32, 13);
-            this.label359.TabIndex = 577;
-            this.label359.Text = "Raze";
-            // 
-            // RazeCount
-            // 
-            this.RazeCount.Location = new System.Drawing.Point(65, 296);
-            this.RazeCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.RazeCount.Name = "RazeCount";
-            this.RazeCount.Size = new System.Drawing.Size(33, 20);
-            this.RazeCount.TabIndex = 574;
-            // 
-            // aseethePromo
-            // 
-            this.aseethePromo.Location = new System.Drawing.Point(277, 1072);
-            this.aseethePromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.aseethePromo.Name = "aseethePromo";
-            this.aseethePromo.Size = new System.Drawing.Size(26, 20);
-            this.aseethePromo.TabIndex = 589;
-            // 
-            // ASeetheBox
-            // 
-            this.ASeetheBox.AutoSize = true;
-            this.ASeetheBox.Location = new System.Drawing.Point(307, 1074);
-            this.ASeetheBox.Name = "ASeetheBox";
-            this.ASeetheBox.Size = new System.Drawing.Size(33, 17);
-            this.ASeetheBox.TabIndex = 588;
-            this.ASeetheBox.TabStop = false;
-            this.ASeetheBox.Text = "E";
-            this.ASeetheBox.UseVisualStyleBackColor = true;
-            this.ASeetheBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label360
-            // 
-            this.label360.AutoSize = true;
-            this.label360.Location = new System.Drawing.Point(174, 1076);
-            this.label360.Name = "label360";
-            this.label360.Size = new System.Drawing.Size(65, 13);
-            this.label360.TabIndex = 587;
-            this.label360.Text = "Asc. Seethe";
-            // 
-            // ASeetheCount
-            // 
-            this.ASeetheCount.Location = new System.Drawing.Point(242, 1072);
-            this.ASeetheCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.ASeetheCount.Name = "ASeetheCount";
-            this.ASeetheCount.Size = new System.Drawing.Size(33, 20);
-            this.ASeetheCount.TabIndex = 586;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -19280,6 +19280,14 @@
             this.tabControl1.ResumeLayout(false);
             this.Heroes.ResumeLayout(false);
             this.Heroes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.aseethePromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ASeetheCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.seethePromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ruinPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.razePromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SeetheCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RuinCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RazeCount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guyPromo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.abavahPromo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.aatzarPromo)).EndInit();
@@ -19503,14 +19511,6 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.timeLimit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.seethePromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ruinPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.razePromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SeetheCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.RuinCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.RazeCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.aseethePromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ASeetheCount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
