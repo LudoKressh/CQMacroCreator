@@ -104,10 +104,13 @@ namespace CQMacroCreator
                                 "moak", "hosokawa", "takeda", "hirate", "hattori", "adagda", "bylar", "boor", "bavah", "leprechaun", "sparks", "leaf", "flynn", "abavah",
                                 "drhawking", "masterlee", "kumusan", "liucheng", "hidoka", "kryton", "dicemaster", "luxuriusmaximus", "pokerface", "taint", "putrid", "defile", "neil",
                                 "mahatma", "jade", "edana", "dybbuk", "ashygu", "athert", "alordkirk", "aneptunius","ahosokawa","atakeda","ahirate","ahattori","doyenne","billy","sanqueen","cliodhna",
-                                "guy","adefile","raiderrose","buccanerbeatrice","corsaircharles","maraudermagnus","frosty","fir","5-12-6","kedari","raze","ruin","seethe","aseethe"
+                                "guy","adefile","raiderrose","buccaneerbeatrice","corsaircharles","maraudermagnus","frosty","fir","5-12-6","kedari","raze","ruin","seethe","aseethe",
+                                "blossom","flint","orin","aurora"
                                 };
 
-        static string[] servernames = {"aseethe","seethe","ruin","raze","kedari","5-12-6","fir","frosty","maraudermagnus","corsaircharles","buccanerbeatrice","raiderrose","adefile","guy","cliodhna","sanqueen","billy","doyenne","ahattori","ahirate","atakeda","ahosokawa","aneptunius", "alordkirk", "athert", "ashygu", "dybbuk", "edana", "jade", "mahatma",
+        static string[] servernames = {"aurora","orin","flint","blossom","aseethe","seethe","ruin","raze","kedari","5-12-6","fir","frosty",
+                               "maraudermagnus","corsaircharles","buccaneerbeatrice","raiderrose","adefile","guy","cliodhna","sanqueen","billy",
+                               "doyenne","ahattori","ahirate","atakeda","ahosokawa","aneptunius", "alordkirk", "athert", "ashygu", "dybbuk", "edana", "jade", "mahatma",
                                "neil", "defile", "putrid", "taint", "pokerface", "luxuriusmaximus", "dicemaster", "kryton", "hidoka", "liucheng", "kumusan", "masterlee", "drhawking",
                                "abavah" ,"flynn", "leaf", "sparks", "leprechaun", "bavah", "boor", "bylar", "adagda", "hattori", "hirate", "takeda", "hosokawa", "moak", "arigr", "dorth",
                                "rua", "arshen", "aatzar", "apontus",  "bubbles",  "dagda",  "ganah", "toth",  "sexysanta", "santaclaus", "reindeer", "christmaself", "lordofchaos", "ageror",
@@ -189,7 +192,8 @@ namespace CQMacroCreator
                                                GuyCount,ADefileCount,
                                                RoseCount, BeatriceCount, CharlesCount, MagnusCount,
                                                FrostyCount, FirCount, ElfmechCount, KedariCount,
-                                               RazeCount, RuinCount, SeetheCount, ASeetheCount
+                                               RazeCount, RuinCount, SeetheCount, ASeetheCount,
+                                               BlossomCount, FlintCount, OrinCount, AuroraCount
 
             };
 
@@ -240,7 +244,8 @@ namespace CQMacroCreator
                                                GuyCount,ADefileCount,
                                                RoseCount, BeatriceCount, CharlesCount, MagnusCount,
                                                FrostyCount, FirCount, ElfmechCount, KedariCount,
-                                               RazeCount, RuinCount, SeetheCount, ASeetheCount
+                                               RazeCount, RuinCount, SeetheCount, ASeetheCount,
+                                               BlossomCount, FlintCount, OrinCount, AuroraCount
 
             };
 
@@ -287,7 +292,8 @@ namespace CQMacroCreator
                                                guyPromo,adefilePromo,
                                                rosePromo, beatricePromo, charlesPromo, magnusPromo,
                                                frostyPromo, firPromo, elfmechPromo, kedariPromo,
-                                               razePromo, ruinPromo, seethePromo, aseethePromo
+                                               razePromo, ruinPromo, seethePromo, aseethePromo,
+                                               blossomPromo, flintPromo, orinPromo, auroraPromo
 
             };
 
@@ -336,7 +342,8 @@ namespace CQMacroCreator
                                                guyPromo,adefilePromo,
                                                rosePromo, beatricePromo, charlesPromo, magnusPromo,
                                                frostyPromo, firPromo, elfmechPromo, kedariPromo,
-                                               razePromo, ruinPromo, seethePromo, aseethePromo
+                                               razePromo, ruinPromo, seethePromo, aseethePromo,
+                                               blossomPromo, flintPromo, orinPromo, auroraPromo
 
             };
 
@@ -383,7 +390,8 @@ namespace CQMacroCreator
                                                GuyBox,ADefileBox,
                                                RoseBox, BeatriceBox, CharlesBox, MagnusBox,
                                                FrostyBox, FirBox, ElfmechBox, KedariBox,
-                                               RazeBox, RuinBox, SeetheBox, ASeetheBox
+                                               RazeBox, RuinBox, SeetheBox, ASeetheBox,
+                                               BlossomBox, FlintBox, OrinBox, AuroraBox
 
             };
 
@@ -866,6 +874,7 @@ namespace CQMacroCreator
             new Hero(186,62,12,0,0), new Hero(96,30,6,0,0), new Hero(100,32,6,0,0), new Hero(105,34,6,0,0),//S6 Pirates
             new Hero(46,52,2,0,0), new Hero(50,18,1,0,0), new Hero(78,34,2,0,0), new Hero(170,18,6,0,0),//2nd Christmas
             new Hero(18,26,1,0,0), new Hero(44,48,2,0,0), new Hero(48,54,6,0,0), new Hero(117,131,12,0,0),//Destructor chest heroes
+            new Hero(54,54,6,0,0), new Hero(56,56,6,0,0), new Hero(58,58,6,0,0), new Hero(130,130,12,0,0),//S7 Fairies
         });
 
         private void button1_Click(object sender, EventArgs e)
