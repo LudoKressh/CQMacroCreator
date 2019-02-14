@@ -254,6 +254,22 @@
             this.CSHC = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Heroes = new System.Windows.Forms.TabPage();
+            this.auroraPromo = new System.Windows.Forms.NumericUpDown();
+            this.AuroraBox = new System.Windows.Forms.CheckBox();
+            this.label364 = new System.Windows.Forms.Label();
+            this.AuroraCount = new System.Windows.Forms.NumericUpDown();
+            this.orinPromo = new System.Windows.Forms.NumericUpDown();
+            this.flintPromo = new System.Windows.Forms.NumericUpDown();
+            this.blossomPromo = new System.Windows.Forms.NumericUpDown();
+            this.OrinBox = new System.Windows.Forms.CheckBox();
+            this.label361 = new System.Windows.Forms.Label();
+            this.OrinCount = new System.Windows.Forms.NumericUpDown();
+            this.FlintBox = new System.Windows.Forms.CheckBox();
+            this.label362 = new System.Windows.Forms.Label();
+            this.FlintCount = new System.Windows.Forms.NumericUpDown();
+            this.BlossomBox = new System.Windows.Forms.CheckBox();
+            this.label363 = new System.Windows.Forms.Label();
+            this.BlossomCount = new System.Windows.Forms.NumericUpDown();
             this.aseethePromo = new System.Windows.Forms.NumericUpDown();
             this.ASeetheBox = new System.Windows.Forms.CheckBox();
             this.label360 = new System.Windows.Forms.Label();
@@ -1506,22 +1522,10 @@
             this.label314 = new System.Windows.Forms.Label();
             this.clearLineupButton = new System.Windows.Forms.Button();
             this.label356 = new System.Windows.Forms.Label();
-            this.orinPromo = new System.Windows.Forms.NumericUpDown();
-            this.flintPromo = new System.Windows.Forms.NumericUpDown();
-            this.blossomPromo = new System.Windows.Forms.NumericUpDown();
-            this.OrinBox = new System.Windows.Forms.CheckBox();
-            this.label361 = new System.Windows.Forms.Label();
-            this.OrinCount = new System.Windows.Forms.NumericUpDown();
-            this.FlintBox = new System.Windows.Forms.CheckBox();
-            this.label362 = new System.Windows.Forms.Label();
-            this.FlintCount = new System.Windows.Forms.NumericUpDown();
-            this.BlossomBox = new System.Windows.Forms.CheckBox();
-            this.label363 = new System.Windows.Forms.Label();
-            this.BlossomCount = new System.Windows.Forms.NumericUpDown();
-            this.auroraPromo = new System.Windows.Forms.NumericUpDown();
-            this.AuroraBox = new System.Windows.Forms.CheckBox();
-            this.label364 = new System.Windows.Forms.Label();
-            this.AuroraCount = new System.Windows.Forms.NumericUpDown();
+            this.cupidPromo = new System.Windows.Forms.NumericUpDown();
+            this.CupidCount = new System.Windows.Forms.NumericUpDown();
+            this.label365 = new System.Windows.Forms.Label();
+            this.CupidBox = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.JamesCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HunterCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.JetCount)).BeginInit();
@@ -1591,6 +1595,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.HamaCount)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.Heroes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.auroraPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AuroraCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.orinPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flintPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blossomPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OrinCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FlintCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BlossomCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.aseethePromo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ASeetheCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.seethePromo)).BeginInit();
@@ -1816,14 +1828,8 @@
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.timeLimit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.orinPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.flintPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blossomPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.OrinCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FlintCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BlossomCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.auroraPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AuroraCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cupidPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CupidCount)).BeginInit();
             this.SuspendLayout();
             // 
             // JamesCount
@@ -3600,7 +3606,7 @@
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(34, 13);
             this.label57.TabIndex = 159;
-            this.label57.Text = "v4.1c";
+            this.label57.Text = "v4.1d";
             // 
             // GurthBox
             // 
@@ -4299,6 +4305,10 @@
             // Heroes
             // 
             this.Heroes.AutoScroll = true;
+            this.Heroes.Controls.Add(this.cupidPromo);
+            this.Heroes.Controls.Add(this.CupidCount);
+            this.Heroes.Controls.Add(this.label365);
+            this.Heroes.Controls.Add(this.CupidBox);
             this.Heroes.Controls.Add(this.auroraPromo);
             this.Heroes.Controls.Add(this.AuroraBox);
             this.Heroes.Controls.Add(this.label364);
@@ -4887,6 +4897,185 @@
             this.Heroes.TabIndex = 0;
             this.Heroes.Text = "Heroes";
             this.Heroes.UseVisualStyleBackColor = true;
+            // 
+            // auroraPromo
+            // 
+            this.auroraPromo.Location = new System.Drawing.Point(454, 1094);
+            this.auroraPromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.auroraPromo.Name = "auroraPromo";
+            this.auroraPromo.Size = new System.Drawing.Size(26, 20);
+            this.auroraPromo.TabIndex = 605;
+            // 
+            // AuroraBox
+            // 
+            this.AuroraBox.AutoSize = true;
+            this.AuroraBox.Location = new System.Drawing.Point(484, 1096);
+            this.AuroraBox.Name = "AuroraBox";
+            this.AuroraBox.Size = new System.Drawing.Size(33, 17);
+            this.AuroraBox.TabIndex = 604;
+            this.AuroraBox.TabStop = false;
+            this.AuroraBox.Text = "E";
+            this.AuroraBox.UseVisualStyleBackColor = true;
+            // 
+            // label364
+            // 
+            this.label364.AutoSize = true;
+            this.label364.Location = new System.Drawing.Point(378, 1097);
+            this.label364.Name = "label364";
+            this.label364.Size = new System.Drawing.Size(38, 13);
+            this.label364.TabIndex = 603;
+            this.label364.Text = "Aurora";
+            // 
+            // AuroraCount
+            // 
+            this.AuroraCount.Location = new System.Drawing.Point(419, 1094);
+            this.AuroraCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.AuroraCount.Name = "AuroraCount";
+            this.AuroraCount.Size = new System.Drawing.Size(33, 20);
+            this.AuroraCount.TabIndex = 602;
+            // 
+            // orinPromo
+            // 
+            this.orinPromo.Location = new System.Drawing.Point(454, 457);
+            this.orinPromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.orinPromo.Name = "orinPromo";
+            this.orinPromo.Size = new System.Drawing.Size(26, 20);
+            this.orinPromo.TabIndex = 601;
+            // 
+            // flintPromo
+            // 
+            this.flintPromo.Location = new System.Drawing.Point(277, 457);
+            this.flintPromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.flintPromo.Name = "flintPromo";
+            this.flintPromo.Size = new System.Drawing.Size(26, 20);
+            this.flintPromo.TabIndex = 600;
+            // 
+            // blossomPromo
+            // 
+            this.blossomPromo.Location = new System.Drawing.Point(100, 457);
+            this.blossomPromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.blossomPromo.Name = "blossomPromo";
+            this.blossomPromo.Size = new System.Drawing.Size(26, 20);
+            this.blossomPromo.TabIndex = 599;
+            // 
+            // OrinBox
+            // 
+            this.OrinBox.AutoSize = true;
+            this.OrinBox.Location = new System.Drawing.Point(484, 459);
+            this.OrinBox.Name = "OrinBox";
+            this.OrinBox.Size = new System.Drawing.Size(33, 17);
+            this.OrinBox.TabIndex = 598;
+            this.OrinBox.TabStop = false;
+            this.OrinBox.Text = "E";
+            this.OrinBox.UseVisualStyleBackColor = true;
+            this.OrinBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label361
+            // 
+            this.label361.AutoSize = true;
+            this.label361.Location = new System.Drawing.Point(390, 461);
+            this.label361.Name = "label361";
+            this.label361.Size = new System.Drawing.Size(26, 13);
+            this.label361.TabIndex = 597;
+            this.label361.Text = "Orin";
+            // 
+            // OrinCount
+            // 
+            this.OrinCount.Location = new System.Drawing.Point(419, 457);
+            this.OrinCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.OrinCount.Name = "OrinCount";
+            this.OrinCount.Size = new System.Drawing.Size(33, 20);
+            this.OrinCount.TabIndex = 592;
+            // 
+            // FlintBox
+            // 
+            this.FlintBox.AutoSize = true;
+            this.FlintBox.Location = new System.Drawing.Point(307, 459);
+            this.FlintBox.Name = "FlintBox";
+            this.FlintBox.Size = new System.Drawing.Size(33, 17);
+            this.FlintBox.TabIndex = 596;
+            this.FlintBox.TabStop = false;
+            this.FlintBox.Text = "E";
+            this.FlintBox.UseVisualStyleBackColor = true;
+            this.FlintBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label362
+            // 
+            this.label362.AutoSize = true;
+            this.label362.Location = new System.Drawing.Point(213, 461);
+            this.label362.Name = "label362";
+            this.label362.Size = new System.Drawing.Size(26, 13);
+            this.label362.TabIndex = 595;
+            this.label362.Text = "Flint";
+            // 
+            // FlintCount
+            // 
+            this.FlintCount.Location = new System.Drawing.Point(242, 457);
+            this.FlintCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.FlintCount.Name = "FlintCount";
+            this.FlintCount.Size = new System.Drawing.Size(33, 20);
+            this.FlintCount.TabIndex = 591;
+            // 
+            // BlossomBox
+            // 
+            this.BlossomBox.AutoSize = true;
+            this.BlossomBox.Location = new System.Drawing.Point(130, 459);
+            this.BlossomBox.Name = "BlossomBox";
+            this.BlossomBox.Size = new System.Drawing.Size(33, 17);
+            this.BlossomBox.TabIndex = 594;
+            this.BlossomBox.TabStop = false;
+            this.BlossomBox.Text = "E";
+            this.BlossomBox.UseVisualStyleBackColor = true;
+            this.BlossomBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label363
+            // 
+            this.label363.AutoSize = true;
+            this.label363.Location = new System.Drawing.Point(16, 461);
+            this.label363.Name = "label363";
+            this.label363.Size = new System.Drawing.Size(46, 13);
+            this.label363.TabIndex = 593;
+            this.label363.Text = "Blossom";
+            // 
+            // BlossomCount
+            // 
+            this.BlossomCount.Location = new System.Drawing.Point(65, 457);
+            this.BlossomCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.BlossomCount.Name = "BlossomCount";
+            this.BlossomCount.Size = new System.Drawing.Size(33, 20);
+            this.BlossomCount.TabIndex = 590;
             // 
             // aseethePromo
             // 
@@ -19205,184 +19394,50 @@
             this.label356.TabIndex = 387;
             this.label356.Text = "updates by alya and mons";
             // 
-            // orinPromo
+            // cupidPromo
             // 
-            this.orinPromo.Location = new System.Drawing.Point(454, 457);
-            this.orinPromo.Maximum = new decimal(new int[] {
+            this.cupidPromo.Location = new System.Drawing.Point(277, 955);
+            this.cupidPromo.Maximum = new decimal(new int[] {
             5,
             0,
             0,
             0});
-            this.orinPromo.Name = "orinPromo";
-            this.orinPromo.Size = new System.Drawing.Size(26, 20);
-            this.orinPromo.TabIndex = 601;
+            this.cupidPromo.Name = "cupidPromo";
+            this.cupidPromo.Size = new System.Drawing.Size(26, 20);
+            this.cupidPromo.TabIndex = 609;
             // 
-            // flintPromo
+            // CupidCount
             // 
-            this.flintPromo.Location = new System.Drawing.Point(277, 457);
-            this.flintPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.flintPromo.Name = "flintPromo";
-            this.flintPromo.Size = new System.Drawing.Size(26, 20);
-            this.flintPromo.TabIndex = 600;
-            // 
-            // blossomPromo
-            // 
-            this.blossomPromo.Location = new System.Drawing.Point(100, 457);
-            this.blossomPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.blossomPromo.Name = "blossomPromo";
-            this.blossomPromo.Size = new System.Drawing.Size(26, 20);
-            this.blossomPromo.TabIndex = 599;
-            // 
-            // OrinBox
-            // 
-            this.OrinBox.AutoSize = true;
-            this.OrinBox.Location = new System.Drawing.Point(484, 459);
-            this.OrinBox.Name = "OrinBox";
-            this.OrinBox.Size = new System.Drawing.Size(33, 17);
-            this.OrinBox.TabIndex = 598;
-            this.OrinBox.TabStop = false;
-            this.OrinBox.Text = "E";
-            this.OrinBox.UseVisualStyleBackColor = true;
-            this.OrinBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label361
-            // 
-            this.label361.AutoSize = true;
-            this.label361.Location = new System.Drawing.Point(390, 461);
-            this.label361.Name = "label361";
-            this.label361.Size = new System.Drawing.Size(26, 13);
-            this.label361.TabIndex = 597;
-            this.label361.Text = "Orin";
-            // 
-            // OrinCount
-            // 
-            this.OrinCount.Location = new System.Drawing.Point(419, 457);
-            this.OrinCount.Maximum = new decimal(new int[] {
+            this.CupidCount.Location = new System.Drawing.Point(242, 955);
+            this.CupidCount.Maximum = new decimal(new int[] {
             99,
             0,
             0,
             0});
-            this.OrinCount.Name = "OrinCount";
-            this.OrinCount.Size = new System.Drawing.Size(33, 20);
-            this.OrinCount.TabIndex = 592;
+            this.CupidCount.Name = "CupidCount";
+            this.CupidCount.Size = new System.Drawing.Size(33, 20);
+            this.CupidCount.TabIndex = 606;
             // 
-            // FlintBox
+            // label365
             // 
-            this.FlintBox.AutoSize = true;
-            this.FlintBox.Location = new System.Drawing.Point(307, 459);
-            this.FlintBox.Name = "FlintBox";
-            this.FlintBox.Size = new System.Drawing.Size(33, 17);
-            this.FlintBox.TabIndex = 596;
-            this.FlintBox.TabStop = false;
-            this.FlintBox.Text = "E";
-            this.FlintBox.UseVisualStyleBackColor = true;
-            this.FlintBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            this.label365.AutoSize = true;
+            this.label365.Location = new System.Drawing.Point(203, 959);
+            this.label365.Name = "label365";
+            this.label365.Size = new System.Drawing.Size(34, 13);
+            this.label365.TabIndex = 607;
+            this.label365.Text = "Cupid";
             // 
-            // label362
+            // CupidBox
             // 
-            this.label362.AutoSize = true;
-            this.label362.Location = new System.Drawing.Point(213, 461);
-            this.label362.Name = "label362";
-            this.label362.Size = new System.Drawing.Size(26, 13);
-            this.label362.TabIndex = 595;
-            this.label362.Text = "Flint";
-            // 
-            // FlintCount
-            // 
-            this.FlintCount.Location = new System.Drawing.Point(242, 457);
-            this.FlintCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.FlintCount.Name = "FlintCount";
-            this.FlintCount.Size = new System.Drawing.Size(33, 20);
-            this.FlintCount.TabIndex = 591;
-            // 
-            // BlossomBox
-            // 
-            this.BlossomBox.AutoSize = true;
-            this.BlossomBox.Location = new System.Drawing.Point(130, 459);
-            this.BlossomBox.Name = "BlossomBox";
-            this.BlossomBox.Size = new System.Drawing.Size(33, 17);
-            this.BlossomBox.TabIndex = 594;
-            this.BlossomBox.TabStop = false;
-            this.BlossomBox.Text = "E";
-            this.BlossomBox.UseVisualStyleBackColor = true;
-            this.BlossomBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label363
-            // 
-            this.label363.AutoSize = true;
-            this.label363.Location = new System.Drawing.Point(16, 461);
-            this.label363.Name = "label363";
-            this.label363.Size = new System.Drawing.Size(46, 13);
-            this.label363.TabIndex = 593;
-            this.label363.Text = "Blossom";
-            // 
-            // BlossomCount
-            // 
-            this.BlossomCount.Location = new System.Drawing.Point(65, 457);
-            this.BlossomCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.BlossomCount.Name = "BlossomCount";
-            this.BlossomCount.Size = new System.Drawing.Size(33, 20);
-            this.BlossomCount.TabIndex = 590;
-            // 
-            // auroraPromo
-            // 
-            this.auroraPromo.Location = new System.Drawing.Point(454, 1094);
-            this.auroraPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.auroraPromo.Name = "auroraPromo";
-            this.auroraPromo.Size = new System.Drawing.Size(26, 20);
-            this.auroraPromo.TabIndex = 605;
-            // 
-            // AuroraBox
-            // 
-            this.AuroraBox.AutoSize = true;
-            this.AuroraBox.Location = new System.Drawing.Point(484, 1096);
-            this.AuroraBox.Name = "AuroraBox";
-            this.AuroraBox.Size = new System.Drawing.Size(33, 17);
-            this.AuroraBox.TabIndex = 604;
-            this.AuroraBox.TabStop = false;
-            this.AuroraBox.Text = "E";
-            this.AuroraBox.UseVisualStyleBackColor = true;
-            // 
-            // label364
-            // 
-            this.label364.AutoSize = true;
-            this.label364.Location = new System.Drawing.Point(378, 1097);
-            this.label364.Name = "label364";
-            this.label364.Size = new System.Drawing.Size(38, 13);
-            this.label364.TabIndex = 603;
-            this.label364.Text = "Aurora";
-            // 
-            // AuroraCount
-            // 
-            this.AuroraCount.Location = new System.Drawing.Point(419, 1094);
-            this.AuroraCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.AuroraCount.Name = "AuroraCount";
-            this.AuroraCount.Size = new System.Drawing.Size(33, 20);
-            this.AuroraCount.TabIndex = 602;
+            this.CupidBox.AutoSize = true;
+            this.CupidBox.Location = new System.Drawing.Point(307, 957);
+            this.CupidBox.Name = "CupidBox";
+            this.CupidBox.Size = new System.Drawing.Size(33, 17);
+            this.CupidBox.TabIndex = 608;
+            this.CupidBox.TabStop = false;
+            this.CupidBox.Text = "E";
+            this.CupidBox.UseVisualStyleBackColor = true;
+            this.CupidBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
             // 
             // Form1
             // 
@@ -19499,6 +19554,14 @@
             this.tabControl1.ResumeLayout(false);
             this.Heroes.ResumeLayout(false);
             this.Heroes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.auroraPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AuroraCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.orinPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flintPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blossomPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OrinCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FlintCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BlossomCount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.aseethePromo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ASeetheCount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.seethePromo)).EndInit();
@@ -19730,14 +19793,8 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.timeLimit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.orinPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.flintPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blossomPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.OrinCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FlintCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BlossomCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.auroraPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AuroraCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cupidPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CupidCount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -21238,6 +21295,10 @@
         private System.Windows.Forms.CheckBox BlossomBox;
         private System.Windows.Forms.Label label363;
         private System.Windows.Forms.NumericUpDown BlossomCount;
+        private System.Windows.Forms.NumericUpDown cupidPromo;
+        private System.Windows.Forms.NumericUpDown CupidCount;
+        private System.Windows.Forms.Label label365;
+        private System.Windows.Forms.CheckBox CupidBox;
     }
 }
 
