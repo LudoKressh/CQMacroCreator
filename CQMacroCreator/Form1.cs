@@ -105,10 +105,10 @@ namespace CQMacroCreator
                                 "drhawking", "masterlee", "kumusan", "liucheng", "hidoka", "kryton", "dicemaster", "luxuriusmaximus", "pokerface", "taint", "putrid", "defile", "neil",
                                 "mahatma", "jade", "edana", "dybbuk", "ashygu", "athert", "alordkirk", "aneptunius","ahosokawa","atakeda","ahirate","ahattori","doyenne","billy","sanqueen","cliodhna",
                                 "guy","adefile","raiderrose","buccaneerbeatrice","corsaircharles","maraudermagnus","frosty","fir","5-12-6","kedari","raze","ruin","seethe","aseethe",
-                                "blossom","flint","orin","aurora","cupid","transient","maunder","thewanderer"
+                                "blossom","flint","orin","aurora","cupid","transient","maunder","thewanderer","b-day","cloud","ember","riptide","spike"
                                 };
 
-        static string[] servernames = {"thewanderer","maunder","transient","cupid","aurora","orin","flint","blossom","aseethe","seethe","ruin","raze","kedari","5-12-6","fir","frosty",
+        static string[] servernames = {"spike","riptide","ember","cloud","b-day","thewanderer","maunder","transient","cupid","aurora","orin","flint","blossom","aseethe","seethe","ruin","raze","kedari","5-12-6","fir","frosty",
                                "maraudermagnus","corsaircharles","buccaneerbeatrice","raiderrose","adefile","guy","cliodhna","sanqueen","billy",
                                "doyenne","ahattori","ahirate","atakeda","ahosokawa","aneptunius", "alordkirk", "athert", "ashygu", "dybbuk", "edana", "jade", "mahatma",
                                "neil", "defile", "putrid", "taint", "pokerface", "luxuriusmaximus", "dicemaster", "kryton", "hidoka", "liucheng", "kumusan", "masterlee", "drhawking",
@@ -195,7 +195,9 @@ namespace CQMacroCreator
                                                RazeCount, RuinCount, SeetheCount, ASeetheCount,
                                                BlossomCount, FlintCount, OrinCount, AuroraCount,
                                                CupidCount,
-                                               TransientCount, MaunderCount, WandererCount
+                                               TransientCount, MaunderCount, WandererCount,
+                                               BDayCount,
+                                               CloudCount, EmberCount, RiptideCount, SpikeCount
 
             };
 
@@ -249,7 +251,9 @@ namespace CQMacroCreator
                                                RazeCount, RuinCount, SeetheCount, ASeetheCount,
                                                BlossomCount, FlintCount, OrinCount, AuroraCount,
                                                CupidCount,
-                                               TransientCount, MaunderCount, WandererCount
+                                               TransientCount, MaunderCount, WandererCount,
+                                               BDayCount,
+                                               CloudCount, EmberCount, RiptideCount, SpikeCount
 
             };
 
@@ -299,7 +303,9 @@ namespace CQMacroCreator
                                                razePromo, ruinPromo, seethePromo, aseethePromo,
                                                blossomPromo, flintPromo, orinPromo, auroraPromo,
                                                cupidPromo,
-                                               transientPromo, maunderPromo, wandererPromo
+                                               transientPromo, maunderPromo, wandererPromo,
+                                               bdayPromo,
+                                               cloudPromo, emberPromo, riptidePromo, spikePromo
 
             };
 
@@ -351,7 +357,9 @@ namespace CQMacroCreator
                                                razePromo, ruinPromo, seethePromo, aseethePromo,
                                                blossomPromo, flintPromo, orinPromo, auroraPromo,
                                                cupidPromo,
-                                               transientPromo, maunderPromo, wandererPromo
+                                               transientPromo, maunderPromo, wandererPromo,
+                                               bdayPromo,
+                                               cloudPromo, emberPromo, riptidePromo, spikePromo
 
             };
 
@@ -401,7 +409,9 @@ namespace CQMacroCreator
                                                RazeBox, RuinBox, SeetheBox, ASeetheBox,
                                                BlossomBox, FlintBox, OrinBox, AuroraBox,
                                                CupidBox,
-                                               TransientBox, MaunderBox, WandererBox
+                                               TransientBox, MaunderBox, WandererBox,
+                                               BDayBox,
+                                               CloudBox, EmberBox, RiptideBox, SpikeBox
 
             };
 
@@ -887,6 +897,8 @@ namespace CQMacroCreator
             new Hero(54,54,6,0,0), new Hero(56,56,6,0,0), new Hero(58,58,6,0,0), new Hero(130,130,12,0,0),//S7 Fairies
             new Hero(220,20,6,0,0),//Cupid
             new Hero(22,22,1,0,0), new Hero(34,34,2,0,0), new Hero(50,50,6,0,0),//Drifter chest heroes
+            new Hero(100,40,6,0,0),//BDay
+            new Hero(44,22,1,0,0), new Hero(64,32,2,0,0), new Hero(84,42,6,0,0), new Hero(180,90,12,0,0),//AH Dragons
         });
 
         private void button1_Click(object sender, EventArgs e)
