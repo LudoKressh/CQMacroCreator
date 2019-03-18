@@ -105,10 +105,10 @@ namespace CQMacroCreator
                                 "drhawking", "masterlee", "kumusan", "liucheng", "hidoka", "kryton", "dicemaster", "luxuriusmaximus", "pokerface", "taint", "putrid", "defile", "neil",
                                 "mahatma", "jade", "edana", "dybbuk", "ashygu", "athert", "alordkirk", "aneptunius","ahosokawa","atakeda","ahirate","ahattori","doyenne","billy","sanqueen","cliodhna",
                                 "guy","adefile","raiderrose","buccaneerbeatrice","corsaircharles","maraudermagnus","frosty","fir","5-12-6","kedari","raze","ruin","seethe","aseethe",
-                                "blossom","flint","orin","aurora","cupid","transient","maunder","thewanderer","b-day","cloud","ember","riptide","spike"
+                                "blossom","flint","orin","aurora","cupid","transient","maunder","thewanderer","b-day","cloud","ember","riptide","spike","amahatma","ajade","aedana","adybbuk"
                                 };
 
-        static string[] servernames = {"spike","riptide","ember","cloud","b-day","thewanderer","maunder","transient","cupid","aurora","orin","flint","blossom","aseethe","seethe","ruin","raze","kedari","5-12-6","fir","frosty",
+        static string[] servernames = {"adybbuk","aedana","ajade","amahatma","spike","riptide","ember","cloud","b-day","thewanderer","maunder","transient","cupid","aurora","orin","flint","blossom","aseethe","seethe","ruin","raze","kedari","5-12-6","fir","frosty",
                                "maraudermagnus","corsaircharles","buccaneerbeatrice","raiderrose","adefile","guy","cliodhna","sanqueen","billy",
                                "doyenne","ahattori","ahirate","atakeda","ahosokawa","aneptunius", "alordkirk", "athert", "ashygu", "dybbuk", "edana", "jade", "mahatma",
                                "neil", "defile", "putrid", "taint", "pokerface", "luxuriusmaximus", "dicemaster", "kryton", "hidoka", "liucheng", "kumusan", "masterlee", "drhawking",
@@ -197,7 +197,8 @@ namespace CQMacroCreator
                                                CupidCount,
                                                TransientCount, MaunderCount, WandererCount,
                                                BDayCount,
-                                               CloudCount, EmberCount, RiptideCount, SpikeCount
+                                               CloudCount, EmberCount, RiptideCount, SpikeCount,
+                                               AMahatmaCount, AJadeCount, AEdanaCount, ADybbukCount
 
             };
 
@@ -253,7 +254,8 @@ namespace CQMacroCreator
                                                CupidCount,
                                                TransientCount, MaunderCount, WandererCount,
                                                BDayCount,
-                                               CloudCount, EmberCount, RiptideCount, SpikeCount
+                                               CloudCount, EmberCount, RiptideCount, SpikeCount,
+                                               AMahatmaCount, AJadeCount, AEdanaCount, ADybbukCount
 
             };
 
@@ -305,7 +307,8 @@ namespace CQMacroCreator
                                                cupidPromo,
                                                transientPromo, maunderPromo, wandererPromo,
                                                bdayPromo,
-                                               cloudPromo, emberPromo, riptidePromo, spikePromo
+                                               cloudPromo, emberPromo, riptidePromo, spikePromo,
+                                               amahatmaPromo, ajadePromo, aedanaPromo, adybbukPromo
 
             };
 
@@ -359,7 +362,8 @@ namespace CQMacroCreator
                                                cupidPromo,
                                                transientPromo, maunderPromo, wandererPromo,
                                                bdayPromo,
-                                               cloudPromo, emberPromo, riptidePromo, spikePromo
+                                               cloudPromo, emberPromo, riptidePromo, spikePromo,
+                                               amahatmaPromo, ajadePromo, aedanaPromo, adybbukPromo
 
             };
 
@@ -411,7 +415,8 @@ namespace CQMacroCreator
                                                CupidBox,
                                                TransientBox, MaunderBox, WandererBox,
                                                BDayBox,
-                                               CloudBox, EmberBox, RiptideBox, SpikeBox
+                                               CloudBox, EmberBox, RiptideBox, SpikeBox,
+                                               AMahatmaBox, AJadeBox, AEdanaBox, ADybbukBox
 
             };
 
@@ -608,6 +613,30 @@ namespace CQMacroCreator
                 checkBox159q1, checkBox159q2, checkBox159q3,
                 checkBox160q1, checkBox160q2, checkBox160q3,
 
+                checkBox161q1, checkBox161q2, checkBox161q3,
+                checkBox162q1, checkBox162q2, checkBox162q3,
+                checkBox163q1, checkBox163q2, checkBox163q3,
+                checkBox164q1, checkBox164q2, checkBox164q3,
+                checkBox165q1, checkBox165q2, checkBox165q3,
+
+                checkBox166q1, checkBox166q2, checkBox166q3,
+                checkBox167q1, checkBox167q2, checkBox167q3,
+                checkBox168q1, checkBox168q2, checkBox168q3,
+                checkBox169q1, checkBox169q2, checkBox169q3,
+                checkBox170q1, checkBox170q2, checkBox170q3,
+
+                checkBox171q1, checkBox171q2, checkBox171q3,
+                checkBox172q1, checkBox172q2, checkBox172q3,
+                checkBox173q1, checkBox173q2, checkBox173q3,
+                checkBox174q1, checkBox174q2, checkBox174q3,
+                checkBox175q1, checkBox175q2, checkBox175q3,
+
+                checkBox176q1, checkBox176q2, checkBox176q3,
+                checkBox177q1, checkBox177q2, checkBox177q3,
+                checkBox178q1, checkBox178q2, checkBox178q3,
+                checkBox179q1, checkBox179q2, checkBox179q3,
+                checkBox180q1, checkBox180q2, checkBox180q3,
+
             };
             questButtons = new List<Button>() {
                 button11, button12, button13, button14, button15,
@@ -642,6 +671,10 @@ namespace CQMacroCreator
                 button146q, button147q, button148q, button149q, button150q,
                 button151q, button152q, button153q, button154q, button155q,
                 button156q, button157q, button158q, button159q, button160q,
+                button161q, button162q, button163q, button164q, button165q,
+                button166q, button167q, button168q, button169q, button170q,
+                button171q, button172q, button173q, button174q, button175q,
+                button176q, button177q, button178q, button179q, button180q,
             };
 
             init();
@@ -899,6 +932,7 @@ namespace CQMacroCreator
             new Hero(22,22,1,0,0), new Hero(34,34,2,0,0), new Hero(50,50,6,0,0),//Drifter chest heroes
             new Hero(100,40,6,0,0),//BDay
             new Hero(44,22,1,0,0), new Hero(64,32,2,0,0), new Hero(84,42,6,0,0), new Hero(180,90,12,0,0),//AH Dragons
+            new Hero(180,60,12,0,0), new Hero(172,68,12,0,0), new Hero(160,80,12,0,0), new Hero(176,66,12,0,0), //aDjinn
         });
 
         private void button1_Click(object sender, EventArgs e)
@@ -1372,7 +1406,7 @@ namespace CQMacroCreator
 
         private void button8_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Write enemy lineup here.\nUses same format as Dice's calc - units are separated by comma, heroes are Name:Level\nQuests are written like questX-Y where X is quest number and Y is 1 for 6 monsters solution, 2 for 5 monsters, 3 for 4 monsters\n\nExample lineups:\na10,f10,w10,e10,e10,nebra:40\nquest33-2", "Help", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Write enemy lineup here.\nUses same format as Dice's calc - units are separated by comma, heroes are Name:Level.Promotion\nQuests are written like questX-Y where X is quest number and Y is 1 for 6 monsters solution, 2 for 5 monsters, 3 for 4 monsters\n\nExample lineups:\na10,f10,w10,e10,e10,nebra:40\nquest33-2", "Help", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
