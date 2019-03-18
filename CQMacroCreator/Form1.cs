@@ -1791,7 +1791,7 @@ namespace CQMacroCreator
                     }
                     if (quests)
                     {
-                        int questMax = Math.Min(PFStuff.questList.Count(), 160);
+                        int questMax = Math.Min(PFStuff.questList.Count(), 180);
                         for (int i = 0; i < questMax; i++)
                         {
                             setQuestBoxesFromServer(i, PFStuff.questList[i]);
