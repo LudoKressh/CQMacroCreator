@@ -254,6 +254,30 @@
             this.CSHC = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Heroes = new System.Windows.Forms.TabPage();
+            this.awandererPromo = new System.Windows.Forms.NumericUpDown();
+            this.AWandererBox = new System.Windows.Forms.CheckBox();
+            this.label415 = new System.Windows.Forms.Label();
+            this.AWandererCount = new System.Windows.Forms.NumericUpDown();
+            this.anerissaPromo = new System.Windows.Forms.NumericUpDown();
+            this.ANerissaBox = new System.Windows.Forms.CheckBox();
+            this.label414 = new System.Windows.Forms.Label();
+            this.ANerissaCount = new System.Windows.Forms.NumericUpDown();
+            this.minervaPromo = new System.Windows.Forms.NumericUpDown();
+            this.MinervaBox = new System.Windows.Forms.CheckBox();
+            this.label413 = new System.Windows.Forms.Label();
+            this.MinervaCount = new System.Windows.Forms.NumericUpDown();
+            this.helgaPromo = new System.Windows.Forms.NumericUpDown();
+            this.opheliaPromo = new System.Windows.Forms.NumericUpDown();
+            this.agathaPromo = new System.Windows.Forms.NumericUpDown();
+            this.HelgaBox = new System.Windows.Forms.CheckBox();
+            this.label410 = new System.Windows.Forms.Label();
+            this.HelgaCount = new System.Windows.Forms.NumericUpDown();
+            this.OpheliaBox = new System.Windows.Forms.CheckBox();
+            this.label411 = new System.Windows.Forms.Label();
+            this.OpheliaCount = new System.Windows.Forms.NumericUpDown();
+            this.AgathaBox = new System.Windows.Forms.CheckBox();
+            this.label412 = new System.Windows.Forms.Label();
+            this.AgathaCount = new System.Windows.Forms.NumericUpDown();
             this.motherPromo = new System.Windows.Forms.NumericUpDown();
             this.MotherCount = new System.Windows.Forms.NumericUpDown();
             this.MotherBox = new System.Windows.Forms.CheckBox();
@@ -1710,30 +1734,6 @@
             this.label314 = new System.Windows.Forms.Label();
             this.clearLineupButton = new System.Windows.Forms.Button();
             this.label356 = new System.Windows.Forms.Label();
-            this.helgaPromo = new System.Windows.Forms.NumericUpDown();
-            this.opheliaPromo = new System.Windows.Forms.NumericUpDown();
-            this.agathaPromo = new System.Windows.Forms.NumericUpDown();
-            this.HelgaBox = new System.Windows.Forms.CheckBox();
-            this.label410 = new System.Windows.Forms.Label();
-            this.HelgaCount = new System.Windows.Forms.NumericUpDown();
-            this.OpheliaBox = new System.Windows.Forms.CheckBox();
-            this.label411 = new System.Windows.Forms.Label();
-            this.OpheliaCount = new System.Windows.Forms.NumericUpDown();
-            this.AgathaBox = new System.Windows.Forms.CheckBox();
-            this.label412 = new System.Windows.Forms.Label();
-            this.AgathaCount = new System.Windows.Forms.NumericUpDown();
-            this.minervaPromo = new System.Windows.Forms.NumericUpDown();
-            this.MinervaBox = new System.Windows.Forms.CheckBox();
-            this.label413 = new System.Windows.Forms.Label();
-            this.MinervaCount = new System.Windows.Forms.NumericUpDown();
-            this.anerissaPromo = new System.Windows.Forms.NumericUpDown();
-            this.ANerissaBox = new System.Windows.Forms.CheckBox();
-            this.label414 = new System.Windows.Forms.Label();
-            this.ANerissaCount = new System.Windows.Forms.NumericUpDown();
-            this.awandererPromo = new System.Windows.Forms.NumericUpDown();
-            this.AWandererBox = new System.Windows.Forms.CheckBox();
-            this.label415 = new System.Windows.Forms.Label();
-            this.AWandererCount = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.JamesCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HunterCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.JetCount)).BeginInit();
@@ -1803,6 +1803,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.HamaCount)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.Heroes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.awandererPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AWandererCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.anerissaPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ANerissaCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.minervaPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MinervaCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.helgaPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.opheliaPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.agathaPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HelgaCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OpheliaCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AgathaCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.motherPromo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MotherCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.thumperPromo)).BeginInit();
@@ -2078,18 +2090,6 @@
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.timeLimit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.helgaPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.opheliaPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.agathaPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HelgaCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.OpheliaCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AgathaCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.minervaPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MinervaCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.anerissaPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ANerissaCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.awandererPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AWandererCount)).BeginInit();
             this.SuspendLayout();
             // 
             // JamesCount
@@ -3861,7 +3861,7 @@
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(34, 13);
             this.label57.TabIndex = 159;
-            this.label57.Text = "v4.3a";
+            this.label57.Text = "v4.3b";
             // 
             // GurthBox
             // 
@@ -5256,6 +5256,276 @@
             this.Heroes.TabIndex = 0;
             this.Heroes.Text = "Heroes";
             this.Heroes.UseVisualStyleBackColor = true;
+            // 
+            // awandererPromo
+            // 
+            this.awandererPromo.Location = new System.Drawing.Point(454, 1204);
+            this.awandererPromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.awandererPromo.Name = "awandererPromo";
+            this.awandererPromo.Size = new System.Drawing.Size(26, 20);
+            this.awandererPromo.TabIndex = 713;
+            // 
+            // AWandererBox
+            // 
+            this.AWandererBox.AutoSize = true;
+            this.AWandererBox.Location = new System.Drawing.Point(484, 1206);
+            this.AWandererBox.Name = "AWandererBox";
+            this.AWandererBox.Size = new System.Drawing.Size(33, 17);
+            this.AWandererBox.TabIndex = 712;
+            this.AWandererBox.TabStop = false;
+            this.AWandererBox.Text = "E";
+            this.AWandererBox.UseVisualStyleBackColor = true;
+            this.AWandererBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label415
+            // 
+            this.label415.AutoSize = true;
+            this.label415.Location = new System.Drawing.Point(340, 1208);
+            this.label415.Name = "label415";
+            this.label415.Size = new System.Drawing.Size(78, 13);
+            this.label415.TabIndex = 711;
+            this.label415.Text = "Asc. Wanderer";
+            // 
+            // AWandererCount
+            // 
+            this.AWandererCount.Location = new System.Drawing.Point(419, 1204);
+            this.AWandererCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.AWandererCount.Name = "AWandererCount";
+            this.AWandererCount.Size = new System.Drawing.Size(33, 20);
+            this.AWandererCount.TabIndex = 710;
+            // 
+            // anerissaPromo
+            // 
+            this.anerissaPromo.Location = new System.Drawing.Point(100, 1226);
+            this.anerissaPromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.anerissaPromo.Name = "anerissaPromo";
+            this.anerissaPromo.Size = new System.Drawing.Size(26, 20);
+            this.anerissaPromo.TabIndex = 709;
+            // 
+            // ANerissaBox
+            // 
+            this.ANerissaBox.AutoSize = true;
+            this.ANerissaBox.Location = new System.Drawing.Point(130, 1228);
+            this.ANerissaBox.Name = "ANerissaBox";
+            this.ANerissaBox.Size = new System.Drawing.Size(33, 17);
+            this.ANerissaBox.TabIndex = 708;
+            this.ANerissaBox.TabStop = false;
+            this.ANerissaBox.Text = "E";
+            this.ANerissaBox.UseVisualStyleBackColor = true;
+            this.ANerissaBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label414
+            // 
+            this.label414.AutoSize = true;
+            this.label414.Location = new System.Drawing.Point(-2, 1230);
+            this.label414.Name = "label414";
+            this.label414.Size = new System.Drawing.Size(66, 13);
+            this.label414.TabIndex = 707;
+            this.label414.Text = "Asc. Nerissa";
+            // 
+            // ANerissaCount
+            // 
+            this.ANerissaCount.Location = new System.Drawing.Point(65, 1226);
+            this.ANerissaCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.ANerissaCount.Name = "ANerissaCount";
+            this.ANerissaCount.Size = new System.Drawing.Size(33, 20);
+            this.ANerissaCount.TabIndex = 706;
+            // 
+            // minervaPromo
+            // 
+            this.minervaPromo.Location = new System.Drawing.Point(277, 1248);
+            this.minervaPromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.minervaPromo.Name = "minervaPromo";
+            this.minervaPromo.Size = new System.Drawing.Size(26, 20);
+            this.minervaPromo.TabIndex = 705;
+            // 
+            // MinervaBox
+            // 
+            this.MinervaBox.AutoSize = true;
+            this.MinervaBox.Location = new System.Drawing.Point(307, 1250);
+            this.MinervaBox.Name = "MinervaBox";
+            this.MinervaBox.Size = new System.Drawing.Size(33, 17);
+            this.MinervaBox.TabIndex = 704;
+            this.MinervaBox.TabStop = false;
+            this.MinervaBox.Text = "E";
+            this.MinervaBox.UseVisualStyleBackColor = true;
+            this.MinervaBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label413
+            // 
+            this.label413.AutoSize = true;
+            this.label413.Location = new System.Drawing.Point(193, 1252);
+            this.label413.Name = "label413";
+            this.label413.Size = new System.Drawing.Size(45, 13);
+            this.label413.TabIndex = 703;
+            this.label413.Text = "Minerva";
+            // 
+            // MinervaCount
+            // 
+            this.MinervaCount.Location = new System.Drawing.Point(242, 1248);
+            this.MinervaCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.MinervaCount.Name = "MinervaCount";
+            this.MinervaCount.Size = new System.Drawing.Size(33, 20);
+            this.MinervaCount.TabIndex = 702;
+            // 
+            // helgaPromo
+            // 
+            this.helgaPromo.Location = new System.Drawing.Point(454, 524);
+            this.helgaPromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.helgaPromo.Name = "helgaPromo";
+            this.helgaPromo.Size = new System.Drawing.Size(26, 20);
+            this.helgaPromo.TabIndex = 701;
+            // 
+            // opheliaPromo
+            // 
+            this.opheliaPromo.Location = new System.Drawing.Point(277, 524);
+            this.opheliaPromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.opheliaPromo.Name = "opheliaPromo";
+            this.opheliaPromo.Size = new System.Drawing.Size(26, 20);
+            this.opheliaPromo.TabIndex = 700;
+            // 
+            // agathaPromo
+            // 
+            this.agathaPromo.Location = new System.Drawing.Point(100, 524);
+            this.agathaPromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.agathaPromo.Name = "agathaPromo";
+            this.agathaPromo.Size = new System.Drawing.Size(26, 20);
+            this.agathaPromo.TabIndex = 699;
+            // 
+            // HelgaBox
+            // 
+            this.HelgaBox.AutoSize = true;
+            this.HelgaBox.Location = new System.Drawing.Point(484, 526);
+            this.HelgaBox.Name = "HelgaBox";
+            this.HelgaBox.Size = new System.Drawing.Size(33, 17);
+            this.HelgaBox.TabIndex = 698;
+            this.HelgaBox.TabStop = false;
+            this.HelgaBox.Text = "E";
+            this.HelgaBox.UseVisualStyleBackColor = true;
+            this.HelgaBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label410
+            // 
+            this.label410.AutoSize = true;
+            this.label410.Location = new System.Drawing.Point(382, 528);
+            this.label410.Name = "label410";
+            this.label410.Size = new System.Drawing.Size(35, 13);
+            this.label410.TabIndex = 697;
+            this.label410.Text = "Helga";
+            // 
+            // HelgaCount
+            // 
+            this.HelgaCount.Location = new System.Drawing.Point(419, 524);
+            this.HelgaCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.HelgaCount.Name = "HelgaCount";
+            this.HelgaCount.Size = new System.Drawing.Size(33, 20);
+            this.HelgaCount.TabIndex = 692;
+            // 
+            // OpheliaBox
+            // 
+            this.OpheliaBox.AutoSize = true;
+            this.OpheliaBox.Location = new System.Drawing.Point(307, 526);
+            this.OpheliaBox.Name = "OpheliaBox";
+            this.OpheliaBox.Size = new System.Drawing.Size(33, 17);
+            this.OpheliaBox.TabIndex = 696;
+            this.OpheliaBox.TabStop = false;
+            this.OpheliaBox.Text = "E";
+            this.OpheliaBox.UseVisualStyleBackColor = true;
+            this.OpheliaBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label411
+            // 
+            this.label411.AutoSize = true;
+            this.label411.Location = new System.Drawing.Point(197, 528);
+            this.label411.Name = "label411";
+            this.label411.Size = new System.Drawing.Size(43, 13);
+            this.label411.TabIndex = 695;
+            this.label411.Text = "Ophelia";
+            // 
+            // OpheliaCount
+            // 
+            this.OpheliaCount.Location = new System.Drawing.Point(242, 524);
+            this.OpheliaCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.OpheliaCount.Name = "OpheliaCount";
+            this.OpheliaCount.Size = new System.Drawing.Size(33, 20);
+            this.OpheliaCount.TabIndex = 691;
+            // 
+            // AgathaBox
+            // 
+            this.AgathaBox.AutoSize = true;
+            this.AgathaBox.Location = new System.Drawing.Point(130, 526);
+            this.AgathaBox.Name = "AgathaBox";
+            this.AgathaBox.Size = new System.Drawing.Size(33, 17);
+            this.AgathaBox.TabIndex = 694;
+            this.AgathaBox.TabStop = false;
+            this.AgathaBox.Text = "E";
+            this.AgathaBox.UseVisualStyleBackColor = true;
+            this.AgathaBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label412
+            // 
+            this.label412.AutoSize = true;
+            this.label412.Location = new System.Drawing.Point(19, 528);
+            this.label412.Name = "label412";
+            this.label412.Size = new System.Drawing.Size(41, 13);
+            this.label412.TabIndex = 693;
+            this.label412.Text = "Agatha";
+            // 
+            // AgathaCount
+            // 
+            this.AgathaCount.Location = new System.Drawing.Point(65, 524);
+            this.AgathaCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.AgathaCount.Name = "AgathaCount";
+            this.AgathaCount.Size = new System.Drawing.Size(33, 20);
+            this.AgathaCount.TabIndex = 690;
             // 
             // motherPromo
             // 
@@ -21907,276 +22177,6 @@
             this.label356.TabIndex = 387;
             this.label356.Text = "updates by alya and mons";
             // 
-            // helgaPromo
-            // 
-            this.helgaPromo.Location = new System.Drawing.Point(454, 524);
-            this.helgaPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.helgaPromo.Name = "helgaPromo";
-            this.helgaPromo.Size = new System.Drawing.Size(26, 20);
-            this.helgaPromo.TabIndex = 701;
-            // 
-            // opheliaPromo
-            // 
-            this.opheliaPromo.Location = new System.Drawing.Point(277, 524);
-            this.opheliaPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.opheliaPromo.Name = "opheliaPromo";
-            this.opheliaPromo.Size = new System.Drawing.Size(26, 20);
-            this.opheliaPromo.TabIndex = 700;
-            // 
-            // agathaPromo
-            // 
-            this.agathaPromo.Location = new System.Drawing.Point(100, 524);
-            this.agathaPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.agathaPromo.Name = "agathaPromo";
-            this.agathaPromo.Size = new System.Drawing.Size(26, 20);
-            this.agathaPromo.TabIndex = 699;
-            // 
-            // HelgaBox
-            // 
-            this.HelgaBox.AutoSize = true;
-            this.HelgaBox.Location = new System.Drawing.Point(484, 526);
-            this.HelgaBox.Name = "HelgaBox";
-            this.HelgaBox.Size = new System.Drawing.Size(33, 17);
-            this.HelgaBox.TabIndex = 698;
-            this.HelgaBox.TabStop = false;
-            this.HelgaBox.Text = "E";
-            this.HelgaBox.UseVisualStyleBackColor = true;
-            this.HelgaBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label410
-            // 
-            this.label410.AutoSize = true;
-            this.label410.Location = new System.Drawing.Point(382, 528);
-            this.label410.Name = "label410";
-            this.label410.Size = new System.Drawing.Size(35, 13);
-            this.label410.TabIndex = 697;
-            this.label410.Text = "Helga";
-            // 
-            // HelgaCount
-            // 
-            this.HelgaCount.Location = new System.Drawing.Point(419, 524);
-            this.HelgaCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.HelgaCount.Name = "HelgaCount";
-            this.HelgaCount.Size = new System.Drawing.Size(33, 20);
-            this.HelgaCount.TabIndex = 692;
-            // 
-            // OpheliaBox
-            // 
-            this.OpheliaBox.AutoSize = true;
-            this.OpheliaBox.Location = new System.Drawing.Point(307, 526);
-            this.OpheliaBox.Name = "OpheliaBox";
-            this.OpheliaBox.Size = new System.Drawing.Size(33, 17);
-            this.OpheliaBox.TabIndex = 696;
-            this.OpheliaBox.TabStop = false;
-            this.OpheliaBox.Text = "E";
-            this.OpheliaBox.UseVisualStyleBackColor = true;
-            this.OpheliaBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label411
-            // 
-            this.label411.AutoSize = true;
-            this.label411.Location = new System.Drawing.Point(197, 528);
-            this.label411.Name = "label411";
-            this.label411.Size = new System.Drawing.Size(43, 13);
-            this.label411.TabIndex = 695;
-            this.label411.Text = "Ophelia";
-            // 
-            // OpheliaCount
-            // 
-            this.OpheliaCount.Location = new System.Drawing.Point(242, 524);
-            this.OpheliaCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.OpheliaCount.Name = "OpheliaCount";
-            this.OpheliaCount.Size = new System.Drawing.Size(33, 20);
-            this.OpheliaCount.TabIndex = 691;
-            // 
-            // AgathaBox
-            // 
-            this.AgathaBox.AutoSize = true;
-            this.AgathaBox.Location = new System.Drawing.Point(130, 526);
-            this.AgathaBox.Name = "AgathaBox";
-            this.AgathaBox.Size = new System.Drawing.Size(33, 17);
-            this.AgathaBox.TabIndex = 694;
-            this.AgathaBox.TabStop = false;
-            this.AgathaBox.Text = "E";
-            this.AgathaBox.UseVisualStyleBackColor = true;
-            this.AgathaBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label412
-            // 
-            this.label412.AutoSize = true;
-            this.label412.Location = new System.Drawing.Point(19, 528);
-            this.label412.Name = "label412";
-            this.label412.Size = new System.Drawing.Size(41, 13);
-            this.label412.TabIndex = 693;
-            this.label412.Text = "Agatha";
-            // 
-            // AgathaCount
-            // 
-            this.AgathaCount.Location = new System.Drawing.Point(65, 524);
-            this.AgathaCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.AgathaCount.Name = "AgathaCount";
-            this.AgathaCount.Size = new System.Drawing.Size(33, 20);
-            this.AgathaCount.TabIndex = 690;
-            // 
-            // minervaPromo
-            // 
-            this.minervaPromo.Location = new System.Drawing.Point(277, 1248);
-            this.minervaPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.minervaPromo.Name = "minervaPromo";
-            this.minervaPromo.Size = new System.Drawing.Size(26, 20);
-            this.minervaPromo.TabIndex = 705;
-            // 
-            // MinervaBox
-            // 
-            this.MinervaBox.AutoSize = true;
-            this.MinervaBox.Location = new System.Drawing.Point(307, 1250);
-            this.MinervaBox.Name = "MinervaBox";
-            this.MinervaBox.Size = new System.Drawing.Size(33, 17);
-            this.MinervaBox.TabIndex = 704;
-            this.MinervaBox.TabStop = false;
-            this.MinervaBox.Text = "E";
-            this.MinervaBox.UseVisualStyleBackColor = true;
-            this.MinervaBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label413
-            // 
-            this.label413.AutoSize = true;
-            this.label413.Location = new System.Drawing.Point(193, 1252);
-            this.label413.Name = "label413";
-            this.label413.Size = new System.Drawing.Size(45, 13);
-            this.label413.TabIndex = 703;
-            this.label413.Text = "Minerva";
-            // 
-            // MinervaCount
-            // 
-            this.MinervaCount.Location = new System.Drawing.Point(242, 1248);
-            this.MinervaCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.MinervaCount.Name = "MinervaCount";
-            this.MinervaCount.Size = new System.Drawing.Size(33, 20);
-            this.MinervaCount.TabIndex = 702;
-            // 
-            // anerissaPromo
-            // 
-            this.anerissaPromo.Location = new System.Drawing.Point(100, 1226);
-            this.anerissaPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.anerissaPromo.Name = "anerissaPromo";
-            this.anerissaPromo.Size = new System.Drawing.Size(26, 20);
-            this.anerissaPromo.TabIndex = 709;
-            // 
-            // ANerissaBox
-            // 
-            this.ANerissaBox.AutoSize = true;
-            this.ANerissaBox.Location = new System.Drawing.Point(130, 1228);
-            this.ANerissaBox.Name = "ANerissaBox";
-            this.ANerissaBox.Size = new System.Drawing.Size(33, 17);
-            this.ANerissaBox.TabIndex = 708;
-            this.ANerissaBox.TabStop = false;
-            this.ANerissaBox.Text = "E";
-            this.ANerissaBox.UseVisualStyleBackColor = true;
-            this.ANerissaBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label414
-            // 
-            this.label414.AutoSize = true;
-            this.label414.Location = new System.Drawing.Point(-2, 1230);
-            this.label414.Name = "label414";
-            this.label414.Size = new System.Drawing.Size(66, 13);
-            this.label414.TabIndex = 707;
-            this.label414.Text = "Asc. Nerissa";
-            // 
-            // ANerissaCount
-            // 
-            this.ANerissaCount.Location = new System.Drawing.Point(65, 1226);
-            this.ANerissaCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.ANerissaCount.Name = "ANerissaCount";
-            this.ANerissaCount.Size = new System.Drawing.Size(33, 20);
-            this.ANerissaCount.TabIndex = 706;
-            // 
-            // awandererPromo
-            // 
-            this.awandererPromo.Location = new System.Drawing.Point(454, 1204);
-            this.awandererPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.awandererPromo.Name = "awandererPromo";
-            this.awandererPromo.Size = new System.Drawing.Size(26, 20);
-            this.awandererPromo.TabIndex = 713;
-            // 
-            // AWandererBox
-            // 
-            this.AWandererBox.AutoSize = true;
-            this.AWandererBox.Location = new System.Drawing.Point(484, 1206);
-            this.AWandererBox.Name = "AWandererBox";
-            this.AWandererBox.Size = new System.Drawing.Size(33, 17);
-            this.AWandererBox.TabIndex = 712;
-            this.AWandererBox.TabStop = false;
-            this.AWandererBox.Text = "E";
-            this.AWandererBox.UseVisualStyleBackColor = true;
-            this.AWandererBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label415
-            // 
-            this.label415.AutoSize = true;
-            this.label415.Location = new System.Drawing.Point(340, 1208);
-            this.label415.Name = "label415";
-            this.label415.Size = new System.Drawing.Size(78, 13);
-            this.label415.TabIndex = 711;
-            this.label415.Text = "Asc. Wanderer";
-            // 
-            // AWandererCount
-            // 
-            this.AWandererCount.Location = new System.Drawing.Point(419, 1204);
-            this.AWandererCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.AWandererCount.Name = "AWandererCount";
-            this.AWandererCount.Size = new System.Drawing.Size(33, 20);
-            this.AWandererCount.TabIndex = 710;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -22292,6 +22292,18 @@
             this.tabControl1.ResumeLayout(false);
             this.Heroes.ResumeLayout(false);
             this.Heroes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.awandererPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AWandererCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.anerissaPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ANerissaCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.minervaPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MinervaCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.helgaPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.opheliaPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.agathaPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HelgaCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OpheliaCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AgathaCount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.motherPromo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MotherCount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.thumperPromo)).EndInit();
@@ -22573,18 +22585,6 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.timeLimit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.helgaPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.opheliaPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.agathaPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HelgaCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.OpheliaCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AgathaCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.minervaPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MinervaCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.anerissaPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ANerissaCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.awandererPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AWandererCount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
