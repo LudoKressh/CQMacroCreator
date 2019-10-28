@@ -3999,7 +3999,7 @@
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(34, 13);
             this.label57.TabIndex = 159;
-            this.label57.Text = "v4.6a";
+            this.label57.Text = "v4.6b";
             // 
             // GurthBox
             // 
@@ -23299,7 +23299,7 @@
             this.label435.Name = "label435";
             this.label435.Size = new System.Drawing.Size(31, 13);
             this.label435.TabIndex = 799;
-            this.label435.Text = "Bride";
+            this.label435.Text = "Emily";
             // 
             // BrideCount
             // 
