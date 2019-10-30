@@ -1942,7 +1942,10 @@ namespace CQMacroCreator
                 mt.Join();
                 if (PFStuff.getHalloween.Count > 0)
                 {
-                        guiLog.AppendText("Successfully got Halloween heroes from server\n");
+                    followerLabel.Text = PFStuff.followers.ToString("### ### ###");
+                    upperCount.Value = 0;
+                    lowerCount.Value = 0;
+                    guiLog.AppendText("Successfully got Halloween heroes from server\n");
                         for (int i = 0; i < heroCountsServerOrder.Count; i++)
                         {
                             if (heroCountsServerOrder[i] != null)
