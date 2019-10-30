@@ -29,11 +29,14 @@ namespace CQMacroCreator
         string kongID;
         public static int questID;
         public static List<int[]> getResult;
+        public static List<int[]> getHalloween;
         public static long followers;
         public static int[] lineup;
         public static List<int> questList;
         public static int dungeonLvl;
         public static List<int[]> dungeonLineup;
+        public static int halloweenLvl;
+        public static List<int[]> halloweenLineup;
 
 
         public PFStuff(string t, string kid)
@@ -131,6 +134,43 @@ namespace CQMacroCreator
             return;
         }
 
+        public void GetHalloweenLevels()
+        {
+            getHalloween = new List<int[]>();
+            var request = new ExecuteCloudScriptRequest()
+            {
+                RevisionSelection = CloudScriptRevisionOption.Live,
+                FunctionName = "status",
+                FunctionParameter = new { token = token, kid = kongID }
+            };
+            var statusTask = PlayFabClientAPI.ExecuteCloudScriptAsync(request);
+            bool _running = true;
+            while (_running)
+            {
+                if (statusTask.IsCompleted)
+                {
+                    var apiError = statusTask.Result.Error;
+                    var apiResult = statusTask.Result.Result;
+
+                    if (apiError != null)
+                    {
+                        return;
+                    }
+                    else if (apiResult.FunctionResult != null)
+                    {
+                        JObject json = JObject.Parse(apiResult.FunctionResult.ToString());
+                        string levels = json["data"]["city"]["halloween"]["hero"].ToString();
+                        int[] heroLevels = getArray(levels);
+                        getHalloween.Add(heroLevels);
+                        return;
+                    }
+                    _running = false;
+                }
+                Thread.Sleep(1);
+            }
+            return;
+        }
+
         public void sendDQSolution()
         {
             var request = new ExecuteCloudScriptRequest()
@@ -217,7 +257,41 @@ namespace CQMacroCreator
             DQResult = false;
             return;
         }
- 
+
+        public void sendHalloweenSolution()
+        {
+            var request = new ExecuteCloudScriptRequest()
+            {
+                RevisionSelection = CloudScriptRevisionOption.Live,
+                FunctionName = "fightH",
+                FunctionParameter = new { kid = kongID, setup = lineup}
+            };
+            var statusTask = PlayFabClientAPI.ExecuteCloudScriptAsync(request);
+            bool _running = true;
+            while (_running)
+            {
+                if (statusTask.IsCompleted)
+                {
+                    var apiError = statusTask.Result.Error;
+                    var apiResult = statusTask.Result.Result;
+
+                    if (apiError != null)
+                    {
+                        DQResult = false;
+                        return;
+                    }
+                    else if (apiResult.FunctionResult != null && apiResult.FunctionResult.ToString().Contains("true"))
+                    {
+                        DQResult = true;
+                        return;
+                    }
+                    _running = false;
+                }
+                Thread.Sleep(1);
+            }
+            DQResult = false;
+            return;
+        }
 
         public void sendQuestSolution()
         {
@@ -319,6 +393,32 @@ namespace CQMacroCreator
                 int[] enemyLevels = getArray(elvl);
                 dungeonLineup.Add(enemyLineup);
                 dungeonLineup.Add(enemyLevels);
+
+            }
+            catch (WebException webex)
+            {
+                Console.Write(webex.Message);
+            }
+        }
+
+        internal static void getHalloweenData(string id)
+        {
+            try
+            {
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(@"https://cosmosquest.net/public.php?kid=" + id);
+                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+                string content = new StreamReader(response.GetResponseStream()).ReadToEnd();
+
+                JObject json = JObject.Parse(content);
+                var halloweenData = json["halloween"];
+                halloweenLineup = new List<int[]>();
+                halloweenLvl = int.Parse(halloweenData["level"].ToString());
+
+                string el = halloweenData["setup"].ToString();
+
+                int[] enemyLineup = getArray(el);
+                halloweenLineup.Add(enemyLineup);
 
             }
             catch (WebException webex)

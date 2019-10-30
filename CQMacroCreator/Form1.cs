@@ -1183,7 +1183,10 @@ namespace CQMacroCreator
                             }
                             else
                             {
-                                createMacroFile(lp);
+                                if (lp.Contains("EVENT"))
+                                    createMacroFile(lp.Substring(6));
+                                else
+                                    createMacroFile(lp);
                             }
                             RunWithRedirect("CosmosQuest.exe");
                             //calcOut = calcOut.Substring(0, calcOut.Length - 24);
@@ -1234,6 +1237,14 @@ namespace CQMacroCreator
                                             mt.Join();
                                             previousDQTime = DateTime.UtcNow;
                                         }
+                                        else if (lp.Contains("EVENT"))
+                                        {
+                                            mt = new Thread(pf.sendHalloweenSolution);
+                                            mt.IsBackground = true;
+                                            mt.Start();
+                                            mt.Join();
+                                            previousDQTime = DateTime.UtcNow;
+                                        }
                                         else
                                         {
                                             mt = new Thread(pf.sendDQSolution);
@@ -1252,6 +1263,11 @@ namespace CQMacroCreator
                                             {
                                                 guiLog.AppendText("Dungeon " + PFStuff.dungeonLvl + " solution accepted by server\n");
                                                 getDungeonButton_Click(this, EventArgs.Empty);
+                                            }
+                                            else if (lp.Contains("EVENT"))
+                                            {
+                                                guiLog.AppendText("Halloween " + PFStuff.halloweenLvl + " solution accepted by server\n");
+                                                getHalloweenButton_Click(this, EventArgs.Empty);
                                             }
                                             else
                                             {
@@ -1280,7 +1296,7 @@ namespace CQMacroCreator
                     }
                     else
                     {
-                        createMacroFile(lineupBox.Text.Replace("DUNG,", ""));
+                        createMacroFile(lineupBox.Text.Replace("DUNG,", "").Replace("EVENT,", ""));
                         if (File.Exists("default.cqconfig"))
                         {
                             generateConfigFile();
@@ -1522,6 +1538,11 @@ namespace CQMacroCreator
         private void button9_Click(object sender, EventArgs e)
         {
             getData(true, false, false, false);
+        }
+
+        private void HalloweenHeroes_Click(object sender, EventArgs e)
+        {
+            getHalloweenHeroes();
         }
 
         private void calculatePranaCosts()
@@ -1906,6 +1927,50 @@ namespace CQMacroCreator
             }
         }
 
+        private void getHalloweenHeroes()
+        {
+            try
+            {
+                Thread mt;
+                if (!PlayFab.PlayFabClientAPI.IsClientLoggedIn())
+                {
+                    login();
+                }
+
+                mt = new Thread(pf.GetHalloweenLevels);
+                mt.Start();
+                mt.Join();
+                if (PFStuff.getHalloween.Count > 0)
+                {
+                        guiLog.AppendText("Successfully got Halloween heroes from server\n");
+                        for (int i = 0; i < heroCountsServerOrder.Count; i++)
+                        {
+                            if (heroCountsServerOrder[i] != null)
+                            {
+                                heroCountsServerOrder[i].Value = PFStuff.getHalloween[0][i];
+                                heroPromosServerOrder[i].Value = 0;
+                            }
+                        }
+                }
+                else
+                {
+                    guiLog.AppendText("Failed to obtain game data\n");
+                }
+            }
+            catch (InvalidOperationException)
+            {
+                guiLog.AppendText("Failed to log in - your Auth Ticket: " + token + ", your KongID: " + KongregateId);
+            }
+            catch (IndexOutOfRangeException)
+            {
+                guiLog.AppendText("Unknown unit");
+            }
+            catch (Exception dataException)
+            {
+                guiLog.AppendText("Error: " + dataException.Message);
+            }
+        }
+
         private void sendTillNoSolveButton_Click(object sender, EventArgs e)
         {
             wrongHeroAmountAlreadyAsked = false;
@@ -1920,6 +1985,33 @@ namespace CQMacroCreator
                     {
                         attempts = 1;
                         previousDQlvl = PFStuff.dungeonLvl.ToString();
+                        runCalcButton_Click(this, EventArgs.Empty);
+                    }
+                    else
+                    {
+                        if (attempts < 3)
+                        {
+                            attempts++;
+                            guiLog.AppendText("Attempt no. " + attempts + " in 5 seconds\n");
+                            System.Threading.Thread.Sleep(5000);
+                            runCalcButton_Click(this, EventArgs.Empty);
+                        }
+                        else
+                        {
+                            guiLog.AppendText("Solution invalid, solving was stopped\n");
+                            break;
+                        }
+                    }
+                }
+            }
+            else if (lineupBox.Text.Contains("EVENT"))
+            {
+                while ((previousDQlvl != PFStuff.halloweenLvl.ToString() || !PFStuff.DQResult) && (PFStuff.lineup != null || attempts == 0))
+                {
+                    if (PFStuff.DQResult || attempts == 0)
+                    {
+                        attempts = 1;
+                        previousDQlvl = PFStuff.halloweenLvl.ToString();
                         runCalcButton_Click(this, EventArgs.Empty);
                     }
                     else
@@ -2014,6 +2106,24 @@ namespace CQMacroCreator
             enemylist = enemylist.Reverse().ToArray();
             lineupBox.Text = string.Join(",", enemylist);
             guiLog.AppendText("Successfully got enemy lineup for Dungeon" + PFStuff.dungeonLvl + " - " + string.Join(",", enemylist) + "\n");
+        }
+
+        private void getHalloweenButton_Click(object sender, EventArgs e) //TODO: Check how many enemies in the lineup
+        {
+            PFStuff.getHalloweenData(KongregateId);
+            string[] enemylist = new string[7];
+            for (int i = 0; i < 6; i++)
+            {
+                enemylist[i] = servernames[PFStuff.halloweenLineup[0][i] + heroesInGame];
+                if (PFStuff.halloweenLineup[0][i] < -1)
+                {
+                    enemylist[i] += ":" + PFStuff.halloweenLineup[1][-PFStuff.halloweenLineup[0][i] - 2].ToString();
+                }
+            }
+            enemylist[6] = "EVENT";
+            enemylist = enemylist.Reverse().ToArray();
+            lineupBox.Text = string.Join(",", enemylist);
+            guiLog.AppendText("Successfully got enemy lineup for Halloween" + PFStuff.halloweenLvl + " - " + string.Join(",", enemylist) + "\n");
         }
 
         private void ascendTargetLevel_ValueChanged(object sender, EventArgs e)

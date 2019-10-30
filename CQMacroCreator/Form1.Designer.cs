@@ -254,6 +254,22 @@
             this.CSHC = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Heroes = new System.Windows.Forms.TabPage();
+            this.AdamPromo = new System.Windows.Forms.NumericUpDown();
+            this.AdamBox = new System.Windows.Forms.CheckBox();
+            this.label438 = new System.Windows.Forms.Label();
+            this.AdamCount = new System.Windows.Forms.NumericUpDown();
+            this.BridePromo = new System.Windows.Forms.NumericUpDown();
+            this.BrideBox = new System.Windows.Forms.CheckBox();
+            this.label435 = new System.Windows.Forms.Label();
+            this.BrideCount = new System.Windows.Forms.NumericUpDown();
+            this.AdrianPromo = new System.Windows.Forms.NumericUpDown();
+            this.AdrianCount = new System.Windows.Forms.NumericUpDown();
+            this.label436 = new System.Windows.Forms.Label();
+            this.AdrianBox = new System.Windows.Forms.CheckBox();
+            this.CasperPromo = new System.Windows.Forms.NumericUpDown();
+            this.CasperCount = new System.Windows.Forms.NumericUpDown();
+            this.CasperBox = new System.Windows.Forms.CheckBox();
+            this.label437 = new System.Windows.Forms.Label();
             this.retiaPromo = new System.Windows.Forms.NumericUpDown();
             this.RetiaBox = new System.Windows.Forms.CheckBox();
             this.label434 = new System.Windows.Forms.Label();
@@ -1810,22 +1826,8 @@
             this.label314 = new System.Windows.Forms.Label();
             this.clearLineupButton = new System.Windows.Forms.Button();
             this.label356 = new System.Windows.Forms.Label();
-            this.BridePromo = new System.Windows.Forms.NumericUpDown();
-            this.BrideBox = new System.Windows.Forms.CheckBox();
-            this.label435 = new System.Windows.Forms.Label();
-            this.BrideCount = new System.Windows.Forms.NumericUpDown();
-            this.AdrianPromo = new System.Windows.Forms.NumericUpDown();
-            this.AdrianCount = new System.Windows.Forms.NumericUpDown();
-            this.label436 = new System.Windows.Forms.Label();
-            this.AdrianBox = new System.Windows.Forms.CheckBox();
-            this.CasperPromo = new System.Windows.Forms.NumericUpDown();
-            this.CasperCount = new System.Windows.Forms.NumericUpDown();
-            this.CasperBox = new System.Windows.Forms.CheckBox();
-            this.label437 = new System.Windows.Forms.Label();
-            this.AdamPromo = new System.Windows.Forms.NumericUpDown();
-            this.AdamBox = new System.Windows.Forms.CheckBox();
-            this.label438 = new System.Windows.Forms.Label();
-            this.AdamCount = new System.Windows.Forms.NumericUpDown();
+            this.button150 = new System.Windows.Forms.Button();
+            this.button151 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.JamesCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HunterCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.JetCount)).BeginInit();
@@ -1895,6 +1897,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.HamaCount)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.Heroes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AdamPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AdamCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BridePromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BrideCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AdrianPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AdrianCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CasperPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CasperCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.retiaPromo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RetiaCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.higgsPromo)).BeginInit();
@@ -2220,14 +2230,6 @@
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.timeLimit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BridePromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BrideCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AdrianPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AdrianCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CasperPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CasperCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AdamPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AdamCount)).BeginInit();
             this.SuspendLayout();
             // 
             // JamesCount
@@ -3999,7 +4001,7 @@
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(34, 13);
             this.label57.TabIndex = 159;
-            this.label57.Text = "v4.6b";
+            this.label57.Text = "v4.6c";
             // 
             // GurthBox
             // 
@@ -5486,6 +5488,186 @@
             this.Heroes.TabIndex = 0;
             this.Heroes.Text = "Heroes";
             this.Heroes.UseVisualStyleBackColor = true;
+            // 
+            // AdamPromo
+            // 
+            this.AdamPromo.Location = new System.Drawing.Point(100, 1443);
+            this.AdamPromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.AdamPromo.Name = "AdamPromo";
+            this.AdamPromo.Size = new System.Drawing.Size(26, 20);
+            this.AdamPromo.TabIndex = 805;
+            // 
+            // AdamBox
+            // 
+            this.AdamBox.AutoSize = true;
+            this.AdamBox.Location = new System.Drawing.Point(130, 1445);
+            this.AdamBox.Name = "AdamBox";
+            this.AdamBox.Size = new System.Drawing.Size(33, 17);
+            this.AdamBox.TabIndex = 804;
+            this.AdamBox.TabStop = false;
+            this.AdamBox.Text = "E";
+            this.AdamBox.UseVisualStyleBackColor = true;
+            this.AdamBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label438
+            // 
+            this.label438.AutoSize = true;
+            this.label438.Location = new System.Drawing.Point(27, 1446);
+            this.label438.Name = "label438";
+            this.label438.Size = new System.Drawing.Size(34, 13);
+            this.label438.TabIndex = 803;
+            this.label438.Text = "Adam";
+            // 
+            // AdamCount
+            // 
+            this.AdamCount.Location = new System.Drawing.Point(65, 1443);
+            this.AdamCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.AdamCount.Name = "AdamCount";
+            this.AdamCount.Size = new System.Drawing.Size(33, 20);
+            this.AdamCount.TabIndex = 802;
+            // 
+            // BridePromo
+            // 
+            this.BridePromo.Location = new System.Drawing.Point(454, 1195);
+            this.BridePromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.BridePromo.Name = "BridePromo";
+            this.BridePromo.Size = new System.Drawing.Size(26, 20);
+            this.BridePromo.TabIndex = 801;
+            // 
+            // BrideBox
+            // 
+            this.BrideBox.AutoSize = true;
+            this.BrideBox.Location = new System.Drawing.Point(484, 1197);
+            this.BrideBox.Name = "BrideBox";
+            this.BrideBox.Size = new System.Drawing.Size(33, 17);
+            this.BrideBox.TabIndex = 800;
+            this.BrideBox.TabStop = false;
+            this.BrideBox.Text = "E";
+            this.BrideBox.UseVisualStyleBackColor = true;
+            this.BrideBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label435
+            // 
+            this.label435.AutoSize = true;
+            this.label435.Location = new System.Drawing.Point(385, 1199);
+            this.label435.Name = "label435";
+            this.label435.Size = new System.Drawing.Size(31, 13);
+            this.label435.TabIndex = 799;
+            this.label435.Text = "Emily";
+            // 
+            // BrideCount
+            // 
+            this.BrideCount.Location = new System.Drawing.Point(419, 1195);
+            this.BrideCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.BrideCount.Name = "BrideCount";
+            this.BrideCount.Size = new System.Drawing.Size(33, 20);
+            this.BrideCount.TabIndex = 798;
+            // 
+            // AdrianPromo
+            // 
+            this.AdrianPromo.Location = new System.Drawing.Point(277, 1195);
+            this.AdrianPromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.AdrianPromo.Name = "AdrianPromo";
+            this.AdrianPromo.Size = new System.Drawing.Size(26, 20);
+            this.AdrianPromo.TabIndex = 797;
+            // 
+            // AdrianCount
+            // 
+            this.AdrianCount.Location = new System.Drawing.Point(242, 1195);
+            this.AdrianCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.AdrianCount.Name = "AdrianCount";
+            this.AdrianCount.Size = new System.Drawing.Size(33, 20);
+            this.AdrianCount.TabIndex = 794;
+            // 
+            // label436
+            // 
+            this.label436.AutoSize = true;
+            this.label436.Location = new System.Drawing.Point(201, 1199);
+            this.label436.Name = "label436";
+            this.label436.Size = new System.Drawing.Size(37, 13);
+            this.label436.TabIndex = 795;
+            this.label436.Text = "Adrian";
+            // 
+            // AdrianBox
+            // 
+            this.AdrianBox.AutoSize = true;
+            this.AdrianBox.Location = new System.Drawing.Point(307, 1197);
+            this.AdrianBox.Name = "AdrianBox";
+            this.AdrianBox.Size = new System.Drawing.Size(33, 17);
+            this.AdrianBox.TabIndex = 796;
+            this.AdrianBox.TabStop = false;
+            this.AdrianBox.Text = "E";
+            this.AdrianBox.UseVisualStyleBackColor = true;
+            this.AdrianBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // CasperPromo
+            // 
+            this.CasperPromo.Location = new System.Drawing.Point(100, 1195);
+            this.CasperPromo.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.CasperPromo.Name = "CasperPromo";
+            this.CasperPromo.Size = new System.Drawing.Size(26, 20);
+            this.CasperPromo.TabIndex = 793;
+            // 
+            // CasperCount
+            // 
+            this.CasperCount.Location = new System.Drawing.Point(65, 1195);
+            this.CasperCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.CasperCount.Name = "CasperCount";
+            this.CasperCount.Size = new System.Drawing.Size(33, 20);
+            this.CasperCount.TabIndex = 790;
+            // 
+            // CasperBox
+            // 
+            this.CasperBox.AutoSize = true;
+            this.CasperBox.Location = new System.Drawing.Point(130, 1197);
+            this.CasperBox.Name = "CasperBox";
+            this.CasperBox.Size = new System.Drawing.Size(33, 17);
+            this.CasperBox.TabIndex = 792;
+            this.CasperBox.TabStop = false;
+            this.CasperBox.Text = "E";
+            this.CasperBox.UseVisualStyleBackColor = true;
+            this.CasperBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
+            // 
+            // label437
+            // 
+            this.label437.AutoSize = true;
+            this.label437.Location = new System.Drawing.Point(21, 1199);
+            this.label437.Name = "label437";
+            this.label437.Size = new System.Drawing.Size(40, 13);
+            this.label437.TabIndex = 791;
+            this.label437.Text = "Casper";
             // 
             // retiaPromo
             // 
@@ -23198,7 +23380,7 @@
             // 
             // button91
             // 
-            this.button91.Location = new System.Drawing.Point(618, 102);
+            this.button91.Location = new System.Drawing.Point(671, 103);
             this.button91.Name = "button91";
             this.button91.Size = new System.Drawing.Size(148, 37);
             this.button91.TabIndex = 230;
@@ -23268,191 +23450,37 @@
             this.label356.TabIndex = 387;
             this.label356.Text = "updates by alya and mons";
             // 
-            // BridePromo
+            // button150
             // 
-            this.BridePromo.Location = new System.Drawing.Point(454, 1195);
-            this.BridePromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.BridePromo.Name = "BridePromo";
-            this.BridePromo.Size = new System.Drawing.Size(26, 20);
-            this.BridePromo.TabIndex = 801;
+            this.button150.BackColor = System.Drawing.Color.Wheat;
+            this.button150.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button150.Location = new System.Drawing.Point(616, 103);
+            this.button150.Name = "button150";
+            this.button150.Size = new System.Drawing.Size(55, 37);
+            this.button150.TabIndex = 388;
+            this.button150.Text = "Event Lineup";
+            this.button150.UseVisualStyleBackColor = false;
+            this.button150.Click += new System.EventHandler(this.getHalloweenButton_Click);
             // 
-            // BrideBox
+            // button151
             // 
-            this.BrideBox.AutoSize = true;
-            this.BrideBox.Location = new System.Drawing.Point(484, 1197);
-            this.BrideBox.Name = "BrideBox";
-            this.BrideBox.Size = new System.Drawing.Size(33, 17);
-            this.BrideBox.TabIndex = 800;
-            this.BrideBox.TabStop = false;
-            this.BrideBox.Text = "E";
-            this.BrideBox.UseVisualStyleBackColor = true;
-            this.BrideBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label435
-            // 
-            this.label435.AutoSize = true;
-            this.label435.Location = new System.Drawing.Point(384, 1199);
-            this.label435.Name = "label435";
-            this.label435.Size = new System.Drawing.Size(31, 13);
-            this.label435.TabIndex = 799;
-            this.label435.Text = "Emily";
-            // 
-            // BrideCount
-            // 
-            this.BrideCount.Location = new System.Drawing.Point(419, 1195);
-            this.BrideCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.BrideCount.Name = "BrideCount";
-            this.BrideCount.Size = new System.Drawing.Size(33, 20);
-            this.BrideCount.TabIndex = 798;
-            // 
-            // AdrianPromo
-            // 
-            this.AdrianPromo.Location = new System.Drawing.Point(277, 1195);
-            this.AdrianPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.AdrianPromo.Name = "AdrianPromo";
-            this.AdrianPromo.Size = new System.Drawing.Size(26, 20);
-            this.AdrianPromo.TabIndex = 797;
-            // 
-            // AdrianCount
-            // 
-            this.AdrianCount.Location = new System.Drawing.Point(242, 1195);
-            this.AdrianCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.AdrianCount.Name = "AdrianCount";
-            this.AdrianCount.Size = new System.Drawing.Size(33, 20);
-            this.AdrianCount.TabIndex = 794;
-            // 
-            // label436
-            // 
-            this.label436.AutoSize = true;
-            this.label436.Location = new System.Drawing.Point(201, 1199);
-            this.label436.Name = "label436";
-            this.label436.Size = new System.Drawing.Size(37, 13);
-            this.label436.TabIndex = 795;
-            this.label436.Text = "Adrian";
-            // 
-            // AdrianBox
-            // 
-            this.AdrianBox.AutoSize = true;
-            this.AdrianBox.Location = new System.Drawing.Point(307, 1197);
-            this.AdrianBox.Name = "AdrianBox";
-            this.AdrianBox.Size = new System.Drawing.Size(33, 17);
-            this.AdrianBox.TabIndex = 796;
-            this.AdrianBox.TabStop = false;
-            this.AdrianBox.Text = "E";
-            this.AdrianBox.UseVisualStyleBackColor = true;
-            this.AdrianBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // CasperPromo
-            // 
-            this.CasperPromo.Location = new System.Drawing.Point(100, 1195);
-            this.CasperPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.CasperPromo.Name = "CasperPromo";
-            this.CasperPromo.Size = new System.Drawing.Size(26, 20);
-            this.CasperPromo.TabIndex = 793;
-            // 
-            // CasperCount
-            // 
-            this.CasperCount.Location = new System.Drawing.Point(65, 1195);
-            this.CasperCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.CasperCount.Name = "CasperCount";
-            this.CasperCount.Size = new System.Drawing.Size(33, 20);
-            this.CasperCount.TabIndex = 790;
-            // 
-            // CasperBox
-            // 
-            this.CasperBox.AutoSize = true;
-            this.CasperBox.Location = new System.Drawing.Point(130, 1197);
-            this.CasperBox.Name = "CasperBox";
-            this.CasperBox.Size = new System.Drawing.Size(33, 17);
-            this.CasperBox.TabIndex = 792;
-            this.CasperBox.TabStop = false;
-            this.CasperBox.Text = "E";
-            this.CasperBox.UseVisualStyleBackColor = true;
-            this.CasperBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label437
-            // 
-            this.label437.AutoSize = true;
-            this.label437.Location = new System.Drawing.Point(21, 1199);
-            this.label437.Name = "label437";
-            this.label437.Size = new System.Drawing.Size(40, 13);
-            this.label437.TabIndex = 791;
-            this.label437.Text = "Casper";
-            // 
-            // AdamPromo
-            // 
-            this.AdamPromo.Location = new System.Drawing.Point(100, 1443);
-            this.AdamPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.AdamPromo.Name = "AdamPromo";
-            this.AdamPromo.Size = new System.Drawing.Size(26, 20);
-            this.AdamPromo.TabIndex = 805;
-            // 
-            // AdamBox
-            // 
-            this.AdamBox.AutoSize = true;
-            this.AdamBox.Location = new System.Drawing.Point(130, 1445);
-            this.AdamBox.Name = "AdamBox";
-            this.AdamBox.Size = new System.Drawing.Size(33, 17);
-            this.AdamBox.TabIndex = 804;
-            this.AdamBox.TabStop = false;
-            this.AdamBox.Text = "E";
-            this.AdamBox.UseVisualStyleBackColor = true;
-            this.AdamBox.CheckedChanged += new System.EventHandler(this.RigrBox_CheckedChanged);
-            // 
-            // label438
-            // 
-            this.label438.AutoSize = true;
-            this.label438.Location = new System.Drawing.Point(27, 1446);
-            this.label438.Name = "label438";
-            this.label438.Size = new System.Drawing.Size(34, 13);
-            this.label438.TabIndex = 803;
-            this.label438.Text = "Adam";
-            // 
-            // AdamCount
-            // 
-            this.AdamCount.Location = new System.Drawing.Point(65, 1443);
-            this.AdamCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.AdamCount.Name = "AdamCount";
-            this.AdamCount.Size = new System.Drawing.Size(33, 20);
-            this.AdamCount.TabIndex = 802;
+            this.button151.BackColor = System.Drawing.Color.Wheat;
+            this.button151.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button151.Location = new System.Drawing.Point(559, 103);
+            this.button151.Name = "button151";
+            this.button151.Size = new System.Drawing.Size(57, 37);
+            this.button151.TabIndex = 389;
+            this.button151.Text = "Event Heroes";
+            this.button151.UseVisualStyleBackColor = false;
+            this.button151.Click += new System.EventHandler(this.HalloweenHeroes_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(830, 626);
+            this.Controls.Add(this.button151);
+            this.Controls.Add(this.button150);
             this.Controls.Add(this.label356);
             this.Controls.Add(this.clearLineupButton);
             this.Controls.Add(this.label314);
@@ -23563,6 +23591,14 @@
             this.tabControl1.ResumeLayout(false);
             this.Heroes.ResumeLayout(false);
             this.Heroes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AdamPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AdamCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BridePromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BrideCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AdrianPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AdrianCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CasperPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CasperCount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.retiaPromo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RetiaCount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.higgsPromo)).EndInit();
@@ -23894,14 +23930,6 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.timeLimit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BridePromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BrideCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AdrianPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AdrianCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CasperPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CasperCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AdamPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AdamCount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -25706,6 +25734,8 @@
         private System.Windows.Forms.NumericUpDown CasperCount;
         private System.Windows.Forms.CheckBox CasperBox;
         private System.Windows.Forms.Label label437;
+        private System.Windows.Forms.Button button150;
+        private System.Windows.Forms.Button button151;
     }
 }
 
