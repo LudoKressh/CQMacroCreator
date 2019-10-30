@@ -2111,16 +2111,14 @@ namespace CQMacroCreator
         private void getHalloweenButton_Click(object sender, EventArgs e) //TODO: Check how many enemies in the lineup
         {
             PFStuff.getHalloweenData(KongregateId);
-            string[] enemylist = new string[7];
+            int j = 0;
             for (int i = 0; i < 6; i++)
-            {
+                if (PFStuff.halloweenLineup[0][i] != -1)
+                    j++;
+            string[] enemylist = new string[j+1];
+            for (int i = 0; i < j; i++)
                 enemylist[i] = servernames[PFStuff.halloweenLineup[0][i] + heroesInGame];
-                if (PFStuff.halloweenLineup[0][i] < -1)
-                {
-                    enemylist[i] += ":" + PFStuff.halloweenLineup[1][-PFStuff.halloweenLineup[0][i] - 2].ToString();
-                }
-            }
-            enemylist[6] = "EVENT";
+            enemylist[j] = "EVENT";
             enemylist = enemylist.Reverse().ToArray();
             lineupBox.Text = string.Join(",", enemylist);
             guiLog.AppendText("Successfully got enemy lineup for Halloween" + PFStuff.halloweenLvl + " - " + string.Join(",", enemylist) + "\n");
