@@ -254,6 +254,26 @@
             this.CSHC = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Heroes = new System.Windows.Forms.TabPage();
+            this.MMaryPromo = new System.Windows.Forms.NumericUpDown();
+            this.MMaryBox = new System.Windows.Forms.CheckBox();
+            this.label443 = new System.Windows.Forms.Label();
+            this.MMaryCount = new System.Windows.Forms.NumericUpDown();
+            this.YisusPromo = new System.Windows.Forms.NumericUpDown();
+            this.YisusBox = new System.Windows.Forms.CheckBox();
+            this.label442 = new System.Windows.Forms.Label();
+            this.YisusCount = new System.Windows.Forms.NumericUpDown();
+            this.HansPromo = new System.Windows.Forms.NumericUpDown();
+            this.HansBox = new System.Windows.Forms.CheckBox();
+            this.label439 = new System.Windows.Forms.Label();
+            this.HansCount = new System.Windows.Forms.NumericUpDown();
+            this.YetiPromo = new System.Windows.Forms.NumericUpDown();
+            this.YetiCount = new System.Windows.Forms.NumericUpDown();
+            this.label440 = new System.Windows.Forms.Label();
+            this.YetiBox = new System.Windows.Forms.CheckBox();
+            this.GallaPromo = new System.Windows.Forms.NumericUpDown();
+            this.GallaCount = new System.Windows.Forms.NumericUpDown();
+            this.GallaBox = new System.Windows.Forms.CheckBox();
+            this.label441 = new System.Windows.Forms.Label();
             this.AdamPromo = new System.Windows.Forms.NumericUpDown();
             this.AdamBox = new System.Windows.Forms.CheckBox();
             this.label438 = new System.Windows.Forms.Label();
@@ -1826,26 +1846,6 @@
             this.label314 = new System.Windows.Forms.Label();
             this.clearLineupButton = new System.Windows.Forms.Button();
             this.label356 = new System.Windows.Forms.Label();
-            this.HansPromo = new System.Windows.Forms.NumericUpDown();
-            this.HansBox = new System.Windows.Forms.CheckBox();
-            this.label439 = new System.Windows.Forms.Label();
-            this.HansCount = new System.Windows.Forms.NumericUpDown();
-            this.YetiPromo = new System.Windows.Forms.NumericUpDown();
-            this.YetiCount = new System.Windows.Forms.NumericUpDown();
-            this.label440 = new System.Windows.Forms.Label();
-            this.YetiBox = new System.Windows.Forms.CheckBox();
-            this.GallaPromo = new System.Windows.Forms.NumericUpDown();
-            this.GallaCount = new System.Windows.Forms.NumericUpDown();
-            this.GallaBox = new System.Windows.Forms.CheckBox();
-            this.label441 = new System.Windows.Forms.Label();
-            this.YisusPromo = new System.Windows.Forms.NumericUpDown();
-            this.YisusBox = new System.Windows.Forms.CheckBox();
-            this.label442 = new System.Windows.Forms.Label();
-            this.YisusCount = new System.Windows.Forms.NumericUpDown();
-            this.MMaryPromo = new System.Windows.Forms.NumericUpDown();
-            this.MMaryBox = new System.Windows.Forms.CheckBox();
-            this.label443 = new System.Windows.Forms.Label();
-            this.MMaryCount = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.JamesCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HunterCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.JetCount)).BeginInit();
@@ -1915,6 +1915,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.HamaCount)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.Heroes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MMaryPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MMaryCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YisusPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YisusCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HansPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HansCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YetiPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YetiCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GallaPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GallaCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdamPromo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdamCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BridePromo)).BeginInit();
@@ -2248,16 +2258,6 @@
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.timeLimit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HansPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HansCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.YetiPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.YetiCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GallaPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GallaCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.YisusPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.YisusCount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MMaryPromo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MMaryCount)).BeginInit();
             this.SuspendLayout();
             // 
             // JamesCount
@@ -4027,9 +4027,9 @@
             this.label57.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label57.Location = new System.Drawing.Point(794, 41);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(31, 13);
+            this.label57.Size = new System.Drawing.Size(34, 13);
             this.label57.TabIndex = 159;
-            this.label57.Text = "v4.6f";
+            this.label57.Text = "v4.7a";
             // 
             // GurthBox
             // 
@@ -5537,11 +5537,231 @@
             this.Heroes.Text = "Heroes";
             this.Heroes.UseVisualStyleBackColor = true;
             // 
+            // MMaryPromo
+            // 
+            this.MMaryPromo.Location = new System.Drawing.Point(277, 1466);
+            this.MMaryPromo.Maximum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.MMaryPromo.Name = "MMaryPromo";
+            this.MMaryPromo.Size = new System.Drawing.Size(26, 20);
+            this.MMaryPromo.TabIndex = 825;
+            // 
+            // MMaryBox
+            // 
+            this.MMaryBox.AutoSize = true;
+            this.MMaryBox.Location = new System.Drawing.Point(307, 1468);
+            this.MMaryBox.Name = "MMaryBox";
+            this.MMaryBox.Size = new System.Drawing.Size(33, 17);
+            this.MMaryBox.TabIndex = 824;
+            this.MMaryBox.TabStop = false;
+            this.MMaryBox.Text = "E";
+            this.MMaryBox.UseVisualStyleBackColor = true;
+            // 
+            // label443
+            // 
+            this.label443.AutoSize = true;
+            this.label443.Location = new System.Drawing.Point(174, 1469);
+            this.label443.Name = "label443";
+            this.label443.Size = new System.Drawing.Size(66, 13);
+            this.label443.TabIndex = 823;
+            this.label443.Text = "Mecha Mary";
+            // 
+            // MMaryCount
+            // 
+            this.MMaryCount.Location = new System.Drawing.Point(242, 1466);
+            this.MMaryCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.MMaryCount.Name = "MMaryCount";
+            this.MMaryCount.Size = new System.Drawing.Size(33, 20);
+            this.MMaryCount.TabIndex = 822;
+            // 
+            // YisusPromo
+            // 
+            this.YisusPromo.Location = new System.Drawing.Point(454, 1217);
+            this.YisusPromo.Maximum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.YisusPromo.Name = "YisusPromo";
+            this.YisusPromo.Size = new System.Drawing.Size(26, 20);
+            this.YisusPromo.TabIndex = 821;
+            // 
+            // YisusBox
+            // 
+            this.YisusBox.AutoSize = true;
+            this.YisusBox.Location = new System.Drawing.Point(484, 1219);
+            this.YisusBox.Name = "YisusBox";
+            this.YisusBox.Size = new System.Drawing.Size(33, 17);
+            this.YisusBox.TabIndex = 820;
+            this.YisusBox.TabStop = false;
+            this.YisusBox.Text = "E";
+            this.YisusBox.UseVisualStyleBackColor = true;
+            // 
+            // label442
+            // 
+            this.label442.AutoSize = true;
+            this.label442.Location = new System.Drawing.Point(383, 1221);
+            this.label442.Name = "label442";
+            this.label442.Size = new System.Drawing.Size(32, 13);
+            this.label442.TabIndex = 819;
+            this.label442.Text = "Yisus";
+            // 
+            // YisusCount
+            // 
+            this.YisusCount.Location = new System.Drawing.Point(419, 1217);
+            this.YisusCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.YisusCount.Name = "YisusCount";
+            this.YisusCount.Size = new System.Drawing.Size(33, 20);
+            this.YisusCount.TabIndex = 818;
+            // 
+            // HansPromo
+            // 
+            this.HansPromo.Location = new System.Drawing.Point(454, 1239);
+            this.HansPromo.Maximum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.HansPromo.Name = "HansPromo";
+            this.HansPromo.Size = new System.Drawing.Size(26, 20);
+            this.HansPromo.TabIndex = 817;
+            // 
+            // HansBox
+            // 
+            this.HansBox.AutoSize = true;
+            this.HansBox.Location = new System.Drawing.Point(484, 1241);
+            this.HansBox.Name = "HansBox";
+            this.HansBox.Size = new System.Drawing.Size(33, 17);
+            this.HansBox.TabIndex = 816;
+            this.HansBox.TabStop = false;
+            this.HansBox.Text = "E";
+            this.HansBox.UseVisualStyleBackColor = true;
+            // 
+            // label439
+            // 
+            this.label439.AutoSize = true;
+            this.label439.Location = new System.Drawing.Point(383, 1243);
+            this.label439.Name = "label439";
+            this.label439.Size = new System.Drawing.Size(32, 13);
+            this.label439.TabIndex = 815;
+            this.label439.Text = "Hans";
+            // 
+            // HansCount
+            // 
+            this.HansCount.Location = new System.Drawing.Point(419, 1239);
+            this.HansCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.HansCount.Name = "HansCount";
+            this.HansCount.Size = new System.Drawing.Size(33, 20);
+            this.HansCount.TabIndex = 814;
+            // 
+            // YetiPromo
+            // 
+            this.YetiPromo.Location = new System.Drawing.Point(277, 1239);
+            this.YetiPromo.Maximum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.YetiPromo.Name = "YetiPromo";
+            this.YetiPromo.Size = new System.Drawing.Size(26, 20);
+            this.YetiPromo.TabIndex = 813;
+            // 
+            // YetiCount
+            // 
+            this.YetiCount.Location = new System.Drawing.Point(242, 1239);
+            this.YetiCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.YetiCount.Name = "YetiCount";
+            this.YetiCount.Size = new System.Drawing.Size(33, 20);
+            this.YetiCount.TabIndex = 810;
+            // 
+            // label440
+            // 
+            this.label440.AutoSize = true;
+            this.label440.Location = new System.Drawing.Point(210, 1243);
+            this.label440.Name = "label440";
+            this.label440.Size = new System.Drawing.Size(25, 13);
+            this.label440.TabIndex = 811;
+            this.label440.Text = "Yeti";
+            // 
+            // YetiBox
+            // 
+            this.YetiBox.AutoSize = true;
+            this.YetiBox.Location = new System.Drawing.Point(307, 1241);
+            this.YetiBox.Name = "YetiBox";
+            this.YetiBox.Size = new System.Drawing.Size(33, 17);
+            this.YetiBox.TabIndex = 812;
+            this.YetiBox.TabStop = false;
+            this.YetiBox.Text = "E";
+            this.YetiBox.UseVisualStyleBackColor = true;
+            // 
+            // GallaPromo
+            // 
+            this.GallaPromo.Location = new System.Drawing.Point(100, 1239);
+            this.GallaPromo.Maximum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.GallaPromo.Name = "GallaPromo";
+            this.GallaPromo.Size = new System.Drawing.Size(26, 20);
+            this.GallaPromo.TabIndex = 809;
+            // 
+            // GallaCount
+            // 
+            this.GallaCount.Location = new System.Drawing.Point(65, 1239);
+            this.GallaCount.Maximum = new decimal(new int[] {
+            99,
+            0,
+            0,
+            0});
+            this.GallaCount.Name = "GallaCount";
+            this.GallaCount.Size = new System.Drawing.Size(33, 20);
+            this.GallaCount.TabIndex = 806;
+            // 
+            // GallaBox
+            // 
+            this.GallaBox.AutoSize = true;
+            this.GallaBox.Location = new System.Drawing.Point(130, 1241);
+            this.GallaBox.Name = "GallaBox";
+            this.GallaBox.Size = new System.Drawing.Size(33, 17);
+            this.GallaBox.TabIndex = 808;
+            this.GallaBox.TabStop = false;
+            this.GallaBox.Text = "E";
+            this.GallaBox.UseVisualStyleBackColor = true;
+            // 
+            // label441
+            // 
+            this.label441.AutoSize = true;
+            this.label441.Location = new System.Drawing.Point(28, 1243);
+            this.label441.Name = "label441";
+            this.label441.Size = new System.Drawing.Size(31, 13);
+            this.label441.TabIndex = 807;
+            this.label441.Text = "Galla";
+            // 
             // AdamPromo
             // 
             this.AdamPromo.Location = new System.Drawing.Point(100, 1466);
             this.AdamPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -5586,7 +5806,7 @@
             // 
             this.BridePromo.Location = new System.Drawing.Point(454, 1195);
             this.BridePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -5631,7 +5851,7 @@
             // 
             this.AdrianPromo.Location = new System.Drawing.Point(277, 1195);
             this.AdrianPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -5676,7 +5896,7 @@
             // 
             this.CasperPromo.Location = new System.Drawing.Point(100, 1195);
             this.CasperPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -5721,7 +5941,7 @@
             // 
             this.retiaPromo.Location = new System.Drawing.Point(454, 1422);
             this.retiaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -5766,7 +5986,7 @@
             // 
             this.higgsPromo.Location = new System.Drawing.Point(100, 1400);
             this.higgsPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -5811,7 +6031,7 @@
             // 
             this.bosonPromo.Location = new System.Drawing.Point(454, 406);
             this.bosonPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -5823,7 +6043,7 @@
             // 
             this.electraPromo.Location = new System.Drawing.Point(277, 406);
             this.electraPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -5835,7 +6055,7 @@
             // 
             this.newtPromo.Location = new System.Drawing.Point(100, 406);
             this.newtPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -5946,7 +6166,7 @@
             // 
             this.myrmilloPromo.Location = new System.Drawing.Point(454, 610);
             this.myrmilloPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -5958,7 +6178,7 @@
             // 
             this.scindaPromo.Location = new System.Drawing.Point(277, 610);
             this.scindaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -5970,7 +6190,7 @@
             // 
             this.thracePromo.Location = new System.Drawing.Point(100, 610);
             this.thracePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6081,7 +6301,7 @@
             // 
             this.liliPromo.Location = new System.Drawing.Point(454, 1466);
             this.liliPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6126,7 +6346,7 @@
             // 
             this.achocoPromo.Location = new System.Drawing.Point(454, 1378);
             this.achocoPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6171,7 +6391,7 @@
             // 
             this.smithPromo.Location = new System.Drawing.Point(277, 1217);
             this.smithPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6216,7 +6436,7 @@
             // 
             this.chocoPromo.Location = new System.Drawing.Point(454, 384);
             this.chocoPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6228,7 +6448,7 @@
             // 
             this.sharkPromo.Location = new System.Drawing.Point(277, 384);
             this.sharkPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6240,7 +6460,7 @@
             // 
             this.cottonPromo.Location = new System.Drawing.Point(100, 384);
             this.cottonPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6354,7 +6574,7 @@
             // 
             this.acreiPromo.Location = new System.Drawing.Point(277, 1378);
             this.acreiPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6399,7 +6619,7 @@
             // 
             this.tetraPromo.Location = new System.Drawing.Point(100, 1217);
             this.tetraPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6444,7 +6664,7 @@
             // 
             this.creiPromo.Location = new System.Drawing.Point(454, 362);
             this.creiPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6456,7 +6676,7 @@
             // 
             this.catzarPromo.Location = new System.Drawing.Point(277, 362);
             this.catzarPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6468,7 +6688,7 @@
             // 
             this.cathosPromo.Location = new System.Drawing.Point(100, 362);
             this.cathosPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6582,7 +6802,7 @@
             // 
             this.awandererPromo.Location = new System.Drawing.Point(454, 1356);
             this.awandererPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6627,7 +6847,7 @@
             // 
             this.anerissaPromo.Location = new System.Drawing.Point(100, 1378);
             this.anerissaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6672,7 +6892,7 @@
             // 
             this.minervaPromo.Location = new System.Drawing.Point(277, 1422);
             this.minervaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6717,7 +6937,7 @@
             // 
             this.helgaPromo.Location = new System.Drawing.Point(454, 588);
             this.helgaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6729,7 +6949,7 @@
             // 
             this.opheliaPromo.Location = new System.Drawing.Point(277, 588);
             this.opheliaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6741,7 +6961,7 @@
             // 
             this.agathaPromo.Location = new System.Drawing.Point(100, 588);
             this.agathaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6852,7 +7072,7 @@
             // 
             this.motherPromo.Location = new System.Drawing.Point(277, 953);
             this.motherPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6897,7 +7117,7 @@
             // 
             this.thumperPromo.Location = new System.Drawing.Point(454, 1444);
             this.thumperPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6942,7 +7162,7 @@
             // 
             this.daisyPromo.Location = new System.Drawing.Point(454, 1173);
             this.daisyPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -6987,7 +7207,7 @@
             // 
             this.gizmoPromo.Location = new System.Drawing.Point(277, 1173);
             this.gizmoPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7032,7 +7252,7 @@
             // 
             this.willowPromo.Location = new System.Drawing.Point(100, 1173);
             this.willowPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7077,7 +7297,7 @@
             // 
             this.nerissaPromo.Location = new System.Drawing.Point(454, 340);
             this.nerissaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7089,7 +7309,7 @@
             // 
             this.murphyPromo.Location = new System.Drawing.Point(277, 340);
             this.murphyPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7101,7 +7321,7 @@
             // 
             this.bortlesPromo.Location = new System.Drawing.Point(100, 340);
             this.bortlesPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7215,7 +7435,7 @@
             // 
             this.amahatmaPromo.Location = new System.Drawing.Point(454, 880);
             this.amahatmaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7260,7 +7480,7 @@
             // 
             this.adybbukPromo.Location = new System.Drawing.Point(454, 902);
             this.adybbukPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7272,7 +7492,7 @@
             // 
             this.aedanaPromo.Location = new System.Drawing.Point(277, 902);
             this.aedanaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7284,7 +7504,7 @@
             // 
             this.ajadePromo.Location = new System.Drawing.Point(100, 902);
             this.ajadePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7395,7 +7615,7 @@
             // 
             this.spikePromo.Location = new System.Drawing.Point(277, 1444);
             this.spikePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7440,7 +7660,7 @@
             // 
             this.riptidePromo.Location = new System.Drawing.Point(454, 1151);
             this.riptidePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7485,7 +7705,7 @@
             // 
             this.emberPromo.Location = new System.Drawing.Point(277, 1151);
             this.emberPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7530,7 +7750,7 @@
             // 
             this.cloudPromo.Location = new System.Drawing.Point(100, 1151);
             this.cloudPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7575,7 +7795,7 @@
             // 
             this.bdayPromo.Location = new System.Drawing.Point(454, 1129);
             this.bdayPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7620,7 +7840,7 @@
             // 
             this.wandererPromo.Location = new System.Drawing.Point(454, 318);
             this.wandererPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7632,7 +7852,7 @@
             // 
             this.maunderPromo.Location = new System.Drawing.Point(277, 318);
             this.maunderPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7644,7 +7864,7 @@
             // 
             this.transientPromo.Location = new System.Drawing.Point(100, 318);
             this.transientPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7758,7 +7978,7 @@
             // 
             this.cupidPromo.Location = new System.Drawing.Point(277, 1129);
             this.cupidPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7803,7 +8023,7 @@
             // 
             this.auroraPromo.Location = new System.Drawing.Point(100, 1422);
             this.auroraPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7848,7 +8068,7 @@
             // 
             this.orinPromo.Location = new System.Drawing.Point(454, 566);
             this.orinPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7860,7 +8080,7 @@
             // 
             this.flintPromo.Location = new System.Drawing.Point(277, 566);
             this.flintPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7872,7 +8092,7 @@
             // 
             this.blossomPromo.Location = new System.Drawing.Point(100, 566);
             this.blossomPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -7983,7 +8203,7 @@
             // 
             this.aseethePromo.Location = new System.Drawing.Point(277, 1356);
             this.aseethePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8028,7 +8248,7 @@
             // 
             this.seethePromo.Location = new System.Drawing.Point(454, 296);
             this.seethePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8040,7 +8260,7 @@
             // 
             this.ruinPromo.Location = new System.Drawing.Point(277, 296);
             this.ruinPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8052,7 +8272,7 @@
             // 
             this.razePromo.Location = new System.Drawing.Point(100, 296);
             this.razePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8166,7 +8386,7 @@
             // 
             this.guyPromo.Location = new System.Drawing.Point(100, 1444);
             this.guyPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8178,7 +8398,7 @@
             // 
             this.abavahPromo.Location = new System.Drawing.Point(454, 1334);
             this.abavahPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8190,7 +8410,7 @@
             // 
             this.aatzarPromo.Location = new System.Drawing.Point(454, 1312);
             this.aatzarPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8202,7 +8422,7 @@
             // 
             this.ageumPromo.Location = new System.Drawing.Point(454, 1290);
             this.ageumPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8214,7 +8434,7 @@
             // 
             this.areiPromo.Location = new System.Drawing.Point(454, 1268);
             this.areiPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8226,7 +8446,7 @@
             // 
             this.leePromo.Location = new System.Drawing.Point(277, 1400);
             this.leePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8238,7 +8458,7 @@
             // 
             this.adagdaPromo.Location = new System.Drawing.Point(277, 1334);
             this.adagdaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8250,7 +8470,7 @@
             // 
             this.apontusPromo.Location = new System.Drawing.Point(277, 1312);
             this.apontusPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8262,7 +8482,7 @@
             // 
             this.atronixPromo.Location = new System.Drawing.Point(277, 1290);
             this.atronixPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8274,7 +8494,7 @@
             // 
             this.aathosPromo.Location = new System.Drawing.Point(277, 1268);
             this.aathosPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8286,7 +8506,7 @@
             // 
             this.rosePromo.Location = new System.Drawing.Point(454, 1400);
             this.rosePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8298,7 +8518,7 @@
             // 
             this.adefilePromo.Location = new System.Drawing.Point(100, 1356);
             this.adefilePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8310,7 +8530,7 @@
             // 
             this.arigrPromo.Location = new System.Drawing.Point(100, 1334);
             this.arigrPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8322,7 +8542,7 @@
             // 
             this.agerorPromo.Location = new System.Drawing.Point(100, 1312);
             this.agerorPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8334,7 +8554,7 @@
             // 
             this.aauriPromo.Location = new System.Drawing.Point(100, 1290);
             this.aauriPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8346,7 +8566,7 @@
             // 
             this.aalphaPromo.Location = new System.Drawing.Point(100, 1268);
             this.aalphaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8358,7 +8578,7 @@
             // 
             this.kedariPromo.Location = new System.Drawing.Point(454, 1107);
             this.kedariPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8370,7 +8590,7 @@
             // 
             this.cliodhnaPromo.Location = new System.Drawing.Point(454, 1085);
             this.cliodhnaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8382,7 +8602,7 @@
             // 
             this.neilPromo.Location = new System.Drawing.Point(454, 1063);
             this.neilPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8394,7 +8614,7 @@
             // 
             this.pokerPromo.Location = new System.Drawing.Point(454, 1041);
             this.pokerPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8406,7 +8626,7 @@
             // 
             this.flynnPromo.Location = new System.Drawing.Point(454, 1019);
             this.flynnPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8418,7 +8638,7 @@
             // 
             this.santaPromo.Location = new System.Drawing.Point(454, 997);
             this.santaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8430,7 +8650,7 @@
             // 
             this.dullahanPromo.Location = new System.Drawing.Point(454, 975);
             this.dullahanPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8442,7 +8662,7 @@
             // 
             this.hawkingPromo.Location = new System.Drawing.Point(454, 953);
             this.hawkingPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8454,7 +8674,7 @@
             // 
             this.nebraPromo.Location = new System.Drawing.Point(454, 931);
             this.nebraPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8466,7 +8686,7 @@
             // 
             this.elfmechPromo.Location = new System.Drawing.Point(277, 1107);
             this.elfmechPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8478,7 +8698,7 @@
             // 
             this.sanqueenPromo.Location = new System.Drawing.Point(277, 1085);
             this.sanqueenPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8490,7 +8710,7 @@
             // 
             this.leprPromo.Location = new System.Drawing.Point(277, 1063);
             this.leprPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8502,7 +8722,7 @@
             // 
             this.luxPromo.Location = new System.Drawing.Point(277, 1041);
             this.luxPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8514,7 +8734,7 @@
             // 
             this.leafPromo.Location = new System.Drawing.Point(277, 1019);
             this.leafPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8526,7 +8746,7 @@
             // 
             this.deerPromo.Location = new System.Drawing.Point(277, 997);
             this.deerPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8538,7 +8758,7 @@
             // 
             this.jackPromo.Location = new System.Drawing.Point(277, 975);
             this.jackPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8550,7 +8770,7 @@
             // 
             this.bubblesPromo.Location = new System.Drawing.Point(100, 1488);
             this.bubblesPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8562,7 +8782,7 @@
             // 
             this.tinyPromo.Location = new System.Drawing.Point(277, 931);
             this.tinyPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8574,7 +8794,7 @@
             // 
             this.frostyPromo.Location = new System.Drawing.Point(100, 1129);
             this.frostyPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8586,7 +8806,7 @@
             // 
             this.firPromo.Location = new System.Drawing.Point(100, 1107);
             this.firPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8598,7 +8818,7 @@
             // 
             this.billyPromo.Location = new System.Drawing.Point(100, 1085);
             this.billyPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8610,7 +8830,7 @@
             // 
             this.maryPromo.Location = new System.Drawing.Point(100, 1063);
             this.maryPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8622,7 +8842,7 @@
             // 
             this.dicemasterPromo.Location = new System.Drawing.Point(100, 1041);
             this.dicemasterPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8634,7 +8854,7 @@
             // 
             this.sparksPromo.Location = new System.Drawing.Point(100, 1019);
             this.sparksPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8646,7 +8866,7 @@
             // 
             this.elfPromo.Location = new System.Drawing.Point(100, 997);
             this.elfPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8658,7 +8878,7 @@
             // 
             this.werewolfPromo.Location = new System.Drawing.Point(100, 975);
             this.werewolfPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8670,7 +8890,7 @@
             // 
             this.jamesPromo.Location = new System.Drawing.Point(100, 953);
             this.jamesPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8682,7 +8902,7 @@
             // 
             this.ladyPromo.Location = new System.Drawing.Point(100, 931);
             this.ladyPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8694,7 +8914,7 @@
             // 
             this.atakedaPromo.Location = new System.Drawing.Point(454, 858);
             this.atakedaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8706,7 +8926,7 @@
             // 
             this.akirkPromo.Location = new System.Drawing.Point(454, 836);
             this.akirkPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8718,7 +8938,7 @@
             // 
             this.dybbukPromo.Location = new System.Drawing.Point(454, 814);
             this.dybbukPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8730,7 +8950,7 @@
             // 
             this.mahatmaPromo.Location = new System.Drawing.Point(454, 792);
             this.mahatmaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8742,7 +8962,7 @@
             // 
             this.takedaPromo.Location = new System.Drawing.Point(454, 770);
             this.takedaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8754,7 +8974,7 @@
             // 
             this.kirkPromo.Location = new System.Drawing.Point(454, 748);
             this.kirkPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8766,7 +8986,7 @@
             // 
             this.odelithPromo.Location = new System.Drawing.Point(454, 726);
             this.odelithPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8778,7 +8998,7 @@
             // 
             this.chromaPromo.Location = new System.Drawing.Point(454, 704);
             this.chromaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8790,7 +9010,7 @@
             // 
             this.druidPromo.Location = new System.Drawing.Point(454, 682);
             this.druidPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8802,7 +9022,7 @@
             // 
             this.pyroPromo.Location = new System.Drawing.Point(454, 660);
             this.pyroPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8814,7 +9034,7 @@
             // 
             this.ahattoriPromo.Location = new System.Drawing.Point(277, 880);
             this.ahattoriPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8826,7 +9046,7 @@
             // 
             this.ahosokawaPromo.Location = new System.Drawing.Point(277, 858);
             this.ahosokawaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8838,7 +9058,7 @@
             // 
             this.athertPromo.Location = new System.Drawing.Point(277, 836);
             this.athertPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8850,7 +9070,7 @@
             // 
             this.edanaPromo.Location = new System.Drawing.Point(277, 814);
             this.edanaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8862,7 +9082,7 @@
             // 
             this.hattoriPromo.Location = new System.Drawing.Point(277, 792);
             this.hattoriPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8874,7 +9094,7 @@
             // 
             this.hosokawaPromo.Location = new System.Drawing.Point(277, 770);
             this.hosokawaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8886,7 +9106,7 @@
             // 
             this.thertPromo.Location = new System.Drawing.Point(277, 748);
             this.thertPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8898,7 +9118,7 @@
             // 
             this.zaytusPromo.Location = new System.Drawing.Point(277, 726);
             this.zaytusPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8910,7 +9130,7 @@
             // 
             this.undinePromo.Location = new System.Drawing.Point(277, 704);
             this.undinePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8922,7 +9142,7 @@
             // 
             this.nictePromo.Location = new System.Drawing.Point(277, 682);
             this.nictePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8934,7 +9154,7 @@
             // 
             this.rokkaPromo.Location = new System.Drawing.Point(277, 660);
             this.rokkaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8946,7 +9166,7 @@
             // 
             this.ahiratePromo.Location = new System.Drawing.Point(100, 880);
             this.ahiratePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8958,7 +9178,7 @@
             // 
             this.anepPromo.Location = new System.Drawing.Point(100, 858);
             this.anepPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8970,7 +9190,7 @@
             // 
             this.ashyguPromo.Location = new System.Drawing.Point(100, 836);
             this.ashyguPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8982,7 +9202,7 @@
             // 
             this.jadePromo.Location = new System.Drawing.Point(100, 814);
             this.jadePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -8994,7 +9214,7 @@
             // 
             this.hiratePromo.Location = new System.Drawing.Point(100, 792);
             this.hiratePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9006,7 +9226,7 @@
             // 
             this.neptuniusPromo.Location = new System.Drawing.Point(100, 770);
             this.neptuniusPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9018,7 +9238,7 @@
             // 
             this.shyguPromo.Location = new System.Drawing.Point(100, 748);
             this.shyguPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9030,7 +9250,7 @@
             // 
             this.petryPromo.Location = new System.Drawing.Point(100, 726);
             this.petryPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9042,7 +9262,7 @@
             // 
             this.ignitorPromo.Location = new System.Drawing.Point(100, 704);
             this.ignitorPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9054,7 +9274,7 @@
             // 
             this.bewatPromo.Location = new System.Drawing.Point(100, 682);
             this.bewatPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9066,7 +9286,7 @@
             // 
             this.valorPromo.Location = new System.Drawing.Point(100, 660);
             this.valorPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9078,7 +9298,7 @@
             // 
             this.gaiaPromo.Location = new System.Drawing.Point(454, 632);
             this.gaiaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9090,7 +9310,7 @@
             // 
             this.magnusPromo.Location = new System.Drawing.Point(454, 544);
             this.magnusPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9102,7 +9322,7 @@
             // 
             this.hidokaPromo.Location = new System.Drawing.Point(454, 522);
             this.hidokaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9114,7 +9334,7 @@
             // 
             this.dorthPromo.Location = new System.Drawing.Point(454, 500);
             this.dorthPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9126,7 +9346,7 @@
             // 
             this.alvitrPromo.Location = new System.Drawing.Point(454, 478);
             this.alvitrPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9138,7 +9358,7 @@
             // 
             this.gurthPromo.Location = new System.Drawing.Point(454, 456);
             this.gurthPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9150,7 +9370,7 @@
             // 
             this.grothPromo.Location = new System.Drawing.Point(454, 434);
             this.grothPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9162,7 +9382,7 @@
             // 
             this.aoyukiPromo.Location = new System.Drawing.Point(277, 632);
             this.aoyukiPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9174,7 +9394,7 @@
             // 
             this.charlesPromo.Location = new System.Drawing.Point(277, 544);
             this.charlesPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9186,7 +9406,7 @@
             // 
             this.chengPromo.Location = new System.Drawing.Point(277, 522);
             this.chengPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9198,7 +9418,7 @@
             // 
             this.ruaPromo.Location = new System.Drawing.Point(277, 500);
             this.ruaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9210,7 +9430,7 @@
             // 
             this.koldisPromo.Location = new System.Drawing.Point(277, 478);
             this.koldisPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9222,7 +9442,7 @@
             // 
             this.kothPromo.Location = new System.Drawing.Point(277, 456);
             this.kothPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9234,7 +9454,7 @@
             // 
             this.brynPromo.Location = new System.Drawing.Point(277, 434);
             this.brynPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9246,7 +9466,7 @@
             // 
             this.spykePromo.Location = new System.Drawing.Point(100, 632);
             this.spykePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9258,7 +9478,7 @@
             // 
             this.beatricePromo.Location = new System.Drawing.Point(100, 544);
             this.beatricePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9270,7 +9490,7 @@
             // 
             this.kumuPromo.Location = new System.Drawing.Point(100, 522);
             this.kumuPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9282,7 +9502,7 @@
             // 
             this.arshenPromo.Location = new System.Drawing.Point(100, 500);
             this.arshenPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9294,7 +9514,7 @@
             // 
             this.sigrunPromo.Location = new System.Drawing.Point(100, 478);
             this.sigrunPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9306,7 +9526,7 @@
             // 
             this.zethPromo.Location = new System.Drawing.Point(100, 456);
             this.zethPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9318,7 +9538,7 @@
             // 
             this.veildurPromo.Location = new System.Drawing.Point(100, 434);
             this.veildurPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9330,7 +9550,7 @@
             // 
             this.defilePromo.Location = new System.Drawing.Point(454, 274);
             this.defilePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9342,7 +9562,7 @@
             // 
             this.bavahPromo.Location = new System.Drawing.Point(454, 252);
             this.bavahPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9354,7 +9574,7 @@
             // 
             this.dagdaPromo.Location = new System.Drawing.Point(454, 230);
             this.dagdaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9366,7 +9586,7 @@
             // 
             this.rigrPromo.Location = new System.Drawing.Point(454, 208);
             this.rigrPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9378,7 +9598,7 @@
             // 
             this.atzarPromo.Location = new System.Drawing.Point(454, 186);
             this.atzarPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9390,7 +9610,7 @@
             // 
             this.pontusPromo.Location = new System.Drawing.Point(454, 164);
             this.pontusPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9402,7 +9622,7 @@
             // 
             this.gerorPromo.Location = new System.Drawing.Point(454, 142);
             this.gerorPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9414,7 +9634,7 @@
             // 
             this.geumPromo.Location = new System.Drawing.Point(454, 120);
             this.geumPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9426,7 +9646,7 @@
             // 
             this.tronixPromo.Location = new System.Drawing.Point(454, 98);
             this.tronixPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9438,7 +9658,7 @@
             // 
             this.auriPromo.Location = new System.Drawing.Point(454, 76);
             this.auriPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9450,7 +9670,7 @@
             // 
             this.reiPromo.Location = new System.Drawing.Point(454, 54);
             this.reiPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9462,7 +9682,7 @@
             // 
             this.athosPromo.Location = new System.Drawing.Point(454, 32);
             this.athosPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9474,7 +9694,7 @@
             // 
             this.alphaPromo.Location = new System.Drawing.Point(454, 10);
             this.alphaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9486,7 +9706,7 @@
             // 
             this.putridPromo.Location = new System.Drawing.Point(277, 274);
             this.putridPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9498,7 +9718,7 @@
             // 
             this.boorPromo.Location = new System.Drawing.Point(277, 252);
             this.boorPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9510,7 +9730,7 @@
             // 
             this.ganahPromo.Location = new System.Drawing.Point(277, 230);
             this.ganahPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9522,7 +9742,7 @@
             // 
             this.hallinskidiPromo.Location = new System.Drawing.Point(277, 208);
             this.hallinskidiPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9534,7 +9754,7 @@
             // 
             this.xarthPromo.Location = new System.Drawing.Point(277, 186);
             this.xarthPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9546,7 +9766,7 @@
             // 
             this.erebusPromo.Location = new System.Drawing.Point(277, 164);
             this.erebusPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9558,7 +9778,7 @@
             // 
             this.auralPromo.Location = new System.Drawing.Point(277, 142);
             this.auralPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9570,7 +9790,7 @@
             // 
             this.aerisPromo.Location = new System.Drawing.Point(277, 120);
             this.aerisPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9582,7 +9802,7 @@
             // 
             this.taurusPromo.Location = new System.Drawing.Point(277, 98);
             this.taurusPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9594,7 +9814,7 @@
             // 
             this.faefyrPromo.Location = new System.Drawing.Point(277, 76);
             this.faefyrPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9606,7 +9826,7 @@
             // 
             this.geronPromo.Location = new System.Drawing.Point(277, 54);
             this.geronPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9618,7 +9838,7 @@
             // 
             this.nimuePromo.Location = new System.Drawing.Point(277, 32);
             this.nimuePromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9630,7 +9850,7 @@
             // 
             this.shamanPromo.Location = new System.Drawing.Point(277, 10);
             this.shamanPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9642,7 +9862,7 @@
             // 
             this.taintPromo.Location = new System.Drawing.Point(100, 274);
             this.taintPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9654,7 +9874,7 @@
             // 
             this.bylarPromo.Location = new System.Drawing.Point(100, 252);
             this.bylarPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9666,7 +9886,7 @@
             // 
             this.tothPromo.Location = new System.Drawing.Point(100, 230);
             this.tothPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9678,7 +9898,7 @@
             // 
             this.hamaPromo.Location = new System.Drawing.Point(100, 208);
             this.hamaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9690,7 +9910,7 @@
             // 
             this.oymosPromo.Location = new System.Drawing.Point(100, 186);
             this.oymosPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9702,7 +9922,7 @@
             // 
             this.oureaPromo.Location = new System.Drawing.Point(100, 164);
             this.oureaPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9714,7 +9934,7 @@
             // 
             this.rudeanPromo.Location = new System.Drawing.Point(100, 142);
             this.rudeanPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9726,7 +9946,7 @@
             // 
             this.aquortisPromo.Location = new System.Drawing.Point(100, 120);
             this.aquortisPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9738,7 +9958,7 @@
             // 
             this.kairyPromo.Location = new System.Drawing.Point(100, 98);
             this.kairyPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9750,7 +9970,7 @@
             // 
             this.ailenPromo.Location = new System.Drawing.Point(100, 76);
             this.ailenPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9762,7 +9982,7 @@
             // 
             this.jetPromo.Location = new System.Drawing.Point(100, 54);
             this.jetPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9774,7 +9994,7 @@
             // 
             this.carlPromo.Location = new System.Drawing.Point(100, 32);
             this.carlPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -9786,7 +10006,7 @@
             // 
             this.hunterPromo.Location = new System.Drawing.Point(100, 10);
             this.hunterPromo.Maximum = new decimal(new int[] {
-            5,
+            6,
             0,
             0,
             0});
@@ -23498,226 +23718,6 @@
             this.label356.TabIndex = 387;
             this.label356.Text = "updates by alya and mons";
             // 
-            // HansPromo
-            // 
-            this.HansPromo.Location = new System.Drawing.Point(454, 1239);
-            this.HansPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.HansPromo.Name = "HansPromo";
-            this.HansPromo.Size = new System.Drawing.Size(26, 20);
-            this.HansPromo.TabIndex = 817;
-            // 
-            // HansBox
-            // 
-            this.HansBox.AutoSize = true;
-            this.HansBox.Location = new System.Drawing.Point(484, 1241);
-            this.HansBox.Name = "HansBox";
-            this.HansBox.Size = new System.Drawing.Size(33, 17);
-            this.HansBox.TabIndex = 816;
-            this.HansBox.TabStop = false;
-            this.HansBox.Text = "E";
-            this.HansBox.UseVisualStyleBackColor = true;
-            // 
-            // label439
-            // 
-            this.label439.AutoSize = true;
-            this.label439.Location = new System.Drawing.Point(383, 1243);
-            this.label439.Name = "label439";
-            this.label439.Size = new System.Drawing.Size(32, 13);
-            this.label439.TabIndex = 815;
-            this.label439.Text = "Hans";
-            // 
-            // HansCount
-            // 
-            this.HansCount.Location = new System.Drawing.Point(419, 1239);
-            this.HansCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.HansCount.Name = "HansCount";
-            this.HansCount.Size = new System.Drawing.Size(33, 20);
-            this.HansCount.TabIndex = 814;
-            // 
-            // YetiPromo
-            // 
-            this.YetiPromo.Location = new System.Drawing.Point(277, 1239);
-            this.YetiPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.YetiPromo.Name = "YetiPromo";
-            this.YetiPromo.Size = new System.Drawing.Size(26, 20);
-            this.YetiPromo.TabIndex = 813;
-            // 
-            // YetiCount
-            // 
-            this.YetiCount.Location = new System.Drawing.Point(242, 1239);
-            this.YetiCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.YetiCount.Name = "YetiCount";
-            this.YetiCount.Size = new System.Drawing.Size(33, 20);
-            this.YetiCount.TabIndex = 810;
-            // 
-            // label440
-            // 
-            this.label440.AutoSize = true;
-            this.label440.Location = new System.Drawing.Point(210, 1243);
-            this.label440.Name = "label440";
-            this.label440.Size = new System.Drawing.Size(25, 13);
-            this.label440.TabIndex = 811;
-            this.label440.Text = "Yeti";
-            // 
-            // YetiBox
-            // 
-            this.YetiBox.AutoSize = true;
-            this.YetiBox.Location = new System.Drawing.Point(307, 1241);
-            this.YetiBox.Name = "YetiBox";
-            this.YetiBox.Size = new System.Drawing.Size(33, 17);
-            this.YetiBox.TabIndex = 812;
-            this.YetiBox.TabStop = false;
-            this.YetiBox.Text = "E";
-            this.YetiBox.UseVisualStyleBackColor = true;
-            // 
-            // GallaPromo
-            // 
-            this.GallaPromo.Location = new System.Drawing.Point(100, 1239);
-            this.GallaPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.GallaPromo.Name = "GallaPromo";
-            this.GallaPromo.Size = new System.Drawing.Size(26, 20);
-            this.GallaPromo.TabIndex = 809;
-            // 
-            // GallaCount
-            // 
-            this.GallaCount.Location = new System.Drawing.Point(65, 1239);
-            this.GallaCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.GallaCount.Name = "GallaCount";
-            this.GallaCount.Size = new System.Drawing.Size(33, 20);
-            this.GallaCount.TabIndex = 806;
-            // 
-            // GallaBox
-            // 
-            this.GallaBox.AutoSize = true;
-            this.GallaBox.Location = new System.Drawing.Point(130, 1241);
-            this.GallaBox.Name = "GallaBox";
-            this.GallaBox.Size = new System.Drawing.Size(33, 17);
-            this.GallaBox.TabIndex = 808;
-            this.GallaBox.TabStop = false;
-            this.GallaBox.Text = "E";
-            this.GallaBox.UseVisualStyleBackColor = true;
-            // 
-            // label441
-            // 
-            this.label441.AutoSize = true;
-            this.label441.Location = new System.Drawing.Point(28, 1243);
-            this.label441.Name = "label441";
-            this.label441.Size = new System.Drawing.Size(31, 13);
-            this.label441.TabIndex = 807;
-            this.label441.Text = "Galla";
-            // 
-            // YisusPromo
-            // 
-            this.YisusPromo.Location = new System.Drawing.Point(454, 1217);
-            this.YisusPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.YisusPromo.Name = "YisusPromo";
-            this.YisusPromo.Size = new System.Drawing.Size(26, 20);
-            this.YisusPromo.TabIndex = 821;
-            // 
-            // YisusBox
-            // 
-            this.YisusBox.AutoSize = true;
-            this.YisusBox.Location = new System.Drawing.Point(484, 1219);
-            this.YisusBox.Name = "YisusBox";
-            this.YisusBox.Size = new System.Drawing.Size(33, 17);
-            this.YisusBox.TabIndex = 820;
-            this.YisusBox.TabStop = false;
-            this.YisusBox.Text = "E";
-            this.YisusBox.UseVisualStyleBackColor = true;
-            // 
-            // label442
-            // 
-            this.label442.AutoSize = true;
-            this.label442.Location = new System.Drawing.Point(383, 1221);
-            this.label442.Name = "label442";
-            this.label442.Size = new System.Drawing.Size(32, 13);
-            this.label442.TabIndex = 819;
-            this.label442.Text = "Yisus";
-            // 
-            // YisusCount
-            // 
-            this.YisusCount.Location = new System.Drawing.Point(419, 1217);
-            this.YisusCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.YisusCount.Name = "YisusCount";
-            this.YisusCount.Size = new System.Drawing.Size(33, 20);
-            this.YisusCount.TabIndex = 818;
-            // 
-            // MMaryPromo
-            // 
-            this.MMaryPromo.Location = new System.Drawing.Point(277, 1466);
-            this.MMaryPromo.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.MMaryPromo.Name = "MMaryPromo";
-            this.MMaryPromo.Size = new System.Drawing.Size(26, 20);
-            this.MMaryPromo.TabIndex = 825;
-            // 
-            // MMaryBox
-            // 
-            this.MMaryBox.AutoSize = true;
-            this.MMaryBox.Location = new System.Drawing.Point(307, 1468);
-            this.MMaryBox.Name = "MMaryBox";
-            this.MMaryBox.Size = new System.Drawing.Size(33, 17);
-            this.MMaryBox.TabIndex = 824;
-            this.MMaryBox.TabStop = false;
-            this.MMaryBox.Text = "E";
-            this.MMaryBox.UseVisualStyleBackColor = true;
-            // 
-            // label443
-            // 
-            this.label443.AutoSize = true;
-            this.label443.Location = new System.Drawing.Point(174, 1469);
-            this.label443.Name = "label443";
-            this.label443.Size = new System.Drawing.Size(66, 13);
-            this.label443.TabIndex = 823;
-            this.label443.Text = "Mecha Mary";
-            // 
-            // MMaryCount
-            // 
-            this.MMaryCount.Location = new System.Drawing.Point(242, 1466);
-            this.MMaryCount.Maximum = new decimal(new int[] {
-            99,
-            0,
-            0,
-            0});
-            this.MMaryCount.Name = "MMaryCount";
-            this.MMaryCount.Size = new System.Drawing.Size(33, 20);
-            this.MMaryCount.TabIndex = 822;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -23833,6 +23833,16 @@
             this.tabControl1.ResumeLayout(false);
             this.Heroes.ResumeLayout(false);
             this.Heroes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MMaryPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MMaryCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YisusPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YisusCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HansPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HansCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YetiPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YetiCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GallaPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GallaCount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdamPromo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdamCount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BridePromo)).EndInit();
@@ -24172,16 +24182,6 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.timeLimit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HansPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HansCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.YetiPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.YetiCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GallaPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GallaCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.YisusPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.YisusCount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MMaryPromo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MMaryCount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
