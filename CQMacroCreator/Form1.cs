@@ -106,10 +106,11 @@ namespace CQMacroCreator
                                 "blossom","flint","orin","aurora","cupid","transient","maunder","thewanderer","b-day","cloud","ember","riptide","spike","amahatma","ajade","aedana","adybbuk",
                                 "willow","gizmo","daisy","thumper","bortles","murphy","nerissa","mother","anerissa","agatha","ophelia","helga","minerva","awanderer","tetra","cathos","catzar","crei","acrei",
                                 "smith","mrcotton","sharkjellyn","chocoknight","achocoknight","lili","bornag","thrace","scinda","myrmillo","retia","newt","electra","boson","higgs",
-                                "casper","adrian","emily","adam","yisus","galla","yetithepostman","hans","mechamary","annie","kilkenny",
+                                "casper","adrian","emily","adam","yisus","galla","yetithepostman","hans","mechamary","annie","kilkenny","egg","babypyros","youngpyros","kingpyros",
                                 };
 
-        static string[] servernames = {"kilkenny","annie","mechamary","hans","yetithepostman","galla","yisus","adam","emily","adrian","casper","higgs","boson","electra","newt","retia","myrmillo","scinda","thrace","bornag","lili","achocoknight","chocoknight","sharkjellyn","mrcotton","smith","acrei","crei","catzar","cathos","tetra","awanderer","minerva","helga","ophelia","agatha",
+        static string[] servernames = {"kingpyros","youngpyros","babypyros","egg","kilkenny","annie","mechamary","hans","yetithepostman","galla","yisus","adam","emily","adrian","casper","higgs",
+                               "boson","electra","newt","retia","myrmillo","scinda","thrace","bornag","lili","achocoknight","chocoknight","sharkjellyn","mrcotton","smith","acrei","crei","catzar","cathos","tetra","awanderer","minerva","helga","ophelia","agatha",
                                "anerissa","mother","nerissa","murphy","bortles","thumper","daisy","gizmo","willow","adybbuk","aedana","ajade","amahatma","spike","riptide","ember","cloud","b-day",
                                "thewanderer","maunder","transient","cupid","aurora","orin","flint","blossom","aseethe","seethe","ruin","raze","kedari","5-12-6","fir","frosty",
                                "maraudermagnus","corsaircharles","buccaneerbeatrice","raiderrose","adefile","guy","cliodhna","sanqueen","billy",
@@ -219,7 +220,8 @@ namespace CQMacroCreator
                                                NewtCount,ElectraCount,BosonCount,HiggsCount,
                                                CasperCount,AdrianCount,BrideCount,AdamCount,
                                                YisusCount,GallaCount,YetiCount,HansCount,MMaryCount,
-                                               AnnieCount,KilkennyCount
+                                               AnnieCount,KilkennyCount,
+                                               EggCount,BabyCount,YoungCount,KingCount
 
             };
 
@@ -291,7 +293,8 @@ namespace CQMacroCreator
                                                NewtCount,ElectraCount,BosonCount,HiggsCount,
                                                CasperCount,AdrianCount,BrideCount,AdamCount,
                                                YisusCount,GallaCount,YetiCount,HansCount,MMaryCount,
-                                               AnnieCount,KilkennyCount
+                                               AnnieCount,KilkennyCount,
+                                               EggCount,BabyCount,YoungCount,KingCount
 
             };
 
@@ -359,7 +362,8 @@ namespace CQMacroCreator
                                                newtPromo,electraPromo,bosonPromo,higgsPromo,
                                                CasperPromo,AdrianPromo,BridePromo,AdamPromo,
                                                YisusPromo,GallaPromo,YetiPromo,HansPromo,MMaryPromo,
-                                               AnniePromo,KilkennyPromo
+                                               AnniePromo,KilkennyPromo,
+                                               EggPromo,BabyPromo,YoungPromo,KingPromo
 
             };
 
@@ -429,7 +433,8 @@ namespace CQMacroCreator
                                                newtPromo,electraPromo,bosonPromo,higgsPromo,
                                                CasperPromo,AdrianPromo,BridePromo,AdamPromo,
                                                YisusPromo,GallaPromo,YetiPromo,HansPromo,MMaryPromo,
-                                               AnniePromo,KilkennyPromo
+                                               AnniePromo,KilkennyPromo,
+                                               EggPromo,BabyPromo,YoungPromo,KingPromo
 
             };
 
@@ -497,7 +502,8 @@ namespace CQMacroCreator
                                                NewtBox,ElectraBox,BosonBox,HiggsBox,
                                                CasperBox,AdrianBox,BrideBox,AdamBox,
                                                YisusBox,GallaBox,YetiBox,HansBox,MMaryBox,
-                                               AnnieBox,KilkennyBox
+                                               AnnieBox,KilkennyBox,
+                                               EggBox,BabyBox,YoungBox,KingBox
 
             };
 
@@ -1030,6 +1036,7 @@ namespace CQMacroCreator
             new Hero(30,28,1,0,0), new Hero(64,20,2,0,0), new Hero(66,66,6,0,0), new Hero(200,100,12,0,0),//Halloween heroes
             new Hero(32,48,2,0,0), new Hero(32,40,1,0,0), new Hero(58,58,2,0,0), new Hero(74,74,6,0,0), new Hero(5,250,12,0,0),//3rd Christmas
             new Hero(58,58,6,0,0), new Hero(25,75,6,0,0),//Annie, Kilkenny
+            new Hero(60,12,1,0,0), new Hero(80,14,2,0,0), new Hero(110,16,6,0,0), new Hero(180,20,12,0,0),//Halloween heroes
         });
 
         private void button1_Click(object sender, EventArgs e)
