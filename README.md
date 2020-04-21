@@ -83,8 +83,5 @@ On the right side you should see "Request Payload" section if you are using Chro
 * CQMacroCreator.exe
 * Newtonsoft.Json.dll
 * Newtonsoft.Json.xml
-* MacroSettings.txt(optional - required for playfab features)
-* defaultHeroes(optional - the standard hero file loaded automatically if default action on open is set to 1 in MacroSettings.txt file)
-
-
-
+* Settings.json (optional - required for playfab features)
+* defaultHeroes (optional - hero file created by user through "Save File" and loaded automatically if default action on open is set to 1 in Settings.json file)
