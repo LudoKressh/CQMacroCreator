@@ -107,10 +107,12 @@ namespace CQMacroCreator
                                 "willow","gizmo","daisy","thumper","bortles","murphy","nerissa","mother","anerissa","agatha","ophelia","helga","minerva","awanderer","tetra","cathos","catzar","crei","acrei",
                                 "smith","mrcotton","sharkjellyn","chocoknight","achocoknight","lili","bornag","thrace","scinda","myrmillo","retia","newt","electra","boson","higgs",
                                 "casper","adrian","emily","adam","yisus","galla","yetithepostman","hans","mechamary","annie","kilkenny","egg","babypyros","youngpyros","kingpyros",
-                                "rob","kirklee","lars","hetfield","pluvia","silex","caeli","ignis","yuri","alan","valentina","john",
+                                "rob","kirklee","lars","hetfield","pluvia","silex","caeli","ignis","yuri","alan","valentina","john","sully","merida","will","sagittaria","jalrok",
+                                "raelan","sylnir","arathon",
                                 };
 
-        static string[] servernames = {"john","valentina","alan","yuri","ignis","caeli","silex","pluvia","hetfield","lars","kirklee","rob","kingpyros","youngpyros","babypyros","egg","kilkenny","annie","mechamary","hans","yetithepostman","galla","yisus","adam","emily","adrian","casper","higgs",
+        static string[] servernames = {"arathon","sylnir","raelan","jalrok","sagittaria","will","merida","sully","john","valentina","alan","yuri","ignis","caeli","silex","pluvia","hetfield","lars","kirklee","rob",
+                               "kingpyros","youngpyros","babypyros","egg","kilkenny","annie","mechamary","hans","yetithepostman","galla","yisus","adam","emily","adrian","casper","higgs",
                                "boson","electra","newt","retia","myrmillo","scinda","thrace","bornag","lili","achocoknight","chocoknight","sharkjellyn","mrcotton","smith","acrei","crei","catzar","cathos","tetra","awanderer","minerva","helga","ophelia","agatha",
                                "anerissa","mother","nerissa","murphy","bortles","thumper","daisy","gizmo","willow","adybbuk","aedana","ajade","amahatma","spike","riptide","ember","cloud","b-day",
                                "thewanderer","maunder","transient","cupid","aurora","orin","flint","blossom","aseethe","seethe","ruin","raze","kedari","5-12-6","fir","frosty",
@@ -225,7 +227,9 @@ namespace CQMacroCreator
                                                EggCount,BabyCount,YoungCount,KingCount,
                                                RobCount,KyleCount,LarsCount,HetfieldCount,
                                                PluviaCount,SilexCount,CaeliCount,IgnisCount,
-                                               YuriCount,AlanCount,ValentinaCount,JohnCount
+                                               YuriCount,AlanCount,ValentinaCount,JohnCount,
+                                               SullyCount,MeridaCount,WillCount,SagittariaCount,
+                                               JalrokCount,RaelanCount,SylnirCount,ArathonCount
 
             };
 
@@ -301,7 +305,9 @@ namespace CQMacroCreator
                                                EggCount,BabyCount,YoungCount,KingCount,
                                                RobCount,KyleCount,LarsCount,HetfieldCount,
                                                PluviaCount,SilexCount,CaeliCount,IgnisCount,
-                                               YuriCount,AlanCount,ValentinaCount,JohnCount
+                                               YuriCount,AlanCount,ValentinaCount,JohnCount,
+                                               SullyCount,MeridaCount,WillCount,SagittariaCount,
+                                               JalrokCount,RaelanCount,SylnirCount,ArathonCount
 
             };
 
@@ -373,7 +379,9 @@ namespace CQMacroCreator
                                                EggPromo,BabyPromo,YoungPromo,KingPromo,
                                                RobPromo,KylePromo,LarsPromo,HetfieldPromo,
                                                PluviaPromo,SilexPromo,CaeliPromo,IgnisPromo,
-                                               YuriPromo,AlanPromo,ValentinaPromo,JohnPromo
+                                               YuriPromo,AlanPromo,ValentinaPromo,JohnPromo,
+                                               SullyPromo,MeridaPromo,WillPromo,SagittariaPromo,
+                                               JalrokPromo,RaelanPromo,SylnirPromo,ArathonPromo
 
             };
 
@@ -447,7 +455,9 @@ namespace CQMacroCreator
                                                EggPromo,BabyPromo,YoungPromo,KingPromo,
                                                RobPromo,KylePromo,LarsPromo,HetfieldPromo,
                                                PluviaPromo,SilexPromo,CaeliPromo,IgnisPromo,
-                                               YuriPromo,AlanPromo,ValentinaPromo,JohnPromo
+                                               YuriPromo,AlanPromo,ValentinaPromo,JohnPromo,
+                                               SullyPromo,MeridaPromo,WillPromo,SagittariaPromo,
+                                               JalrokPromo,RaelanPromo,SylnirPromo,ArathonPromo
 
             };
 
@@ -519,7 +529,9 @@ namespace CQMacroCreator
                                                EggBox,BabyBox,YoungBox,KingBox,
                                                RobBox,KyleBox,LarsBox,HetfieldBox,
                                                PluviaBox,SilexBox,CaeliBox,IgnisBox,
-                                               YuriBox,AlanBox,ValentinaBox,JohnBox
+                                               YuriBox,AlanBox,ValentinaBox,JohnBox,
+                                               SullyBox,MeridaBox,WillBox,SagittariaBox,
+                                               JalrokBox,RaelanBox,SylnirBox,ArathonBox
 
             };
 
@@ -1056,6 +1068,8 @@ namespace CQMacroCreator
             new Hero(56,56,6,0,0), new Hero(60,60,6,0,0), new Hero(64,64,6,0,0), new Hero(134,134,12,0,0),//S10 Guitar Heroes
             new Hero(28,40,1,0,0), new Hero(34,56,2,0,0), new Hero(60,140,6,0,0), new Hero(100,200,12,0,0),//St.George's heroes
             new Hero(38,34,1,0,0), new Hero(54,48,2,0,0), new Hero(78,64,6,0,0), new Hero(148,132,12,0,0),//Astronauts
+            new Hero(18,50,1,0,0), new Hero(26,62,2,0,0), new Hero(40,110,6,0,0), new Hero(130,210,12,0,0),//G.A.M.E.S.
+            new Hero(62,8,1,0,0), new Hero(84,10,2,0,0), new Hero(114,12,6,0,0), new Hero(184,16,12,0,0),//The Eternals
         });
 
         private void button1_Click(object sender, EventArgs e)
