@@ -2027,7 +2027,7 @@ namespace CQMacroCreator
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://github.com/Wiedmolol/CQAutomater");
+            Process.Start("https://github.com/Alya-N/C-Hero-Calc");
         }
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
@@ -2096,5 +2096,6 @@ namespace CQMacroCreator
             }
             catch { }
         }
+
     }
 }
