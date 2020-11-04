@@ -1,6 +1,6 @@
 **Updated version 4.6e to be compatible with the Halloween 2020 event.**
 
-**It works with the latest version of the alya-n calculator (4.8.0.2a ).**
+**It works with the latest version of the alya-n calculator (4.8.0.2a ). Only Ignis level 99 is required.**
 
 
 **GUI NOW REQUIRES Newtonssoft.Json.dll and Newtonsoft.Json.xml FILES TO RUN**
